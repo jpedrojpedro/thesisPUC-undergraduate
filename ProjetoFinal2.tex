@@ -1,5 +1,6 @@
 \documentclass[graduacao,brazil]{ThesisPUC}
 \usepackage{float}
+\usepackage{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -628,46 +629,40 @@ redirecionado para a p\'{a}gina de entrada no sistema.
 
 \textbf{Pr\'{e}-condi\c{c}\~{o}es:}
 
-1. O computador deve estar com acesso \`{a} internet.
-
-2. O sistema deve estar hospedado em algum servidor.
-
+\begin{enumerate}
+  \item O computador deve estar com acesso \`{a} internet.
+  \item O sistema deve estar hospedado em algum servidor.
+\end{enumerate}
 
 \textbf{Cenários:}
 
-1. Verifica\c{c}\~{a}o das credenciais de acesso realizadas com sucesso.
-
+\begin{enumerate}
+  \item Verifica\c{c}\~{a}o das credenciais de acesso realizadas com sucesso.
+\end{enumerate}
 
 \textbf{Fluxo Normal:}
 
-1. Usu\'{a}rio preenche o campo login.
-
-2. Usu\'{a}rio preenche o campo senha.
-
-3. Usu\'{a}rio pressiona a tecla 'Enter' ou clica no bot\~{a}o 'Entrar'.
-
-4. Sistema recebe a requisi\c{c}\~{a}o de entrada.
-
-5. As credenciais digitadas s\~{a}o verificadas no Banco de Dados.
-
-6. Sistema emite feedback positivo ao Usu\'{a}rio, atrav\'{e}s do acesso a p\'{a}gina inicial.
-
+\begin{enumerate}
+  \item Usu\'{a}rio preenche o campo login.
+  \item Usu\'{a}rio preenche o campo senha.
+  \item Usu\'{a}rio pressiona a tecla 'Enter' ou clica no bot\~{a}o 'Entrar'.
+  \item Sistema recebe a requisi\c{c}\~{a}o de entrada.
+  \item As credenciais digitadas s\~{a}o verificadas no Banco de Dados.
+  \item Sistema emite feedback positivo ao Usu\'{a}rio, atrav\'{e}s do acesso a p\'{a}gina inicial.
+\end{enumerate}
 
 \textbf{Fluxos Alternativos:}
 
 5a. As credenciais de acesso digitadas pelo Usu\'{a}rio n\~{a}o s\~{a}o encontradas no Banco de Dados.
 
-1. Usu\'{a}rio preenche o campo login.
-
-2. Usu\'{a}rio preenche o campo senha.
-
-3. Usu\'{a}rio pressiona a tecla 'Enter' ou clica no bot\~{a}o 'Entrar'.
-
-4. Sistema recebe a requisi\c{c}\~{a}o de entrada.
-
-5. As credenciais digitadas n\~{a}o s\~{a}o encontradas no Banco de Dados.
-
-6. Sistema emite feedback negativo ao Usu\'{a}rio, atrav\'{e}s de mensagem de erro.
+\begin{enumerate}
+  \item Usu\'{a}rio preenche o campo login.
+  \item Usu\'{a}rio preenche o campo senha.
+  \item Usu\'{a}rio pressiona a tecla 'Enter' ou clica no bot\~{a}o 'Entrar'.
+  \item Sistema recebe a requisi\c{c}\~{a}o de entrada.
+  \item As credenciais digitadas n\~{a}o s\~{a}o encontradas no Banco de Dados.
+  \item Sistema emite feedback negativo ao Usu\'{a}rio, atrav\'{e}s de mensagem de erro.
+\end{enumerate}
 
 \subsection{Cadastro de Nova D\'{u}vida no F\'{o}rum}
 
@@ -677,61 +672,56 @@ Ao fim, basta pressionar o bot\~{a}o 'Salvar'. O sistema emitir\'{a} uma mensage
 
 \textbf{Pr\'{e}-condi\c{c}\~{o}es:}
 
-1. O computador deve estar com acesso \`{a} internet.
-
-2. O sistema deve estar hospedado em algum servidor.
-
-3. O aluno deve estar logado no sistema.
-
+\begin{enumerate}
+  \item O computador deve estar com acesso \`{a} internet.
+  \item O sistema deve estar hospedado em algum servidor.
+  \item O aluno deve estar logado no sistema.
+\end{enumerate}
 
 \textbf{Cen\'{a}rios:}
 
-1. Cadastro com sucesso de nova D\'{u}vida no F\'{o}rum.
-
+\begin{enumerate}
+  \item Cadastro com sucesso de nova D\'{u}vida no F\'{o}rum.
+\end{enumerate}
 
 \textbf{Fluxo Normal:}
 
-1. Usu\'{a}rio seleciona a op\c{c}\~{a}o 'F\'{o}rum' dispon\'{i}vel no menu do Sistema.
-
-2. Sistema recebe a requisi\c{c}\~{a}o e retorna a p\'{a}gina de F\'{o}rum.
-
-3. Usu\'{a}rio deve pressionar o bot\~{a}o 'Nova D\'{u}vida'.
-
-4. Usu\'{a}rio redige sua D\'{u}vida no campo dispon\'{i}vel.
-
-5. Usu\'{a}rio deve pressionar o bot\~{a}o 'Salvar'.
-
-6. Sistema recebe a requisi\c{c}\~{a}o e armazena a D\'{u}vida no Banco de Dados.
-
-7. Sistema emite feedback positivo ao Usu\'{a}rio, atrav\'{e}s de mensagem.
+\begin{enumerate}
+  \item Usu\'{a}rio seleciona a op\c{c}\~{a}o 'F\'{o}rum' dispon\'{i}vel no menu do Sistema.
+  \item Sistema recebe a requisi\c{c}\~{a}o e retorna a p\'{a}gina de F\'{o}rum.
+  \item Usu\'{a}rio deve pressionar o bot\~{a}o 'Nova D\'{u}vida'.
+  \item Usu\'{a}rio redige sua D\'{u}vida no campo dispon\'{i}vel.
+  \item Usu\'{a}rio deve pressionar o bot\~{a}o 'Salvar'.
+  \item Sistema recebe a requisi\c{c}\~{a}o e armazena a D\'{u}vida no Banco de Dados.
+  \item Sistema emite feedback positivo ao Usu\'{a}rio, atrav\'{e}s de mensagem.
+\end{enumerate}
 
 
 \textbf{Fluxos Alternativos:}
 
 *a. Em qualquer instante, o Sistema falha.
 
-1. Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
-
-\ \ \ \ 1a. Sistema continua em estado de falha.
-
-\ \ \ \ 1. Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
-
+\begin{enumerate}
+  \item Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
+    \begin{enumerate}
+      \item Sistema continua em estado de falha.
+      \begin{enumerate}
+	\item Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
+      \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
 
 7a. Sistema n\~{a}o consegue persistir a informa\c{c}\~{a}o no Banco de Dados.
 
-1. Usu\'{a}rio seleciona a op\c{c}\~{a}o 'F\'{o}rum' dispon\'{i}vel no menu do Sistema.
-
-2. Sistema recebe a requisi\c{c}\~{a}o e retorna a p\'{a}gina de F\'{o}rum.
-
-4. Usu\'{a}rio deve pressionar o bot\~{a}o 'Nova D\'{u}vida'.
-
-5. Usu\'{a}rio redige sua D\'{u}vida no campo dispon\'{i}vel.
-
-6. Usu\'{a}rio deve pressionar o bot\~{a}o 'Salvar'.
-
-7. Sistema recebe a requisi\c{c}\~{a}o, mas n\~{a}o consegue persistir a informa\c{c}\~{a}o no Banco de Dados.
-
-8. Sistema emite feedback negativo ao Usu\'{a}rio, atrav\'{e}s de mensagem.
+\begin{enumerate}
+  \item Usu\'{a}rio seleciona a op\c{c}\~{a}o 'F\'{o}rum' dispon\'{i}vel no menu do Sistema.
+  \item Sistema recebe a requisi\c{c}\~{a}o e retorna a p\'{a}gina de F\'{o}rum.
+  \item Usu\'{a}rio deve pressionar o bot\~{a}o 'Nova D\'{u}vida'.
+  \item Usu\'{a}rio redige sua D\'{u}vida no campo dispon\'{i}vel.
+  \item Usu\'{a}rio deve pressionar o bot\~{a}o 'Salvar'.
+  \item Sistema recebe a requisi\c{c}\~{a}o, mas n\~{a}o consegue persistir a informa\c{c}\~{a}o no Banco de Dados.
+  \item Sistema emite feedback negativo ao Usu\'{a}rio, atrav\'{e}s de mensagem.
+\end{enumerate}
 
 \subsection{Resolu\c{c}\~{a}o das Listas de Exerc\'{i}cios}
 
@@ -741,87 +731,71 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 
 \textbf{Pré-condições:}
 
-1. O computador deve estar com acesso \`{a} internet.
-
-2. O sistema deve estar hospedado em algum servidor.
-
-3. O professor ou monitor deve ter cadastrado as listas de exerc\'{i}cios e suas quest\~{o}es.
-
-4. O aluno deve estar logado no sistema.
-
+\begin{enumerate}
+  \item O computador deve estar com acesso \`{a} internet.
+  \item O sistema deve estar hospedado em algum servidor.
+  \item O professor ou monitor deve ter cadastrado as listas de exerc\'{i}cios e suas quest\~{o}es.
+  \item O aluno deve estar logado no sistema.
+\end{enumerate}
 
 \textbf{Cen\'{a}rios:}
 
-1. Praticar a linguagem SQL atrav\'{e}s da resolu\c{c}\~{a}o das listas de exerc\'{i}cios.
-
+\begin{enumerate}
+  \item Praticar a linguagem SQL atrav\'{e}s da resolu\c{c}\~{a}o das listas de exerc\'{i}cios.
+\end{enumerate}
 
 \textbf{Fluxo Normal:}
 
-1. Usu\'{a}rio seleciona a opção 'Exerc\'{i}cios' dispon\'{i}vel no menu do Sistema.
+\begin{enumerate}
+  \item Usu\'{a}rio seleciona a opção 'Exerc\'{i}cios' dispon\'{i}vel no menu do Sistema.
+  \item Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Listas de Exerc\'{i}cios.
+  \item Sistema exibe a listagem de todas as Listas de Exerc\'{i}cios cadastradas.
+  \item Usu\'{a}rio seleciona a Lista de Exerc\'{i}cios desejada.
+  \item Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Quest\~{o}es.
+  \item Sistema exibe a listagem de todas as Quest\~{o}es da respectiva Lista de Exerc\'{i}cios.
+  \item Usu\'{a}rio escolhe uma das Quest\~{o}es para resolver.
+  \item Usu\'{a}rio preenche o campo dispon\'{i}vel com o SQL que acredita ser o correto.
+  \item Usu\'{a}rio pressiona o bot\~{a}o 'Enviar'.
+  \item Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para obter o SQL gabarito da Quest\~{a}o.
+  \item Ambos os comandos SQL s\~{a}o executados e seus resultados comparados.
+  \item Sistema exibe uma mensagem de feedback da Quest\~{a}o resolvida.
+\end{enumerate}
 
-2. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Listas de Exerc\'{i}cios.
-
-3. Sistema exibe a listagem de todas as Listas de Exerc\'{i}cios cadastradas.
-
-4. Usu\'{a}rio seleciona a Lista de Exerc\'{i}cios desejada.
-
-5. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Quest\~{o}es.
-
-6. Sistema exibe a listagem de todas as Quest\~{o}es da respectiva Lista de Exerc\'{i}cios.
-
-7. Usu\'{a}rio escolhe uma das Quest\~{o}es para resolver.
-
-8. Usu\'{a}rio preenche o campo dispon\'{i}vel com o SQL que acredita ser o correto.
-
-9. Usu\'{a}rio pressiona o bot\~{a}o 'Enviar'.
-
-10. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para obter o SQL gabarito da Quest\~{a}o.
-
-11. Ambos os comandos SQL s\~{a}o executados e seus resultados comparados.
-
-12. Sistema exibe uma mensagem de feedback da Quest\~{a}o resolvida.
-
-Usu\'{a}rio repete os passos 7-12 at\'{e} o fim da Lista de Exerc\'{i}cios.
-
+\begin{enumerate}[I]
+  \item Usu\'{a}rio repete os passos 7-12 at\'{e} o fim da Lista de Exerc\'{i}cios.
+\end{enumerate}
 
 \textbf{Fluxos Alternativos:}
 
 *a. Em qualquer instante, o Sistema falha.
 
-1. Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
-
-\ \ \ \ 1a. Sistema continua em estado de falha.
-
-\ \ \ \ 1. Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
-
+\begin{enumerate}
+  \item Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
+  \begin{enumerate}
+    \item Sistema continua em estado de falha.
+    \begin{enumerate}
+      \item Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
+    \end{enumerate}
+  \end{enumerate}
+\end{enumerate}
 
 11a. Erro n\~{a}o previsto pelo Sistema ao executar os comandos SQL.
 
-1. Usu\'{a}rio seleciona a opção 'Exerc\'{i}cios' dispon\'{i}vel no menu do Sistema.
-
-2. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Listas de Exerc\'{i}cios.
-
-3. Sistema exibe a listagem de todas as Listas de Exerc\'{i}cios cadastradas.
-
-4. Usu\'{a}rio seleciona a Lista de Exerc\'{i}cios desejada.
-
-5. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Quest\~{o}es.
-
-6. Sistema exibe a listagem de todas as Quest\~{o}es da respectiva Lista de Exerc\'{i}cios.
-
-7. Usu\'{a}rio escolhe uma das Quest\~{o}es para resolver.
-
-8. Usu\'{a}rio preenche o campo dispon\'{i}vel com o SQL que acredita ser o correto.
-
-9. Usu\'{a}rio pressiona o bot\~{a}o 'Enviar'.
-
-10. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para obter o SQL gabarito da Quest\~{a}o.
-
-11. Sistema tenta lidar como uma exce\c{c}\~{a}o n\~{a}o tratada, durante execu\c{c}\~{a}o do comando SQL.
-
-12. Sistema exibe ao Usu\'{a}rio uma tela descrevendo o erro.
-
-13. Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
+\begin{enumerate}
+  \item Usu\'{a}rio seleciona a opção 'Exerc\'{i}cios' dispon\'{i}vel no menu do Sistema.
+  \item Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Listas de Exerc\'{i}cios.
+  \item Sistema exibe a listagem de todas as Listas de Exerc\'{i}cios cadastradas.
+  \item Usu\'{a}rio seleciona a Lista de Exerc\'{i}cios desejada.
+  \item Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Quest\~{o}es.
+  \item Sistema exibe a listagem de todas as Quest\~{o}es da respectiva Lista de Exerc\'{i}cios.
+  \item Usu\'{a}rio escolhe uma das Quest\~{o}es para resolver.
+  \item Usu\'{a}rio preenche o campo dispon\'{i}vel com o SQL que acredita ser o correto.
+  \item Usu\'{a}rio pressiona o bot\~{a}o 'Enviar'.
+  \item Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para obter o SQL gabarito da Quest\~{a}o.
+  \item Sistema tenta lidar como uma exce\c{c}\~{a}o n\~{a}o tratada, durante execu\c{c}\~{a}o do comando SQL.
+  \item Sistema exibe ao Usu\'{a}rio uma tela descrevendo o erro.
+  \item Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
+\end{enumerate}
 
 \section{Diagrama de Classes}
 

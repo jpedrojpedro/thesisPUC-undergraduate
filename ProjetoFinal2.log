@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  17 JAN 2014 14:00
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  17 JAN 2014 15:16
 entering extended mode
  %&-line parsing enabled.
 **ProjetoFinal2.tex
@@ -571,23 +571,27 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box27
 \@float@everytoks=\toks18
 \@floatcapt=\box28
+)
+(/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks19
 ) (./ProjetoFinal2.aux)
 \openout1 = `ProjetoFinal2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -596,19 +600,19 @@ LaTeX Font Info:    ... okay on input line 85.
 \scratchbox=\box29
 \nofMPsegments=\count106
 \nofMParguments=\count107
-\everyMPshowfont=\toks19
+\everyMPshowfont=\toks20
 \MPscratchCnt=\count108
 \MPscratchDim=\dimen118
 \MPnumerator=\count109
-\everyMPtoPDFconversion=\toks20
+\everyMPtoPDFconversion=\toks21
 )
-Package hyperref Info: Link coloring OFF on input line 85.
+Package hyperref Info: Link coloring OFF on input line 86.
  (./nameref.sty
 Package: nameref 2001/01/27 v2.19 Cross-referencing by name of section
 \c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
  (./ProjetoFinal2.out) (./ProjetoFinal2.out)
 \@outlinefile=\write3
 \openout3 = `ProjetoFinal2.out'.
@@ -622,19 +626,19 @@ Package epstopdf Info: Source file: <puc.eps>
 (epstopdf)                    size: 35883 bytes
 (epstopdf)             Command: <epstopdf --outfile=puc-eps-converted-to.pdf pu
 c.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 
 <puc-eps-converted-to.pdf, id=63, 51.19125pt x 86.3225pt>
 File: puc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use puc-eps-converted-to.pdf>
-LaTeX Font Info:    Try loading font information for U+msa on input line 85.
+LaTeX Font Info:    Try loading font information for U+msa on input line 86.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 85.
+LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -651,7 +655,7 @@ Package epstopdf Info: Source file: <puc.eps>
 (epstopdf)                    size: 35883 bytes
 (epstopdf)             Command: <epstopdf --outfile=puc-eps-converted-to.pdf pu
 c.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 File: puc-eps-converted-to.pdf Graphic file (type pdf)
  <use puc-eps-converted-to.pdf> [2
@@ -660,13 +664,13 @@ File: puc-eps-converted-to.pdf Graphic file (type pdf)
 
 ]
 
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 85.
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 86.
 
 [4
 
 ]
 
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 85.
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 86.
 
 [5
 
@@ -704,7 +708,7 @@ File: Imagens/flipped_classroom.png Graphic file (type png)
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.111 \chapter
+l.112 \chapter
               {Proposta} <./Imagens/flipped_classroom.png>]
 Cap\'{\i }tulo 2.
 (./noaccent.def
@@ -722,7 +726,7 @@ File: Imagens/swot.jpg Graphic file (type jpg)
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.167 \chapter
+l.168 \chapter
               {Projeto} <./Imagens/swot.jpg>]
 Cap\'{\i }tulo 3.
 (./noaccent.def
@@ -743,7 +747,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.203 [
+l.204 [
        R3] Utiliza\c{c}\~{a}o de documenta\c{c}\~{a}o interna do c\'{o}digo,...
  <./Imagens/fases_projeto_banco_dados.jpg>] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
@@ -759,7 +763,7 @@ cate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.279 
+l.280 
        <./Imagens/ModelagemConceitual_v1_0.png>]
 <Imagens/ModelagemConceitual_forum_v1_1.png, id=196, 300.3722pt x 298.86656pt>
 File: Imagens/ModelagemConceitual_forum_v1_1.png Graphic file (type png)
@@ -774,7 +778,7 @@ File: Imagens/ModelagemConceitual_exercicio_v1_1.png Graphic file (type png)
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.297 
+l.298 
        <./Imagens/ModelagemConceitual_forum_v1_1.png>]
 <Imagens/ModelagemConceitual_forum_v2_0.png, id=203, 572.1375pt x 331.2375pt>
 File: Imagens/ModelagemConceitual_forum_v2_0.png Graphic file (type png)
@@ -785,7 +789,7 @@ icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.320 
+l.321 
        <./Imagens/ModelagemConceitual_exercicio_v1_1.png>]
 <Imagens/ModelagemConceitual_exercicio_v2_0.png, id=209, 550.30594pt x 449.4290
 6pt>
@@ -796,18 +800,18 @@ File: Imagens/ModelagemConceitual_exercicio_v2_0.png Graphic file (type png)
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.333 
+l.334 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.333 
+l.334 
        <./Imagens/ModelagemConceitual_forum_v2_0.png> <./Imagens/ModelagemConce
 itual_exercicio_v2_0.png>] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 367--430
+Underfull \hbox (badness 10000) in paragraph at lines 368--431
 [][]
  []
 
@@ -816,7 +820,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--430
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.499 
+l.500 
       ]
 Overfull \vbox (101.7401pt too high) has occurred while \output is active []
 
@@ -826,13 +830,13 @@ Overfull \vbox (101.7401pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.499 
+l.500 
       ] [23pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.617 
+l.618 
       ]
 Overfull \vbox (53.11104pt too high) has occurred while \output is active []
 
@@ -842,22 +846,23 @@ Overfull \vbox (53.11104pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.617 
+l.618 
       ] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 ) (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 ) (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [25] (./noaccent.def
+) [25] [26]
+(./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [26] [27] (./noaccent.def
+) [27] [28] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [28]
+) [29]
 Cap\'{\i }tulo 4.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [29
+) [30
 
 ]
 Cap\'{\i }tulo 5.
@@ -867,7 +872,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 \tf@brf=\write7
 \openout7 = `ProjetoFinal2.brf'.
 
- [30
+ [31
 
 ]
 (./noaccent.def
@@ -876,7 +881,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 
 LaTeX Warning: Empty `thebibliography' environment on input line 4.
 
-) [31
+) [32
 
 ] (./ProjetoFinal2.aux)
 
@@ -884,10 +889,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6273 strings out of 495061
- 88196 string characters out of 1182620
- 236406 words of memory out of 3000000
- 9199 multiletter control sequences out of 15000+50000
+ 6368 strings out of 495061
+ 89057 string characters out of 1182620
+ 236677 words of memory out of 3000000
+ 9220 multiletter control sequences out of 15000+50000
  10451 words of font info for 39 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  48i,12n,45p,528b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -896,9 +901,9 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
 live/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmssi12.pfb>
-Output written on ProjetoFinal2.pdf (31 pages, 1328431 bytes).
+Output written on ProjetoFinal2.pdf (32 pages, 1337744 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
  166 words of extra memory for PDF output out of 10000 (max. 10000000)
 

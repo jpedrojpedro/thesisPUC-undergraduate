@@ -13,9 +13,9 @@
 \contentsline {section}{\numberline {3.3}Modelagem L\'{o}gica}{20}{section.3.3}
 \contentsline {section}{\numberline {3.4}Casos de Uso}{25}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Acesso \`{a} Plataforma}{25}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Cadastro de Nova D\'{u}vida no F\'{o}rum}{25}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Resolu\c {c}\~{a}o das Listas de Exerc\'{i}cios}{26}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Diagrama de Classes}{28}{section.3.5}
-\contentsline {chapter}{\numberline {4}Plataforma Web}{29}{chapter.4}
-\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{30}{chapter.5}
-\contentsline {chapter}{Refer\^{e}ncias Bibliogr\'{a}ficas}{31}{chapter*.1}
+\contentsline {subsection}{\numberline {3.4.2}Cadastro de Nova D\'{u}vida no F\'{o}rum}{26}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Resolu\c {c}\~{a}o das Listas de Exerc\'{i}cios}{27}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Diagrama de Classes}{29}{section.3.5}
+\contentsline {chapter}{\numberline {4}Plataforma Web}{30}{chapter.4}
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{31}{chapter.5}
+\contentsline {chapter}{Refer\^{e}ncias Bibliogr\'{a}ficas}{32}{chapter*.1}
