@@ -1,0 +1,161 @@
+\documentclass[graduacao,brazil]{ThesisPUC}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\Rset}{\mathbb{R}}
+\newcommand{\Zset}{\mathbb{Z}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\autor{Jo\~{a}o Pedro Vallad\~{a}o Pinheiro}
+\autorR{Jo\~{a}o Pedro, Pinheiro}
+\orientador{S\'{e}rgio Lifschitz}
+\orientadorR{Lifschitz, S\'{e}rgio}
+
+\titulo{Plataforma de Estudo para Aux\'{i}lio no Aprendizado de Banco de Dados}
+\titulouk{Study Platform to Aid Database Learning}
+\dia{16} \mes{Janeiro} \ano{2014}
+
+\cidade{Rio de Janeiro}
+\CDD{510}
+\departamento{Inform\'{a}tica}
+\programa{do Curso de Engenharia de Computa\c{c}\~{a}o}
+\centro{Centro T\'{e}cnico Cient\'{i}fico}
+\universidade{Pontif\'{i}cia Universidade Cat\'{o}lica do Rio de Janeiro}
+\uni{PUC--Rio}
+\course{Engenharia de Computa\c{c}\~{a}o}
+\diploma{t\'{i}tulo de Engenheiro de Computa\c{c}\~{a}o}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%TODO: Agradecer Vanessa, JMilk, JJ e Daniel
+\agradecimentos{
+Agrade\c{c}o ao apoio incondicional de toda a minha fam\'{i}lia em todos os momentos da minha vida.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chaves{
+  \chave{Plataforma de Estudo}
+  \chave{Banco de Dados}
+  \chave{SQL}
+}
+
+\resumo{
+Elabora\c{c}\~{a}o de uma plataforma web que auxilie o aprendizado do aluno da disciplina Banco de
+Dados. O tema surgiu a partir do conceito flipped classroom, que se trata de um modelo que
+sugere o aprendizado online. O aluno assiste, pratica e discute determinados assuntos em casa,
+trazendo as d\'{u}vidas para a sala de aula. Dessa forma, as aulas tornam-se mais din\^{a}micas e
+menos expositivas.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chavesuk{
+  \chave{Study Platform}
+  \chave{Database}
+  \chave{SQL}
+}
+
+\resumouk{
+Elaboration of web platform which aids student learning of database discipline. The topic came up
+from flipped classroom concept, whose model suggests online learning. The student attends,
+practice and discusses certain subjects at home, bringing doubts to classroom. Thus, classes
+became more dynamic and less expository.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\modotabelas{figtab} % nada, fig, tab ou figtab
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\chapter{Introdu\c{c}\~{a}o}
+
+Atrav\'{e}s do advento e populariza\c{c}\~{a}o da internet, pessoas envolvidas com educa\c{c}\~{a}o
+encontraram uma poss\'{i}vel solu\c{c}\~{a}o para d\'{e}ficit de ensino global. A diminui\c{c}\~{a}o
+das dist\^{a}ncias entre educadores e alunos gerou uma gama de poss\'{i}veis servi\c{c}os a serem prestados
+em prol de um melhor ensino.
+
+A partir disso, algumas iniciativas foram desenvolvidas e est\~{a}o inseridas com sucesso no
+mercado. Foram contempladas desde ideias sem fins lucrativos, como \textbf{Edx} e \textbf{Khanacademy}
+(ambos serão explicadas em detalhes na seção 2.1), at\'{e} startups que oferecem parte dos cursos
+gratuitamente e outra parte paga, como o caso da \textbf{Code School} (tamb\'{e}m explicada em maiores
+detalhes na seção 2.1).
+
+Essa metodologia de ensino a dist\^{a}ncia recebeu um nome: \textbf{flipped classroom}. Trata-se de
+uma invers\~{a}o nos padr\~{o}es de ensino adotados pelas escolas, no qual a passagem de
+conhecimento passa a ser online, atrav\'{e}s de v\'{i}deos de curta dura\c{c}\~{a}o, e a sala de aula torna-se
+um ambiente de resolu\c{c}\~{a}o de exerc\'{i}cios.
+
+\begin{figure}[h]
+    \includegraphics*[width=\linewidth]{Imagens/flipped_classroom.png}
+    \caption{Inversão nos padrões de ensino sugerida pelo modelo flipped classroom}
+\end{figure}
+
+\chapter{Proposta}
+
+O presente trabalho tem como objetivo desenvolver uma ferramenta, de cunho acad\^{e}mico
+e opensource, que auxilie o ensino de banco de dados. O escopo do projeto abranger\'{a} o ensino
+da linguagem SQL, atrav\'{e}s da disponibiliza\c{c}\~{a}o de exerc\'{i}cios online e f\'{o}rum para discuss\~{a}o dos
+mesmos ou de assuntos referentes \''{a} disciplina. Al\'{e}m disso, todas as listas de exerc\'{i}cios contidas
+no site ser\~{a}o, em um primeiro momento, as mesmas oferecidas na disciplina de Banco de Dados
+da PUC--Rio (INF 1383).
+
+Atualmente, os alunos da disciplina podem resolver os exerc\'{i}cios propostos em algumas
+aulas pr\'{a}ticas, durante hor\'{a}rio de aula, ou utilizar um programa desktop que se conecta ao
+servidor da disciplina com o \textbf{SGBD} j\'{a} configurado. Os exerc\'{i}cios est\~{a}o vinculados, na maioria das
+vezes, a um ou mais esquemas contidos no SGBD em quest\~{a}o. Dessa forma, os alunos acessam
+um mesmo esquema para tentar solucionar determinada quest\~{a}o. Quando trata-se de uma lista de
+exerc\'{i}cios que envolve puramente o comando \textbf{SELECT}, n\~{a}o h\'{a} maiores problemas quanto ao
+esquema compartilhado. Por\'{e}m, quando h\'{a} comandos \textbf{DML} do tipo \textbf{INSERT}, \textbf{UPDATE} ou
+\textbf{DELETE}, ou comandos \textbf{DDL} envolvidos na resolu\c{c}\~{a}o da lista, pode-se gerar uma
+indisponibiliza\c{c}\~{a}o moment\^{a}nea, caso um comando seja executado de forma incorreta.
+
+Sendo assim, duas das principais caracter\'{i}sticas do sistema proposto ser\~{a}o a utiliza\c{c}\~{a}o de
+esquemas distintos por alunos a cada quest\~{a}o e a possibilidade de voltar em uma determinada
+modifica\c{c}\~{a}o feita anteriormente no esquema. Logo, al\'{e}m de ter liberdade de executar qualquer
+comando na base, sabendo que n\~{a}o interferir\'{a} os demais alunos, o aluno poder\'{a} voltar em um
+estado anterior da base quando bem entender.
+
+\section{Avalia\c{c}\~{o}es dos Concorrentes -- An\'{a}lise SWOT}
+
+A \textbf{An\'{a}lise SWOT} \'{e} um sistema simples para posicionar ou verificar a posi\c{c}\~{a}o estrat\'{e}gica
+da empresa no ambiente em quest\~{a}o. O termo SWOT \'{e} uma sigla oriunda dos termos ingleses
+Strenghts (Forças), Weaknesses (Fraquezas), Opportunities (Oportunidades) e Threats (Ameaças).
+
+-- Strengths (forças) - vantagens internas da empresa em relação às concorrentes. Ex.:
+qualidade do produto oferecido, bom serviço prestado ao cliente, solidez financeira, etc.
+
+-- Weaknesses (fraquezas) - desvantagens internas da empresa em relação às concorrentes.
+Ex.: altos custos de produção, má imagem, instalações desadequadas, marca fraca, etc.;
+
+-- Opportunities (oportunidades) – aspectos externos positivos que podem potenciar a
+vantagem competitiva da empresa. Ex.: mudanças nos gostos dos clientes, falência de
+empresa concorrente, etc.;
+
+-- Threats (ameaças) - aspectos externos negativos que podem por em risco a vantagem
+competitiva da empresa. Ex.: novos competidores, perda de trabalhadores fundamentais,
+etc.
+
+\begin{figure}[h]
+    \includegraphics*[width=\linewidth]{Imagens/swot.jpg}
+    \caption{Ilustração que demonstra todos os critérios utilizados na Análise SWOT}
+\end{figure}
+
+\chapter{Projeto}
+
+\chapter{Plataforma Web}
+
+\chapter{Consideracoes Finais}
+
+\chapter{Refer\^{e}ncias Bibliogr\'{a}ficas}
+
+\arial
+\bibliography{Exemplo}
+
+\normalfont
+
+\end{document}
