@@ -221,7 +221,6 @@ vers\~{o}es.
     \caption{Segunda vers\~{a}o da Modelagem Conceitual; solu\c{c}\~{a}o focada no f\'{o}rum}
 \end{figure}
 
-
 \begin{figure}[h]
     \includegraphics*[width=\linewidth]{Imagens/ModelagemConceitual_exercicio_v1_1.png}
     \caption{Segunda vers\~{a}o da Modelagem Conceitual; solu\c{c}\~{a}o focada nos exerc\'{i}cios}
@@ -247,8 +246,8 @@ quest\~{o}es dos exerc\'{i}cios. Al\'{e}m disso uma d\'{u}vida se fez presente: 
 \begin{figure}[h]
     \includegraphics*[width=\linewidth]{Imagens/ModelagemConceitual_forum_v2_0.png}
     \caption{Terceira vers\~{a}o da Modelagem Conceitual; solu\c{c}\~{a}o focada no f\'{o}rum}
+    \label{fig:basicModel}
 \end{figure}
-
 
 \begin{figure}[h]
     \includegraphics*[width=\linewidth]{Imagens/ModelagemConceitual_exercicio_v2_0.png}
