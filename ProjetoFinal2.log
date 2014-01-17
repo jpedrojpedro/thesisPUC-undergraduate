@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  17 JAN 2014 01:53
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  17 JAN 2014 14:00
 entering extended mode
  %&-line parsing enabled.
 **ProjetoFinal2.tex
@@ -564,48 +564,56 @@ File: ttlkeys.def 2002/03/27
 )
 \c@definition=\count103
 )
-(./ProjetoFinal2.aux)
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count104
+\float@exts=\toks17
+\float@box=\box27
+\@float@everytoks=\toks18
+\@floatcapt=\box28
+) (./ProjetoFinal2.aux)
 \openout1 = `ProjetoFinal2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
+\scratchcounter=\count105
 \scratchdimen=\dimen117
-\scratchbox=\box27
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count107
+\scratchbox=\box29
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count108
 \MPscratchDim=\dimen118
-\MPnumerator=\count108
-\everyMPtoPDFconversion=\toks18
+\MPnumerator=\count109
+\everyMPtoPDFconversion=\toks20
 )
-Package hyperref Info: Link coloring OFF on input line 73.
+Package hyperref Info: Link coloring OFF on input line 85.
  (./nameref.sty
 Package: nameref 2001/01/27 v2.19 Cross-referencing by name of section
-\c@section@level=\count109
+\c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
  (./ProjetoFinal2.out) (./ProjetoFinal2.out)
 \@outlinefile=\write3
 \openout3 = `ProjetoFinal2.out'.
 
-\AtBeginShipoutBox=\box28
+\AtBeginShipoutBox=\box30
 Package epstopdf Info: Source file: <puc.eps>
 (epstopdf)                    date: 2014-01-17 00:32:42
 (epstopdf)                    size: 200513 bytes
@@ -614,19 +622,19 @@ Package epstopdf Info: Source file: <puc.eps>
 (epstopdf)                    size: 35883 bytes
 (epstopdf)             Command: <epstopdf --outfile=puc-eps-converted-to.pdf pu
 c.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<puc-eps-converted-to.pdf, id=51, 51.19125pt x 86.3225pt>
+<puc-eps-converted-to.pdf, id=63, 51.19125pt x 86.3225pt>
 File: puc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use puc-eps-converted-to.pdf>
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
+LaTeX Font Info:    Try loading font information for U+msa on input line 85.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+LaTeX Font Info:    Try loading font information for U+msb on input line 85.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -643,7 +651,7 @@ Package epstopdf Info: Source file: <puc.eps>
 (epstopdf)                    size: 35883 bytes
 (epstopdf)             Command: <epstopdf --outfile=puc-eps-converted-to.pdf pu
 c.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 File: puc-eps-converted-to.pdf Graphic file (type pdf)
  <use puc-eps-converted-to.pdf> [2
@@ -652,13 +660,13 @@ File: puc-eps-converted-to.pdf Graphic file (type pdf)
 
 ]
 
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 73.
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 85.
 
 [4
 
 ]
 
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 73.
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 85.
 
 [5
 
@@ -686,16 +694,18 @@ Cap\'{\i }tulo 1.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/flipped_classroom.png, id=130, 707.64375pt x 482.55281pt>
+<Imagens/flipped_classroom.png, id=153, 707.64375pt x 482.55281pt>
 File: Imagens/flipped_classroom.png Graphic file (type png)
 
-<use Imagens/flipped_classroom.png>
+<use Imagens/flipped_classroom.png> [9
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+] [10pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+.1}) has been already used, duplicate ignored
 
-[9
-
-] [10 <./Imagens/flipped_classroom.png>]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.111 \chapter
+              {Proposta} <./Imagens/flipped_classroom.png>]
 Cap\'{\i }tulo 2.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
@@ -704,74 +714,150 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 ) [11
 
 ]
-<Imagens/swot.jpg, id=148, 642.4pt x 451.6875pt>
+<Imagens/swot.jpg, id=169, 642.4pt x 451.6875pt>
 File: Imagens/swot.jpg Graphic file (type jpg)
  <use Imagens/swot.jpg>
-[12 <./Imagens/swot.jpg>]
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.167 \chapter
+              {Projeto} <./Imagens/swot.jpg>]
 Cap\'{\i }tulo 3.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/fases_projeto_banco_dados.jpg, id=155, 1403.2425pt x 1276.77pt>
+<Imagens/fases_projeto_banco_dados.jpg, id=174, 1403.2425pt x 1276.77pt>
 File: Imagens/fases_projeto_banco_dados.jpg Graphic file (type jpg)
 
-<use Imagens/fases_projeto_banco_dados.jpg>
+<use Imagens/fases_projeto_banco_dados.jpg> [13
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./noaccent.def
+] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/ModelagemConceitual_v1_0.png, id=157, 797.98125pt x 473.51906pt>
+(./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+) [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.203 [
+       R3] Utiliza\c{c}\~{a}o de documenta\c{c}\~{a}o interna do c\'{o}digo,...
+ <./Imagens/fases_projeto_banco_dados.jpg>] (./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+) (./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+)
+<Imagens/ModelagemConceitual_v1_0.png, id=185, 797.98125pt x 473.51906pt>
 File: Imagens/ModelagemConceitual_v1_0.png Graphic file (type png)
 
-<use Imagens/ModelagemConceitual_v1_0.png>
+<use Imagens/ModelagemConceitual_v1_0.png> [15] [16pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.3.2}) has been already used, dupli
+cate ignored
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13
-
-] [14 <./Imagens/fases_projeto_banco_dados.jpg>]
-<Imagens/ModelagemConceitual_forum_v1_1.png, id=169, 300.3722pt x 298.86656pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.279 
+       <./Imagens/ModelagemConceitual_v1_0.png>]
+<Imagens/ModelagemConceitual_forum_v1_1.png, id=196, 300.3722pt x 298.86656pt>
 File: Imagens/ModelagemConceitual_forum_v1_1.png Graphic file (type png)
 
 <use Imagens/ModelagemConceitual_forum_v1_1.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<Imagens/ModelagemConceitual_exercicio_v1_1.png, id=171, 478.78876pt x 420.0693
+<Imagens/ModelagemConceitual_exercicio_v1_1.png, id=197, 478.78876pt x 420.0693
 8pt>
 File: Imagens/ModelagemConceitual_exercicio_v1_1.png Graphic file (type png)
- <use Imagens/ModelagemConceitual_exercicio_v1_1.png>
+ <use Imagens/ModelagemConceitual_exercicio_v1_1.png> [17pdfTeX warning (ext4):
+ destination with the same identifier (name{figure.3.3}) has been already used,
+ duplicate ignored
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Imagens/ModelagemConceitual_forum_v2_0.png, id=173, 572.1375pt x 331.2375pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.297 
+       <./Imagens/ModelagemConceitual_forum_v1_1.png>]
+<Imagens/ModelagemConceitual_forum_v2_0.png, id=203, 572.1375pt x 331.2375pt>
 File: Imagens/ModelagemConceitual_forum_v2_0.png Graphic file (type png)
 
-<use Imagens/ModelagemConceitual_forum_v2_0.png> [15 <./Imagens/ModelagemConcei
-tual_v1_0.png>]
+<use Imagens/ModelagemConceitual_forum_v2_0.png> [18pdfTeX warning (ext4): dest
+ination with the same identifier (name{figure.3.4}) has been already used, dupl
+icate ignored
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<Imagens/ModelagemConceitual_exercicio_v2_0.png, id=181, 550.30594pt x 449.4290
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.320 
+       <./Imagens/ModelagemConceitual_exercicio_v1_1.png>]
+<Imagens/ModelagemConceitual_exercicio_v2_0.png, id=209, 550.30594pt x 449.4290
 6pt>
 File: Imagens/ModelagemConceitual_exercicio_v2_0.png Graphic file (type png)
- <use Imagens/ModelagemConceitual_exercicio_v2_0.png>
+ <use Imagens/ModelagemConceitual_exercicio_v2_0.png> [19pdfTeX warning (ext4):
+ destination with the same identifier (name{figure.3.5}) has been already used,
+ duplicate ignored
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.333 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.6}) has been already used, duplicate ignored
 
-[16 <./Imagens/ModelagemConceitual_forum_v1_1.png>] (./noaccent.def
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.333 
+       <./Imagens/ModelagemConceitual_forum_v2_0.png> <./Imagens/ModelagemConce
+itual_exercicio_v2_0.png>] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [17 <./Imagens/ModelagemConceitual_exercicio_v1_1.png>] [18 <./Imagens/Modela
-gemConceitual_forum_v2_0.png>] [19 <./Imagens/ModelagemConceitual_exercicio_v2_
-0.png>]
+)
+Underfull \hbox (badness 10000) in paragraph at lines 367--430
+[][]
+ []
+
+[20] [21pdfTeX warning (ext4): destination with the same identifier (name{table
+.3.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.499 
+      ]
+Overfull \vbox (101.7401pt too high) has occurred while \output is active []
+
+
+[22pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.499 
+      ] [23pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.3.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.617 
+      ]
+Overfull \vbox (53.11104pt too high) has occurred while \output is active []
+
+
+[24pdfTeX warning (ext4): destination with the same identifier (name{table.3.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.617 
+      ] (./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+) (./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+) (./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+) [25] (./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+) [26] [27] (./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+) [28]
 Cap\'{\i }tulo 4.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [20
+) [29
 
 ]
 Cap\'{\i }tulo 5.
@@ -781,7 +867,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 \tf@brf=\write7
 \openout7 = `ProjetoFinal2.brf'.
 
- [21
+ [30
 
 ]
 (./noaccent.def
@@ -790,7 +876,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 
 LaTeX Warning: Empty `thebibliography' environment on input line 4.
 
-) [22
+) [31
 
 ] (./ProjetoFinal2.aux)
 
@@ -798,21 +884,21 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6156 strings out of 495061
- 86617 string characters out of 1182620
- 173406 words of memory out of 3000000
- 9123 multiletter control sequences out of 15000+50000
+ 6273 strings out of 495061
+ 88196 string characters out of 1182620
+ 236406 words of memory out of 3000000
+ 9199 multiletter control sequences out of 15000+50000
  10451 words of font info for 39 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 48i,11n,45p,510b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,12n,45p,528b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
 live/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmssi12.pfb>
-Output written on ProjetoFinal2.pdf (22 pages, 1297831 bytes).
+Output written on ProjetoFinal2.pdf (31 pages, 1328431 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 190 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,5 @@
 \documentclass[graduacao,brazil]{ThesisPUC}
+\usepackage{float}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -30,7 +31,18 @@
 
 %TODO: Agradecer Vanessa, JMilk, JJ e Daniel
 \agradecimentos{
-Agrade\c{c}o ao apoio incondicional de toda a minha fam\'{i}lia em todos os momentos da minha vida.
+Agrade\c{c}o ao apoio incondicional da minha fam\'{i}lia em todos os momentos da minha vida.
+
+Tamb\'{e}m sou muito grato ao meu orientador S\'{e}rgio Lifschitz por ter me auxiliado em diversos
+momentos da minha gradua\c{c}\~{a}o e, principalmente, no Projeto Final.
+
+Fa\c{c}o um agradecimento especial a Vanessa Wagner, que acreditou nos meus sonhos e foi imprescind\'{i}vel
+para a realiza\c{c}\~{a}o dos mesmos.
+
+Gostaria de destacar e agradecer tr\^{e}s amigos que foram essenciais no per\'{i}odo de elabora\c{c}\~{a}o
+desse projeto: Daniel Blando, Jo\~{a}o Leite e Jesu\'{e} Junior.
+
+Obrigado a todos.
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -90,8 +102,9 @@ uma invers\~{a}o nos padr\~{o}es de ensino adotados pelas escolas, no qual a pas
 conhecimento passa a ser online, atrav\'{e}s de v\'{i}deos de curta dura\c{c}\~{a}o, e a sala de aula torna-se
 um ambiente de resolu\c{c}\~{a}o de exerc\'{i}cios.
 
-\begin{figure}[h]
-    \includegraphics*[width=\linewidth]{Imagens/flipped_classroom.png}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/flipped_classroom.png}
     \caption{Inversão nos padrões de ensino sugerida pelo modelo flipped classroom}
 \end{figure}
 
@@ -140,13 +153,16 @@ empresa concorrente, etc.;
 competitiva da empresa. Ex.: novos competidores, perda de trabalhadores fundamentais,
 etc.
 
-\begin{figure}[h]
-    \includegraphics*[width=\linewidth]{Imagens/swot.jpg}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/swot.jpg}
     \caption{Ilustração que demonstra todos os critérios utilizados na Análise SWOT}
 \end{figure}
 
 A seguir, seguem as an\'{a}lises dos principais competidores da plataforma de ensino a ser
 desenvolvida:
+
+%TODO: Escrever a Analise Swot!%
 
 \chapter{Projeto}
 
@@ -154,17 +170,20 @@ Neste t\'{o}pico ser\~{a}o expostos todas as abstra\c{c}\~{o}es de projeto reali
 cronol\'{o}gica. Essa evolu\c{c}\~{a}o sequencial permitiu um melhor entendimento do problema e,
 consequentemente, uma clara defini\c{c}\~{a}o de escopo.
 
-Iniciando pela Modelagem Conceitual [3.1], com a utiliza\c{c}\~{a}o do modelo entidade
+Iniciando pela Elicita\c{c}\~{a}o de Requisitos [3.1], que foi feita atrav\'{e}s do estudo dos concorrentes.
+Logo ap\'{o}s, foi realizada a Modelagem Conceitual [3.2], com a utiliza\c{c}\~{a}o do modelo entidade
 relacionamento, foi poss\'{i}vel obter uma alta abstra\c{c}\~{a}o da plataforma, assim como um melhor
 entendimento das regras de neg\'{o}cios envolvidas. Logo ap\'{o}s foram feitas as modelagens L\'{o}gica
-[3.2] e F\'{i}sica [3.3]. Na l\'{o}gica, explicitamos a estrutura a ser utilizada para persist\^{e}ncia dos dados,
+[3.3] e F\'{i}sica [3.4]. Na l\'{o}gica, explicitamos a estrutura a ser utilizada para persist\^{e}ncia dos dados,
 que no caso fora em tabelas, e os tipos de dados de cada atributo. J\'{a} na f\'{i}sica, foi definido o
 SGBD utilizado, que no caso fora o \textbf{PostgreSQL 9.1}, e definidas os comandos SQL do tipo DDL
 para criação das tabelas, chaves primárias e estrangeiras, triggers, constraints, entre outros.
 
-\begin{figure}[h]
-    \includegraphics*[width=\linewidth]{Imagens/fases_projeto_banco_dados.jpg}
-    \caption{Fases do projeto e da implementação de banco de dados sugerida no livro \textbf{'Sistemas de Banco de Dados', 4a edição, Elsmari e Navathe}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/fases_projeto_banco_dados.jpg}
+    \caption{Fases do projeto e da implementação de banco de dados sugerida no livro 
+	     \textbf{'Sistemas de Banco de Dados', 4a edição, Elsmari e Navathe}}
 \end{figure}
 
 Ap\'{o}s terminadas as abstra\c{c}\~{o}es referentes ao armazenamento dos dados, partimos para a
@@ -172,13 +191,61 @@ defini\c{c}\~{a}o da intera\c{c}\~{a}o entre os usu\'{a}rios envolvidos e o sist
 para a defini\c{c}\~{a}o da arquitetura a ser utilizada no desenvolvimento da plataforma, atrav\'{e}s do
 Diagrama de Classes [3.5].
 
+\section{Requisitos}
+
+\subsection{Requisitos N\~{a}o Funcionais}
+
+[R1] Realiza\c{c}\~{a}o de um estudo sobre os principais concorrentes da plataforma, utilizando a An\'{a}lise SWOT.
+
+[R2] Documenta\c{c}\~{a}o do sistema utilizando pr\'{a}ticas conhecidas: Modelagem Conceitual, Modelagem L\'{o}gica,
+Modelagem F\'{i}sica, Casos de Uso e Diagrama de Classes.
+
+[R3] Utiliza\c{c}\~{a}o de documenta\c{c}\~{a}o interna do c\'{o}digo, com o intuito de facilitar a modifica\c{c}\~{a}o da 
+plataforma no futuro.
+
+[R4] Gerenciamento de vers\~{o}es do c\'{o}digo utilizando a ferramenta Git com a plataforma GitHub.
+
+[R5] Cria\c{c}\~{a}o de Mockups das telas do sistema.
+
+\subsection{Requisitos Funcionais}
+
+[R6] A plataforma de ensino ter\'{a} a funcionalidade de controle de acesso, existindo dois n\'{i}veis de usu\'{a}rio:
+Aluno e Professor.
+
+\textbf{Funcionalidades Professor:}
+
+[R7] Controle dos alunos que possuem acesso a ferramenta.
+
+[R8] M\'{o}dulo de edi\c{c}\~{a}o dos exerc\'{i}cios e quest\~{o}es.
+
+[R9] Carga dos esquemas utilizados nos exerc\'{i}cios.
+
+[R10] Monitoramento da evolu\c{c}\~{a}o dos alunos.
+
+[R11] Permiss\~{a}o para cancelar uma thread inadequada no f\'{o}rum.
+
+\textbf{Funcionalidades Aluno:}
+
+[R12] Utiliza\c{c}\~{a}o de uma inst\^{a}ncia pr\'{o}pria a cada exerc\'{i}cio.
+
+[R13] Possibilidade de compartilhar com seus colegas de turma suas inst\^{a}ncias.
+
+[R14] Utiliza\c{c}\~{a}o de f\'{o}rum como forma de sanar d\'{u}vidas dos exerc\'{i}cios e auxiliar os outros alunos.
+
+[R15] Resolu\c{c}\~{a}o dos exerc\'{i}cios com corre\c{c}\~{a}o dos mesmos em tempo real.
+
+[R16] Possibilidade de fazer upload de foto para facilitar a identifica\c{c}\~{a}o do aluno.
+
+[R17] Possibilidade de compartilhar as quest\~{o}es em redes sociais (Facebook, Google+ e Twiter).
+
 \section{Modelagem Conceitual}
 
 Nesta se\c{c}\~{a}o vamos mostrar a evolu\c{c}\~{a}o da concep\c{c}\~{a}o do projeto atrav\'{e}s das tr\^{e}s vers\~{o}es
 elaboradas com o uso do diagrama entidade relacionamento.
 
-\begin{figure}[h]
-    \includegraphics*[width=\linewidth]{Imagens/ModelagemConceitual_v1_0.png}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/ModelagemConceitual_v1_0.png}
     \caption{Primeira versão da Modelagem Conceitual}
 \end{figure}
 
@@ -216,14 +283,15 @@ de diferencia\c{c}\~{a}o perante os demais sistemas seria o foco no tema banco d
 provocou uma melhor visualiza\c{c}\~{a}o da solu\c{c}\~{a}o, que pode ser percebido nas duas seguintes
 vers\~{o}es.
 
-\begin{figure}[h]
-    \includegraphics*[width=\linewidth]{Imagens/ModelagemConceitual_forum_v1_1.png}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/ModelagemConceitual_forum_v1_1.png}
     \caption{Segunda vers\~{a}o da Modelagem Conceitual; solu\c{c}\~{a}o focada no f\'{o}rum}
 \end{figure}
 
-
-\begin{figure}[h]
-    \includegraphics*[width=\linewidth]{Imagens/ModelagemConceitual_exercicio_v1_1.png}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/ModelagemConceitual_exercicio_v1_1.png}
     \caption{Segunda vers\~{a}o da Modelagem Conceitual; solu\c{c}\~{a}o focada nos exerc\'{i}cios}
 \end{figure}
 
@@ -244,14 +312,15 @@ contemplados, tais como os moderadores do f\'{o}rum e a persist\^{e}ncia das res
 quest\~{o}es dos exerc\'{i}cios. Al\'{e}m disso uma d\'{u}vida se fez presente: ser\'{a} mesmo que uma inst\^{a}ncia
 \'{e} um esquema?
 
-\begin{figure}[h]
-    \includegraphics*[width=\linewidth]{Imagens/ModelagemConceitual_forum_v2_0.png}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/ModelagemConceitual_forum_v2_0.png}
     \caption{Terceira vers\~{a}o da Modelagem Conceitual; solu\c{c}\~{a}o focada no f\'{o}rum}
 \end{figure}
 
-
-\begin{figure}[h]
-    \includegraphics*[width=\linewidth]{Imagens/ModelagemConceitual_exercicio_v2_0.png}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/ModelagemConceitual_exercicio_v2_0.png}
     \caption{Terceira vers\~{a}o da Modelagem Conceitual; solu\c{c}\~{a}o focada nos exerc\'{i}cios}
 \end{figure}
 
@@ -291,6 +360,470 @@ Dessa forma, foram listadas todas as tabelas com suas chaves prim\'{a}rias e est
 identificadas, atributos e tipos de dados. Al\'{e}m disso, foram identificados os campos: Entidade,
 Atributo e Relacionamento. Com esses campos, foi poss\'{i}vel realizar o rastro entre a Modelagem
 Conceitual e a Modelagem L\'{o}gica.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[H]
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{|l|l|l|l|l|l|l|l|}
+    \hline
+    \multicolumn{8}{|l|}{lista\_exercicio} \\ \hline
+    ID                      & Atributos      & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo       & Relacionamento  \\ \hline
+    1                       & id             & inteiro              & -               & auto incremental & LISTA\_EXERCICIO & Id             & -               \\ \hline
+    2                       & id\_assunto    & inteiro              & -               & -                & LISTA\_EXERCICIO & Assunto[1-N]   & -               \\ \hline
+    3                       & descricao      & cadeia de caracteres & 1024            & -                & LISTA\_EXERCICIO & Descrição      & -               \\ \hline
+    4                       & dt\_liberada   & data                 & dd-mm-aaaa      & -                & LISTA\_EXERCICIO & Liberada       & -               \\ \hline
+    \multicolumn{8}{|l|}{questao} \\ \hline
+    ID                      & Atributos      & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo       & Relacionamento  \\ \hline
+    1                       & id             & inteiro              & -               & auto incremental & QUESTAO         & Id             & -               \\ \hline
+    2                       & id\_exercicio  & inteiro              & -               & -                & LISTA\_EXERCICIO & Id             & composta        \\ \hline
+    3                       & login\_usuario & cadeia de caracteres & 20              & -                & USUARIO         & Login          & cadastra        \\ \hline
+    4                       & nome\_esquema  & cadeia de caracteres & 50              & -                & ESQUEMA         & Nome           & -               \\ \hline
+    5                       & pergunta       & cadeia de caracteres & 1024            & -                & QUESTAO         & Pergunta       & -               \\ \hline
+    6                       & resposta       & cadeia de caracteres & 1024            & -                & QUESTAO         & Resposta       & -               \\ \hline
+    \multicolumn{8}{|l|}{usuario} \\ \hline
+    ID                      & Atributos      & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo       & Relacionamento  \\ \hline
+    1                       & login          & cadeia de caracteres & 20              & -                & USUARIO         & Login          & -               \\ \hline
+    2                       & senha          & cadeia de caracteres & 15              & -                & USUARIO         & Senha          & -               \\ \hline
+    3                       & nome           & cadeia de caracteres & 100             & -                & USUARIO         & Nome           & -               \\ \hline
+    4                       & e-mail         & cadeia de caracteres & 100             & -                & USUARIO         & Email          & -               \\ \hline
+    5                       & professor      & booleano             & 1               & -                & -               & -              & -               \\ \hline
+    \multicolumn{8}{|l|}{resposta} \\ \hline
+    ID                      & Atributos      & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo       & Relacionamento  \\ \hline
+    1                       & id             & inteiro              & -               & auto incremental & -               & -              & -               \\ \hline
+    2                       & id\_questao    & inteiro              & -               & -                & QUESTAO         & Id             & -               \\ \hline
+    3                       & login\_usuario & cadeia de caracteres & 20              & -                & USUARIO         & Login          & -               \\ \hline
+    4                       & dt\_resposta   & data                 & dd-mm-aaaa      & -                & -               & Dt\_Resposta   & responde        \\ \hline
+    5                       & dt\_acerto     & data                 & dd-mm-aaaa      & -                & -               & Dt\_Acerto     & acerta          \\ \hline
+    6                       & resposta       & cadeia de caracteres & 1024            & -                & -               & Resposta       & responde        \\ \hline
+    \multicolumn{8}{|l|}{esquema} \\ \hline
+    ID                      & Atributos      & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo       & Relacionamento  \\ \hline
+    1                       & nome           & cadeia de caracteres & 50              & -                & ESQUEMA         & Nome           & -               \\ \hline
+    2                       & criacao        & cadeia de caracteres & 4096            & -                & ESQUEMA         & Criacao        & -               \\ \hline
+    \multicolumn{8}{|l|}{instancia} \\ \hline
+    ID                      & Atributos      & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo       & Relacionamento  \\ \hline
+    1                       & nome           & cadeia de caracteres & 50              & -                & INSTANCIA       & Nome           & -               \\ \hline
+    2                       & nome\_esquema  & cadeia de caracteres & 50              & -                & ESQUEMA         & Nome           & -               \\ \hline
+    3                       & login\_usuario & cadeia de caracteres & 20              & -                & USUARIO         & Login          & -               \\ \hline
+    4                       & dt\_criacao    & data                 & dd-mm-aaaa      & -                & INSTANCIA       & Dt\_Criacao    & -               \\ \hline
+    \multicolumn{8}{|l|}{modificacao} \\ \hline
+    ID                      & Atributos      & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo       & Relacionamento  \\ \hline
+    1                       & id             & inteiro              & -               & auto incremental & -               & -              & -               \\ \hline
+    2                       & nome\_instancia & cadeia de caracteres & 50              & -                & INSTANCIA       & Nome           & -               \\ \hline
+    3                       & login\_usuario & cadeia de caracteres & 20              & -                & USUARIO         & Login          & -               \\ \hline
+    4                       & dt\_modificacao & data                 & dd-mm-aaaa      & -                & -               & Dt\_Modificacao & modifica        \\ \hline
+    5                       & comando        & cadeia de caracteres & 1024            & -                & -               & Comando        & modifica        \\ \hline
+    \multicolumn{8}{|l|}{visualizacao} \\ \hline
+    ID                      & Atributos      & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo       & Relacionamento  \\ \hline
+    1                       & nome\_instancia & cadeia de caracteres & 50              & -                & INSTANCIA       & Nome           & -               \\ \hline
+    2                       & login\_usuario & cadeia de caracteres & 20              & -                & USUARIO         & Login          & -               \\ \hline
+    \multicolumn{8}{|l|}{assunto} \\ \hline
+    ID                      & Atributos      & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo       & Relacionamento  \\ \hline
+    1                       & id             & inteiro              & -               & auto incremental & LISTA\_EXERCICIO & Assunto[1-N]   & -               \\ \hline
+    2                       & nome           & cadeia de caracteres & 100             & -                & LISTA\_EXERCICIO & Assunto[1-N]   & -               \\ \hline
+    \multicolumn{8}{|l|}{assunto\_lista\_exercicio} \\ \hline
+    ID                      & Atributos      & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo       & Relacionamento  \\ \hline
+    1                       & id\_assunto    & inteiro              & -               & -                & LISTA\_EXERCICIO & Assunto[1-N]   & -               \\ \hline
+    2                       & id\_exercicio  & inteiro              & -               & -                & LISTA\_EXERCICIO & Id             & -               \\ \hline
+    \end{tabular}
+    }
+    \caption {Tabelas referentes a Lista de Exerc\'{i}cios (parte 1)}
+\end{table}
+
+\begin{table}[H]
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{|l|l|}
+    \hline
+    \multicolumn{2}{|l|}{lista\_exercicio} \\ \hline
+    ID                      & Observações                                                                                           \\ \hline
+    1                       & Identificador da tupla.                                                                               \\ \hline
+    2                       & Informa quais temas são abordados na lista de exercício.                                              \\ \hline
+    3                       & Possível sugestões do professor de como resolver a lista, com sugestão de referências bibliográficas. \\ \hline
+    4                       & Armazena em que dia a lista fora liberada aos alunos.                                                 \\ \hline
+    \multicolumn{2}{|l|}{questao} \\ \hline
+    ID                      & Observações                                                                                           \\ \hline
+    1                       & Identificador da tupla.                                                                               \\ \hline
+    2                       & Identifica a qual lista de exercício a questão está atrelada.                                         \\ \hline
+    3                       & Identificação do usuário responsável pela criação da questão.                                         \\ \hline
+    4                       & Identifica a qual esquema a questão pode estar vinculada.                                             \\ \hline
+    5                       & Informa o enunciado da questão a ser respondida pelo aluno.                                           \\ \hline
+    6                       & Trata-se do gabarito dado pelo professor.                                                             \\ \hline
+    \multicolumn{2}{|l|}{usuario} \\ \hline
+    ID                      & Observações                                                                                           \\ \hline
+    1                       & Identificador da tupla, criado pelo usuário e faz parte da sua chave de acesso ao sistema.            \\ \hline
+    2                       & Criado pelo usuário e faz parte da sua chave de acesso ao sistema.                                    \\ \hline
+    3                       & Nome completo do usuário.                                                                             \\ \hline
+    4                       & Email para contato para notificações do fórum, liberação de exercícios e resgate de senha.            \\ \hline
+    5                       & Refere-se ao papel do usuário em questão (1 = professor, 0 = aluno)                                   \\ \hline
+    \multicolumn{2}{|l|}{resposta} \\ \hline
+    ID                      & Observações                                                                                           \\ \hline
+    1                       & Identificador da tupla.                                                                               \\ \hline
+    2                       & Identifica qual questão se refere a resposta dada.                                                    \\ \hline
+    3                       & Identifica qual aluno respondeu a questão.                                                            \\ \hline
+    4                       & Identifica quando a resposta foi dada.                                                                \\ \hline
+    5                       & Identifica quando houve o acerto da resposta.                                                         \\ \hline
+    6                       & Armazena qual foi a resposta dada.                                                                    \\ \hline
+    \multicolumn{2}{|l|}{esquema} \\ \hline
+    ID                      & Observações                                                                                           \\ \hline
+    1                       & Identificador da tupla.                                                                               \\ \hline
+    2                       & Trata-se do comando DDL para criação do esquema.                                                      \\ \hline
+    \multicolumn{2}{|l|}{instancia} \\ \hline
+    ID                      & Observações                                                                                           \\ \hline
+    1                       & Identificador da tupla.                                                                               \\ \hline
+    2                       & Identifica qual esquema que originou a presente instância.                                            \\ \hline
+    3                       & Identifica qual o aluno responsável pelas modificações da instância.                                  \\ \hline
+    4                       & Identifica quando a instância foi criada pelo aluno.                                                  \\ \hline
+    \multicolumn{2}{|l|}{modificacao} \\ \hline
+    ID                      & Observações                                                                                           \\ \hline
+    1                       & Identificador da tupla.                                                                               \\ \hline
+    2                       & Identifica a instância que está sendo alterada.                                                       \\ \hline
+    3                       & Identifica o usuário autor da modificação.                                                            \\ \hline
+    4                       & Identifica quando a instância foi alterada.                                                           \\ \hline
+    5                       & Trata-se do comando DDL para alteração do esquema.                                                    \\ \hline
+    \multicolumn{2}{|l|}{visualizacao} \\ \hline
+    ID                      & Observações                                                                                           \\ \hline
+    1                       & Identifica a instância que está sendo alterada.                                                       \\ \hline
+    2                       & Identifica o usuário autor da modificação.                                                            \\ \hline
+    \multicolumn{2}{|l|}{assunto} \\ \hline
+    ID                      & Observações                                                                                           \\ \hline
+    1                       & Identificador da tupla.                                                                               \\ \hline
+    2                       & Nome do assunto relacionado.                                                                          \\ \hline
+    \multicolumn{2}{|l|}{assunto\_lista\_exercicio} \\ \hline
+    ID                      & Observações                                                                                           \\ \hline
+    1                       & Identifica quais assuntos são abordados na lista de exercícios.                                       \\ \hline
+    2                       & Identificador da lista de exercício.                                                                  \\ \hline
+    \end{tabular}
+    }
+    \caption {Tabelas referentes a Lista de Exerc\'{i}cios (parte 2)}
+\end{table}
+
+\begin{table}[H]
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{|l|l|l|l|l|l|l|l|}
+    \hline
+    \multicolumn{8}{|l|}{usuario} \\ \hline
+    ID                        & Atributos        & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo         & Relacionamento  \\ \hline
+    1                         & login            & cadeia de caracteres & 20              & -                & USUARIO         & Login            & -               \\ \hline
+    2                         & e-mail           & cadeia de caracteres & 100             & -                & USUARIO         & Email            & -               \\ \hline
+    3                         & senha            & cadeia de caracteres & 15              & -                & USUARIO         & Senha            & -               \\ \hline
+    4                         & nome             & cadeia de caracteres & 100             & -                & USUARIO         & Nome             & -               \\ \hline
+    5                         & professor        & booleano             & 1               & -                & -               & -                & -               \\ \hline
+    \multicolumn{8}{|l|}{assunto} \\ \hline
+    ID                        & Atributos        & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo         & Relacionamento  \\ \hline
+    1                         & id               & inteiro              & -               & auto incremental & -               & -                & -               \\ \hline
+    2                         & nome             & cadeia de caracteres & 100             & -                & LISTA\_EXERCICIO & Assunto[1-N]     & -               \\ \hline
+    \multicolumn{8}{|l|}{questao} \\ \hline
+    ID                        & Atributos        & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo         & Relacionamento  \\ \hline
+    1                         & id               & inteiro              & -               & auto incremental & QUESTAO         & Id               & -               \\ \hline
+    2                         & id\_exercicio    & inteiro              & -               & -                & LISTA\_EXERCICIO & Id               & composta        \\ \hline
+    3                         & login\_usuario   & inteiro              & -               & -                & USUARIO         & Login            & cadastra        \\ \hline
+    4                         & nome\_esquema    & cadeia de caracteres & 50              & -                & ESQUEMA         & Nome             & -               \\ \hline
+    5                         & pergunta         & cadeia de caracteres & 1024            & -                & QUESTAO         & Pergunta         & -               \\ \hline
+    6                         & resposta         & cadeia de caracteres & 1024            & -                & QUESTAO         & Resposta         & -               \\ \hline
+    \multicolumn{8}{|l|}{duvida} \\ \hline
+    ID                        & Atributos        & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo         & Relacionamento  \\ \hline
+    1                         & id               & inteiro              & -               & auto incremental & DUVIDA          & Id               & -               \\ \hline
+    2                         & id\_assunto      & inteiro              & -               & -                & DUVIDA          & Assunto[1-N]     & -               \\ \hline
+    3                         & login\_usuario   & cadeia de caracteres & 20              & -                & USUARIO         & Login            & -               \\ \hline
+    4                         & id\_questao      & inteiro              & -               & -                & QUESTAO         & Id               & -               \\ \hline
+    5                         & pergunta         & cadeia de caracteres & 1024            & -                & DUVIDA          & Pergunta         & -               \\ \hline
+    6                         & dt\_duvida       & data                 & dd-mm-aaaa      & -                & -               & Dt\_Duvida       & relata          \\ \hline
+    \multicolumn{8}{|l|}{comentario} \\ \hline
+    ID                        & Atributos        & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo         & Relacionamento  \\ \hline
+    1                         & id               & inteiro              & -               & auto incremental & COMENTARIO      & Id               & -               \\ \hline
+    2                         & id\_duvida       & inteiro              & -               & -                & DUVIDA          & Id               & -               \\ \hline
+    3                         & login\_usuario   & cadeia de caracteres & 20              & -                & USUARIO         & Login            & -               \\ \hline
+    4                         & texto\_comentario & cadeia de caracteres & 1024            & -                & COMENTARIO      & Texto\_Comentario & -               \\ \hline
+    5                         & dt\_comentario   & data                 & dd-mm-aaaa      & -                & -               & Dt\_Comentario   & escreve         \\ \hline
+    \multicolumn{8}{|l|}{usuario\_modera\_duvida} \\ \hline
+    ID                        & Atributos        & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo         & Relacionamento  \\ \hline
+    1                         & login\_moderador & cadeia de caracteres & -               & -                & USUARIO         & Login            & -               \\ \hline
+    2                         & id\_duvida       & inteiro              & 20              & -                & DUVIDA          & Id               & -               \\ \hline
+    3                         & justificativa    & cadeia de caracteres & 1024            & -                & -               & Justificativa    & modera          \\ \hline
+    4                         & dt\_cancelamento & data                 & dd-mm-aaaa      & -                & -               & Dt\_Cancelamento & modera          \\ \hline
+    \multicolumn{8}{|l|}{usuario\_modera\_comentario} \\ \hline
+    ID                        & Atributos        & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo         & Relacionamento  \\ \hline
+    1                         & login\_moderador & cadeia de caracteres & -               & -                & USUARIO         & Login            & -               \\ \hline
+    2                         & id\_comentario   & inteiro              & 20              & -                & COMENTARIO      & Id               & -               \\ \hline
+    3                         & justificativa    & cadeia de caracteres & 1024            & -                & -               & Justificativa    & modera          \\ \hline
+    4                         & dt\_cancelamento & data                 & dd-mm-aaaa      & -                & -               & Dt\_Cancelamento & modera          \\ \hline
+    \multicolumn{8}{|l|}{assunto\_duvida} \\ \hline
+    ID                        & Atributos        & Tipo                 & Tamanho/Formato & Extra            & Entidade        & Atributo         & Relacionamento  \\ \hline
+    1                         & id\_assunto      & inteiro              & -               & -                & DUVIDA          & Assunto[1-N]     & -               \\ \hline
+    2                         & id\_duvida       & inteiro              & -               & -                & DUVIDA          & Id               & -               \\ \hline
+    \end{tabular}
+    }
+    \caption {Tabelas referentes ao F\'{o}rum (parte 1)}
+\end{table}
+
+\begin{table}[H]
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{|l|l|}
+    \hline
+    \multicolumn{2}{|l|}{usuario} \\ \hline
+    ID                        & Observações                                                                                \\ \hline
+    1                         & Identificador da tupla, criado pelo usuário e faz parte da sua chave de acesso ao sistema. \\ \hline
+    2                         & Email para contato para notificações do fórum, liberação de exercícios e resgate de senha. \\ \hline
+    3                         & Criado pelo usuário e faz parte da sua chave de acesso ao sistema.                         \\ \hline
+    4                         & Nome completo do usuário.                                                                  \\ \hline
+    5                         & Refere-se ao papel do usuário em questão (1 = professor, 0 = aluno)                        \\ \hline
+    \multicolumn{2}{|l|}{assunto} \\ \hline
+    ID                        & Observações                                                                                \\ \hline
+    1                         & Identificador da tupla.                                                                    \\ \hline
+    2                         & Nome do assunto relacionado.                                                               \\ \hline
+    \multicolumn{2}{|l|}{questao} \\ \hline
+    ID                        & Observações                                                                                \\ \hline
+    1                         & Identificador da tupla.                                                                    \\ \hline
+    2                         & Identifica a qual lista de exercício a questão está atrelada.                              \\ \hline
+    3                         & Identificação do usuário responsável pela criação da questão.                              \\ \hline
+    4                         & Identifica a qual esquema a questão pode estar vinculada.                                  \\ \hline
+    5                         & Informa o enunciado da questão a ser respondida pelo aluno.                                \\ \hline
+    6                         & Trata-se do gabarito dado pelo professor.                                                  \\ \hline
+    \multicolumn{2}{|l|}{duvida} \\ \hline
+    ID                        & Observações                                                                                \\ \hline
+    1                         & Identificador da tupla.                                                                    \\ \hline
+    2                         & Informa quais temas são abordados na dúvida.                                               \\ \hline
+    3                         & Identifica o aluno responsável pela dúvida.                                                \\ \hline
+    4                         & Identifica um possível vínculo entre dúvida e questão.                                     \\ \hline
+    5                         & Trata-se da pergunta feita pelo aluno no fórum.                                            \\ \hline
+    6                         & Identifica quando a dúvida fora postada no fórum.                                          \\ \hline
+    \multicolumn{2}{|l|}{comentario} \\ \hline
+    ID                        & Observações                                                                                \\ \hline
+    1                         & Identificador da tupla.                                                                    \\ \hline
+    2                         & Identifica a qual dúvida se refere o comentário.                                           \\ \hline
+    3                         & Identifica o aluno responsável pelo comentário.                                            \\ \hline
+    4                         & Trata-se do comentário feito pelo aluno no fórum.                                          \\ \hline
+    5                         & Identifica quando o comentário fora postada no fórum.                                      \\ \hline
+    \multicolumn{2}{|l|}{usuario\_modera\_duvida} \\ \hline
+    ID                        & Observações                                                                                \\ \hline
+    1                         & Identifica o moderador que cancelou a dúvida.                                              \\ \hline
+    2                         & Identifica qual dúvida foi cancelada.                                                      \\ \hline
+    3                         & Possui a justificativa do cancelamento dada pelo moderador do fórum.                       \\ \hline
+    4                         & Identifica quando a dúvida fora cancelada no fórum.                                        \\ \hline
+    \multicolumn{2}{|l|}{usuario\_modera\_comentario} \\ \hline
+    ID                        & Observações                                                                                \\ \hline
+    1                         & Identifica o moderador que cancelou o comentário.                                          \\ \hline
+    2                         & Identifica qual comentário foi cancelado.                                                  \\ \hline
+    3                         & Possui a justificativa do cancelamento dada pelo moderador do fórum.                       \\ \hline
+    4                         & Identifica quando o comentário fora cancelado no fórum.                                    \\ \hline
+    \multicolumn{2}{|l|}{assunto\_duvida} \\ \hline
+    ID                        & Observações                                                                                \\ \hline
+    1                         & Identifica quais assuntos são abordados nas dúvidas do fórum.                              \\ \hline
+    2                         & Identificador da duvida.                                                                   \\ \hline
+    \end{tabular}
+    }
+    \caption {Tabelas referentes ao F\'{o}rum (parte 2)}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Casos de Uso}
+
+\subsection{Acesso \`{a} Plataforma}
+
+Este caso de uso demonstra como ser\'{a} realizada a verifica\c{c}\~{a}o de cadastro do usu\'{a}rio, aluno ou professor.
+As credenciais informadas s\~{a}o verificadas com os dados cadastrais contidos no Banco de Dados e o usuário ser\'{a}
+redirecionado para a p\'{a}gina de entrada no sistema.
+
+
+\textbf{Pr\'{e}-condi\c{c}\~{o}es:}
+
+1. O computador deve estar com acesso \`{a} internet.
+
+2. O sistema deve estar hospedado em algum servidor.
+
+
+\textbf{Cenários:}
+
+1. Verifica\c{c}\~{a}o das credenciais de acesso realizadas com sucesso.
+
+
+\textbf{Fluxo Normal:}
+
+1. Usu\'{a}rio preenche o campo login.
+
+2. Usu\'{a}rio preenche o campo senha.
+
+3. Usu\'{a}rio pressiona a tecla 'Enter' ou clica no bot\~{a}o 'Entrar'.
+
+4. Sistema recebe a requisi\c{c}\~{a}o de entrada.
+
+5. As credenciais digitadas s\~{a}o verificadas no Banco de Dados.
+
+6. Sistema emite feedback positivo ao Usu\'{a}rio, atrav\'{e}s do acesso a p\'{a}gina inicial.
+
+
+\textbf{Fluxos Alternativos:}
+
+5a. As credenciais de acesso digitadas pelo Usu\'{a}rio n\~{a}o s\~{a}o encontradas no Banco de Dados.
+
+1. Usu\'{a}rio preenche o campo login.
+
+2. Usu\'{a}rio preenche o campo senha.
+
+3. Usu\'{a}rio pressiona a tecla 'Enter' ou clica no bot\~{a}o 'Entrar'.
+
+4. Sistema recebe a requisi\c{c}\~{a}o de entrada.
+
+5. As credenciais digitadas n\~{a}o s\~{a}o encontradas no Banco de Dados.
+
+6. Sistema emite feedback negativo ao Usu\'{a}rio, atrav\'{e}s de mensagem de erro.
+
+\subsection{Cadastro de Nova D\'{u}vida no F\'{o}rum}
+
+Este caso de uso demonstra como os alunos postar\~{a}o novas d\'{u}vidas no m\'{o}dulo de f\'{o}rum.
+O usu\'{a}rio dever\'{a} clicar no bot\~{a}o 'Nova D\'{u}vida' e redigir sua d\'{u}vida no campo dispon\'{i}vel.
+Ao fim, basta pressionar o bot\~{a}o 'Salvar'. O sistema emitir\'{a} uma mensagem confirmando a opera\c{c}\~{a}o. 
+
+\textbf{Pr\'{e}-condi\c{c}\~{o}es:}
+
+1. O computador deve estar com acesso \`{a} internet.
+
+2. O sistema deve estar hospedado em algum servidor.
+
+3. O aluno deve estar logado no sistema.
+
+
+\textbf{Cen\'{a}rios:}
+
+1. Cadastro com sucesso de nova D\'{u}vida no F\'{o}rum.
+
+
+\textbf{Fluxo Normal:}
+
+1. Usu\'{a}rio seleciona a op\c{c}\~{a}o 'F\'{o}rum' dispon\'{i}vel no menu do Sistema.
+
+2. Sistema recebe a requisi\c{c}\~{a}o e retorna a p\'{a}gina de F\'{o}rum.
+
+3. Usu\'{a}rio deve pressionar o bot\~{a}o 'Nova D\'{u}vida'.
+
+4. Usu\'{a}rio redige sua D\'{u}vida no campo dispon\'{i}vel.
+
+5. Usu\'{a}rio deve pressionar o bot\~{a}o 'Salvar'.
+
+6. Sistema recebe a requisi\c{c}\~{a}o e armazena a D\'{u}vida no Banco de Dados.
+
+7. Sistema emite feedback positivo ao Usu\'{a}rio, atrav\'{e}s de mensagem.
+
+
+\textbf{Fluxos Alternativos:}
+
+*a. Em qualquer instante, o Sistema falha.
+
+1. Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
+
+\ \ \ \ 1a. Sistema continua em estado de falha.
+
+\ \ \ \ 1. Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
+
+
+7a. Sistema n\~{a}o consegue persistir a informa\c{c}\~{a}o no Banco de Dados.
+
+1. Usu\'{a}rio seleciona a op\c{c}\~{a}o 'F\'{o}rum' dispon\'{i}vel no menu do Sistema.
+
+2. Sistema recebe a requisi\c{c}\~{a}o e retorna a p\'{a}gina de F\'{o}rum.
+
+4. Usu\'{a}rio deve pressionar o bot\~{a}o 'Nova D\'{u}vida'.
+
+5. Usu\'{a}rio redige sua D\'{u}vida no campo dispon\'{i}vel.
+
+6. Usu\'{a}rio deve pressionar o bot\~{a}o 'Salvar'.
+
+7. Sistema recebe a requisi\c{c}\~{a}o, mas n\~{a}o consegue persistir a informa\c{c}\~{a}o no Banco de Dados.
+
+8. Sistema emite feedback negativo ao Usu\'{a}rio, atrav\'{e}s de mensagem.
+
+\subsection{Resolu\c{c}\~{a}o das Listas de Exerc\'{i}cios}
+
+Este caso de uso demonstra como os alunos resolver\~{a}o as listas de exerc\'{i}cios.
+Os alunos dever\~{a}o selecionar uma das op\c{c}\~{o}es de lista para ser feita.
+Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibida.
+
+\textbf{Pré-condições:}
+
+1. O computador deve estar com acesso \`{a} internet.
+
+2. O sistema deve estar hospedado em algum servidor.
+
+3. O professor ou monitor deve ter cadastrado as listas de exerc\'{i}cios e suas quest\~{o}es.
+
+4. O aluno deve estar logado no sistema.
+
+
+\textbf{Cen\'{a}rios:}
+
+1. Praticar a linguagem SQL atrav\'{e}s da resolu\c{c}\~{a}o das listas de exerc\'{i}cios.
+
+
+\textbf{Fluxo Normal:}
+
+1. Usu\'{a}rio seleciona a opção 'Exerc\'{i}cios' dispon\'{i}vel no menu do Sistema.
+
+2. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Listas de Exerc\'{i}cios.
+
+3. Sistema exibe a listagem de todas as Listas de Exerc\'{i}cios cadastradas.
+
+4. Usu\'{a}rio seleciona a Lista de Exerc\'{i}cios desejada.
+
+5. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Quest\~{o}es.
+
+6. Sistema exibe a listagem de todas as Quest\~{o}es da respectiva Lista de Exerc\'{i}cios.
+
+7. Usu\'{a}rio escolhe uma das Quest\~{o}es para resolver.
+
+8. Usu\'{a}rio preenche o campo dispon\'{i}vel com o SQL que acredita ser o correto.
+
+9. Usu\'{a}rio pressiona o bot\~{a}o 'Enviar'.
+
+10. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para obter o SQL gabarito da Quest\~{a}o.
+
+11. Ambos os comandos SQL s\~{a}o executados e seus resultados comparados.
+
+12. Sistema exibe uma mensagem de feedback da Quest\~{a}o resolvida.
+
+Usu\'{a}rio repete os passos 7-12 at\'{e} o fim da Lista de Exerc\'{i}cios.
+
+
+\textbf{Fluxos Alternativos:}
+
+*a. Em qualquer instante, o Sistema falha.
+
+1. Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
+
+\ \ \ \ 1a. Sistema continua em estado de falha.
+
+\ \ \ \ 1. Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
+
+
+11a. Erro n\~{a}o previsto pelo Sistema ao executar os comandos SQL.
+
+1. Usu\'{a}rio seleciona a opção 'Exerc\'{i}cios' dispon\'{i}vel no menu do Sistema.
+
+2. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Listas de Exerc\'{i}cios.
+
+3. Sistema exibe a listagem de todas as Listas de Exerc\'{i}cios cadastradas.
+
+4. Usu\'{a}rio seleciona a Lista de Exerc\'{i}cios desejada.
+
+5. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Quest\~{o}es.
+
+6. Sistema exibe a listagem de todas as Quest\~{o}es da respectiva Lista de Exerc\'{i}cios.
+
+7. Usu\'{a}rio escolhe uma das Quest\~{o}es para resolver.
+
+8. Usu\'{a}rio preenche o campo dispon\'{i}vel com o SQL que acredita ser o correto.
+
+9. Usu\'{a}rio pressiona o bot\~{a}o 'Enviar'.
+
+10. Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para obter o SQL gabarito da Quest\~{a}o.
+
+11. Sistema tenta lidar como uma exce\c{c}\~{a}o n\~{a}o tratada, durante execu\c{c}\~{a}o do comando SQL.
+
+12. Sistema exibe ao Usu\'{a}rio uma tela descrevendo o erro.
+
+13. Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
+
+\section{Diagrama de Classes}
 
 \chapter{Plataforma Web}
 
