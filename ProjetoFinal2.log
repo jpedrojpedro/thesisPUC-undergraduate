@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  17 JAN 2014 15:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  19 JAN 2014 13:26
 entering extended mode
  %&-line parsing enabled.
 **ProjetoFinal2.tex
@@ -708,7 +708,7 @@ File: Imagens/flipped_classroom.png Graphic file (type png)
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.112 \chapter
+l.120 \chapter
               {Proposta} <./Imagens/flipped_classroom.png>]
 Cap\'{\i }tulo 2.
 (./noaccent.def
@@ -721,49 +721,49 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 <Imagens/swot.jpg, id=169, 642.4pt x 451.6875pt>
 File: Imagens/swot.jpg Graphic file (type jpg)
  <use Imagens/swot.jpg>
-[12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.168 \chapter
-              {Projeto} <./Imagens/swot.jpg>]
-Cap\'{\i }tulo 3.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-)
-<Imagens/fases_projeto_banco_dados.jpg, id=174, 1403.2425pt x 1276.77pt>
-File: Imagens/fases_projeto_banco_dados.jpg Graphic file (type jpg)
-
-<use Imagens/fases_projeto_banco_dados.jpg> [13
-
-] (./noaccent.def
+) (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-)
-(./noaccent.def
-File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+) [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.204 [
-       R3] Utiliza\c{c}\~{a}o de documenta\c{c}\~{a}o interna do c\'{o}digo,...
- <./Imagens/fases_projeto_banco_dados.jpg>] (./noaccent.def
+l.190 [
+       R2] Documenta\c{c}\~{a}o do sistema utilizando pr\'{a}ticas conhecida...
+ <./Imagens/swot.jpg>] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) (./noaccent.def
+) [13]
+Cap\'{\i }tulo 3.
+(./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/ModelagemConceitual_v1_0.png, id=185, 797.98125pt x 473.51906pt>
+<Imagens/fases_projeto_banco_dados.jpg, id=181, 1403.2425pt x 1276.77pt>
+File: Imagens/fases_projeto_banco_dados.jpg Graphic file (type jpg)
+
+<use Imagens/fases_projeto_banco_dados.jpg> [14
+
+] (./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+)
+<Imagens/ModelagemConceitual_v1_0.png, id=186, 797.98125pt x 473.51906pt>
 File: Imagens/ModelagemConceitual_v1_0.png Graphic file (type png)
 
-<use Imagens/ModelagemConceitual_v1_0.png> [15] [16pdfTeX warning (ext4): desti
-nation with the same identifier (name{figure.3.2}) has been already used, dupli
-cate ignored
+<use Imagens/ModelagemConceitual_v1_0.png> [15pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.3.1}) has been already used, duplicate 
+ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.280 
+l.275 
+       <./Imagens/fases_projeto_banco_dados.jpg>] [16pdfTeX warning (ext4): des
+tination with the same identifier (name{figure.3.2}) has been already used, dup
+licate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.303 
        <./Imagens/ModelagemConceitual_v1_0.png>]
 <Imagens/ModelagemConceitual_forum_v1_1.png, id=196, 300.3722pt x 298.86656pt>
 File: Imagens/ModelagemConceitual_forum_v1_1.png Graphic file (type png)
@@ -778,7 +778,7 @@ File: Imagens/ModelagemConceitual_exercicio_v1_1.png Graphic file (type png)
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.298 
+l.321 
        <./Imagens/ModelagemConceitual_forum_v1_1.png>]
 <Imagens/ModelagemConceitual_forum_v2_0.png, id=203, 572.1375pt x 331.2375pt>
 File: Imagens/ModelagemConceitual_forum_v2_0.png Graphic file (type png)
@@ -789,7 +789,7 @@ icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.321 
+l.344 
        <./Imagens/ModelagemConceitual_exercicio_v1_1.png>]
 <Imagens/ModelagemConceitual_exercicio_v2_0.png, id=209, 550.30594pt x 449.4290
 6pt>
@@ -800,18 +800,18 @@ File: Imagens/ModelagemConceitual_exercicio_v2_0.png Graphic file (type png)
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.334 
+l.357 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.334 
+l.357 
        <./Imagens/ModelagemConceitual_forum_v2_0.png> <./Imagens/ModelagemConce
 itual_exercicio_v2_0.png>] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 368--431
+Underfull \hbox (badness 10000) in paragraph at lines 397--460
 [][]
  []
 
@@ -820,7 +820,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--431
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.500 
+l.533 
       ]
 Overfull \vbox (101.7401pt too high) has occurred while \output is active []
 
@@ -830,13 +830,13 @@ Overfull \vbox (101.7401pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.500 
+l.533 
       ] [23pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.618 
+l.659 
       ]
 Overfull \vbox (53.11104pt too high) has occurred while \output is active []
 
@@ -846,7 +846,7 @@ Overfull \vbox (53.11104pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.618 
+l.659 
       ] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 ) (./noaccent.def
@@ -890,8 +890,8 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  6368 strings out of 495061
- 89057 string characters out of 1182620
- 236677 words of memory out of 3000000
+ 89074 string characters out of 1182620
+ 236694 words of memory out of 3000000
  9220 multiletter control sequences out of 15000+50000
  10451 words of font info for 39 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -901,7 +901,7 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
 live/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmssi12.pfb>
-Output written on ProjetoFinal2.pdf (32 pages, 1337744 bytes).
+Output written on ProjetoFinal2.pdf (32 pages, 1337733 bytes).
 PDF statistics:
  391 PDF objects out of 1000 (max. 8388607)
  135 named destinations out of 1000 (max. 500000)

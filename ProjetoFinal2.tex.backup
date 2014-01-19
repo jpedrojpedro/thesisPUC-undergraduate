@@ -703,12 +703,12 @@ Ao fim, basta pressionar o bot\~{a}o 'Salvar'. O sistema emitir\'{a} uma mensage
 
 \begin{enumerate}
   \item Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
-\end{enumerate}
-
-1a. Sistema continua em estado de falha.
-
-\begin{enumerate}
-  \item Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
+    \begin{enumerate}
+      \item Sistema continua em estado de falha.
+      \begin{enumerate}
+	\item Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
+      \end{enumerate}
+    \end{enumerate}
 \end{enumerate}
 
 7a. Sistema n\~{a}o consegue persistir a informa\c{c}\~{a}o no Banco de Dados.
@@ -771,12 +771,12 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 
 \begin{enumerate}
   \item Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
-\end{enumerate}
-
-1a. Sistema continua em estado de falha.
-
-\begin{enumerate}
-  \item Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
+  \begin{enumerate}
+    \item Sistema continua em estado de falha.
+    \begin{enumerate}
+      \item Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
+    \end{enumerate}
+  \end{enumerate}
 \end{enumerate}
 
 11a. Erro n\~{a}o previsto pelo Sistema ao executar os comandos SQL.

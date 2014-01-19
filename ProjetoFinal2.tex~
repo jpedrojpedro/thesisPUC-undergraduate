@@ -85,6 +85,10 @@ became more dynamic and less expository.
 
 \begin{document}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Introdução %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \chapter{Introdu\c{c}\~{a}o}
 
 Atrav\'{e}s do advento e populariza\c{c}\~{a}o da internet, pessoas envolvidas com educa\c{c}\~{a}o
@@ -108,6 +112,10 @@ um ambiente de resolu\c{c}\~{a}o de exerc\'{i}cios.
     \includegraphics[width=\linewidth]{Imagens/flipped_classroom.png}
     \caption{Inversão nos padrões de ensino sugerida pelo modelo flipped classroom}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Proposta %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Proposta}
 
@@ -134,7 +142,11 @@ modifica\c{c}\~{a}o feita anteriormente no esquema. Logo, al\'{e}m de ter liberd
 comando na base, sabendo que n\~{a}o interferir\'{a} os demais alunos, o aluno poder\'{a} voltar em um
 estado anterior da base quando bem entender.
 
-\section{Avalia\c{c}\~{o}es dos Concorrentes -- An\'{a}lise SWOT}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Análise SWOT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Avalia\c{c}\~{a}o do Sistema perante os Concorrentes -- An\'{a}lise SWOT}
 
 A \textbf{An\'{a}lise SWOT} \'{e} um sistema simples para posicionar ou verificar a posi\c{c}\~{a}o estrat\'{e}gica
 da empresa no ambiente em quest\~{a}o. O termo SWOT \'{e} uma sigla oriunda dos termos ingleses
@@ -165,32 +177,9 @@ desenvolvida:
 
 %TODO: Escrever a Analise Swot!%
 
-\chapter{Projeto}
-
-Neste t\'{o}pico ser\~{a}o expostos todas as abstra\c{c}\~{o}es de projeto realizadas em ordem
-cronol\'{o}gica. Essa evolu\c{c}\~{a}o sequencial permitiu um melhor entendimento do problema e,
-consequentemente, uma clara defini\c{c}\~{a}o de escopo.
-
-Iniciando pela Elicita\c{c}\~{a}o de Requisitos [3.1], que foi feita atrav\'{e}s do estudo dos concorrentes.
-Logo ap\'{o}s, foi realizada a Modelagem Conceitual [3.2], com a utiliza\c{c}\~{a}o do modelo entidade
-relacionamento, foi poss\'{i}vel obter uma alta abstra\c{c}\~{a}o da plataforma, assim como um melhor
-entendimento das regras de neg\'{o}cios envolvidas. Logo ap\'{o}s foram feitas as modelagens L\'{o}gica
-[3.3] e F\'{i}sica [3.4]. Na l\'{o}gica, explicitamos a estrutura a ser utilizada para persist\^{e}ncia dos dados,
-que no caso fora em tabelas, e os tipos de dados de cada atributo. J\'{a} na f\'{i}sica, foi definido o
-SGBD utilizado, que no caso fora o \textbf{PostgreSQL 9.1}, e definidas os comandos SQL do tipo DDL
-para criação das tabelas, chaves primárias e estrangeiras, triggers, constraints, entre outros.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=\linewidth]{Imagens/fases_projeto_banco_dados.jpg}
-    \caption{Fases do projeto e da implementação de banco de dados sugerida no livro 
-	     \textbf{'Sistemas de Banco de Dados', 4a edição, Elsmari e Navathe}}
-\end{figure}
-
-Ap\'{o}s terminadas as abstra\c{c}\~{o}es referentes ao armazenamento dos dados, partimos para a
-defini\c{c}\~{a}o da intera\c{c}\~{a}o entre os usu\'{a}rios envolvidos e o sistema, atrav\'{e}s dos Casos de Uso [3.4], e
-para a defini\c{c}\~{a}o da arquitetura a ser utilizada no desenvolvimento da plataforma, atrav\'{e}s do
-Diagrama de Classes [3.5].
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Requisitos %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Requisitos}
 
@@ -238,6 +227,40 @@ Aluno e Professor.
 [R16] Possibilidade de fazer upload de foto para facilitar a identifica\c{c}\~{a}o do aluno.
 
 [R17] Possibilidade de compartilhar as quest\~{o}es em redes sociais (Facebook, Google+ e Twiter).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Projeto %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Projeto}
+
+Neste t\'{o}pico ser\~{a}o expostos todas as abstra\c{c}\~{o}es de projeto realizadas em ordem
+cronol\'{o}gica. Essa evolu\c{c}\~{a}o sequencial permitiu um melhor entendimento do problema e,
+consequentemente, uma clara defini\c{c}\~{a}o de escopo.
+
+Iniciando pela Modelagem Conceitual [3.1], com a utiliza\c{c}\~{a}o do modelo entidade
+relacionamento, foi poss\'{i}vel obter uma alta abstra\c{c}\~{a}o da plataforma, assim como um melhor
+entendimento das regras de neg\'{o}cios envolvidas. Logo ap\'{o}s foram feitas as modelagens L\'{o}gica
+[3.2] e F\'{i}sica [3.3]. Na l\'{o}gica, explicitamos a estrutura a ser utilizada para persist\^{e}ncia dos dados,
+que no caso fora em tabelas, e os tipos de dados de cada atributo. J\'{a} na f\'{i}sica, foi definido o
+SGBD utilizado, que no caso fora o \textbf{PostgreSQL 9.1}, e definidas os comandos SQL do tipo DDL
+para criação das tabelas, chaves primárias e estrangeiras, triggers, constraints, entre outros.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/fases_projeto_banco_dados.jpg}
+    \caption{Fases do projeto e da implementação de banco de dados sugerida no livro 
+	     \textbf{'Sistemas de Banco de Dados', 4a edição, Elsmari e Navathe}}
+\end{figure}
+
+Ap\'{o}s terminadas as abstra\c{c}\~{o}es referentes ao armazenamento dos dados, partimos para a
+defini\c{c}\~{a}o da intera\c{c}\~{a}o entre os usu\'{a}rios envolvidos e o sistema, atrav\'{e}s dos Casos de Uso [3.4], e
+para a defini\c{c}\~{a}o da arquitetura a ser utilizada no desenvolvimento da plataforma, atrav\'{e}s do
+Diagrama de Classes [3.5].
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modelagem Conceitual %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Modelagem Conceitual}
 
@@ -351,6 +374,10 @@ Perceba que o relacionamento da a\c{c}\~{a}o “v\'{i}nculo” era entre as enti
 esquema. Todavia, uma lista de exerc\'{i}cios pode conter quest\~{o}es referentes a diferentes
 esquemas. Assim sendo, a entidade quest\~{a}o passa a estar vinculada a um determinado esquema.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modelagem Lógica %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Modelagem L\'{o}gica}
 
 Nesta fase, o mapeamento ainda n\~{a}o considera nenhuma caracter\'{i}stica espec\'{i}fica ou
@@ -362,7 +389,9 @@ identificadas, atributos e tipos de dados. Al\'{e}m disso, foram identificados o
 Atributo e Relacionamento. Com esses campos, foi poss\'{i}vel realizar o rastro entre a Modelagem
 Conceitual e a Modelagem L\'{o}gica.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tabela Exercícios Parte 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{table}[H]
     \resizebox{\linewidth}{!}{
@@ -431,6 +460,10 @@ Conceitual e a Modelagem L\'{o}gica.
     \caption {Tabelas referentes a Lista de Exerc\'{i}cios (parte 1)}
 \end{table}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tabela Exercícios Parte 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{table}[H]
     \resizebox{\linewidth}{!}{
     \begin{tabular}{|l|l|}
@@ -498,6 +531,10 @@ Conceitual e a Modelagem L\'{o}gica.
     \caption {Tabelas referentes a Lista de Exerc\'{i}cios (parte 2)}
 \end{table}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tabela Fórum Parte 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{table}[H]
     \resizebox{\linewidth}{!}{
     \begin{tabular}{|l|l|l|l|l|l|l|l|}
@@ -556,6 +593,10 @@ Conceitual e a Modelagem L\'{o}gica.
     }
     \caption {Tabelas referentes ao F\'{o}rum (parte 1)}
 \end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tabela Fórum Parte 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{table}[H]
     \resizebox{\linewidth}{!}{
@@ -616,7 +657,9 @@ Conceitual e a Modelagem L\'{o}gica.
     \caption {Tabelas referentes ao F\'{o}rum (parte 2)}
 \end{table}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Casos de Uso %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Casos de Uso}
 
@@ -704,7 +747,7 @@ Ao fim, basta pressionar o bot\~{a}o 'Salvar'. O sistema emitir\'{a} uma mensage
 \begin{enumerate}
   \item Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
     \begin{enumerate}
-      \item a. Sistema continua em estado de falha.
+      \item Sistema continua em estado de falha.
       \begin{enumerate}
 	\item Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
       \end{enumerate}
@@ -772,7 +815,7 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 \begin{enumerate}
   \item Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
   \begin{enumerate}
-    \item a. Sistema continua em estado de falha.
+    \item Sistema continua em estado de falha.
     \begin{enumerate}
       \item Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
     \end{enumerate}
@@ -797,11 +840,27 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
   \item Usu\'{a}rio reinicia o Sistema, pressionando F5 ou acessando o endere\c{c}o inicial.
 \end{enumerate}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Diagrama de Classes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Diagrama de Classes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plataforma Web %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Plataforma Web}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Considerações Fiinais %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \chapter{Considera\c{c}\~{o}es Finais}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \arial
 \bibliography{Exemplo}
