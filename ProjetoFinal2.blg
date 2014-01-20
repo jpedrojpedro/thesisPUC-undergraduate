@@ -2,44 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: ProjetoFinal2.aux
 The style file: ThesisPUC.bst
 Database file #1: ProjetoFinal2.bib
-You've used 5 entries,
+You've used 13 entries,
             1840 wiz_defined-function locations,
-            476 strings with 3970 characters,
-and the built_in function-call counts, 536 in all, are:
-= -- 20
-> -- 5
+            515 strings with 4926 characters,
+and the built_in function-call counts, 1669 in all, are:
+= -- 93
+> -- 28
 < -- 0
-+ -- 5
-- -- 0
-* -- 17
-:= -- 39
-add.period$ -- 5
-call.type$ -- 5
-change.case$ -- 5
++ -- 18
+- -- 5
+* -- 67
+:= -- 180
+add.period$ -- 23
+call.type$ -- 13
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 30
-empty$ -- 100
-format.name$ -- 0
-if$ -- 130
+cite$ -- 13
+duplicate$ -- 103
+empty$ -- 260
+format.name$ -- 5
+if$ -- 389
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 0
-newline$ -- 18
-num.names$ -- 0
-pop$ -- 50
+int.to.str$ -- 13
+missing$ -- 10
+newline$ -- 52
+num.names$ -- 5
+pop$ -- 114
 preamble$ -- 0
-purify$ -- 10
+purify$ -- 26
 quote$ -- 0
-skip$ -- 34
+skip$ -- 69
 stack$ -- 0
-substring$ -- 5
-swap$ -- 5
+substring$ -- 13
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 6
-write$ -- 37
+while$ -- 5
+width$ -- 15
+write$ -- 119

@@ -1,10 +1,63 @@
-@BOOK{Ieru03,
-  key = {Ieru03},
-  author = {Roberto Ierusalimschy},
+@Misc{Edx,
+  key = {Edx},
+  note = {Dispon\'{i}vel em: \url{https://www.edx.org/}; Acessado em 19 de jan. de 2014.}
+}
+
+@Misc{Khanacademy,
+  key = {Khanacademy},
+  note = {Dispon\'{i}vel em: \url{https://www.khanacademy.org/}; Acessado em 19 de jan. de 2014.}
+}
+
+@Misc{Gradiance,
+  key = {Gradiance},
+  note = {Dispon\'{i}vel em: \url{http://www.gradiance.com/}; Acessado em 19 de jan. de 2014.}
+}
+
+@Misc{CodeSchool,
+  key = {CodeSchool},
+  note = {Dispon\'{i}vel em: \url{http://www.codeschool.com/}; Acessado em 19 de jan. de 2014.}
+}
+
+@Misc{FlippedLearning,
+  key = {FlippedLearning},
+  note = {Dispon\'{i}vel em: \url{http://www.knewton.com/flipped-classroom/}; Acessado em 19 de jan. de 2014.}
+}
+
+@Book{ElmasriNavathe05,
+  key = {ElmasriNavathe05},
+  author = {Ramez Elmasri, Shamkant B. Navathe},
+  year = 2005,
+  title = {Sistemas de Banco de Dados},
+  publisher = {Pearson},
+  isbn = {978-85-88639-17-1},
+  address = {S\~{a}o Paulo}
+}
+
+@Book{Heuser09,
+  key = {Heuser09},
+  author = {Carlos Alberto Heuser},
+  year = 2009,
+  title = {Projeto de Banco de Dados, 6a edi\c{c}\~{a}o},
+  publisher = {Bookman},
+  isbn = {978-85-7780-382-8}
+}
+
+@Book{Fine09,
+  key = {Fine09},
+  author = {Lawrence G. Fine},
+  year = 2009,
+  title = {The SWOT Analysis: Using your Strength to overcome Weaknesses, Using Opportunities to overcome Threats},
+  publisher = {Kick It},
+  isbn = {978-1449546755}
+}
+
+@Book{Leite03,
+  key = {Leite03},
+  author = {Julio Cesar Sampaio do Prado Leite, Jorge Horacio Doorn},
   year = 2003,
-  title = {Programming in Lua},
-  publisher = {Lua.org},
-  address = {Rio de Janeiro}
+  title = {Perspectives on Software Requirements},
+  publisher = {Kluwer Academic Publishers},
+  isbn = {978-1402076251}
 }
 
 @BOOK{OpenGl,
@@ -42,26 +95,6 @@
   institution = {PUC-Rio},
   title = {Manual do Geresim},
   year = {2006}
-}
-
-@Misc{Edx,
-  key = {Edx},
-  note = {Dispon\'{i}vel em: \url{https://www.edx.org/}; Acessado em 19 de jan. de 2014.}
-}
-
-@Misc{Khanacademy,
-  key = {Khanacademy},
-  note = {Dispon\'{i}vel em: \url{https://www.khanacademy.org/}; Acessado em 19 de jan. de 2014.}
-}
-
-@Misc{Gradiance,
-  key = {Gradiance},
-  note = {Dispon\'{i}vel em: \url{http://www.gradiance.com/}; Acessado em 19 de jan. de 2014.}
-}
-
-@Misc{CodeSchool,
-  key = {CodeSchool},
-  note = {Dispon\'{i}vel em: \url{http://www.codeschool.com/}; Acessado em 19 de jan. de 2014.}
 }
 
 @Misc{Lua,

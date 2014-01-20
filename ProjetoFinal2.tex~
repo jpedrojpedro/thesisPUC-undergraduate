@@ -101,7 +101,7 @@ mercado. Foram contempladas desde ideias sem fins lucrativos, como \textbf{Edx} 
 pelo Prof. Jeffrey D. Ullman), at\'{e} startups que oferecem parte dos cursos gratuitamente e outra 
 parte paga, como o caso da \textbf{Code School} \cite{codeschool}.
 
-Essa metodologia de ensino a dist\^{a}ncia recebeu um nome: \textbf{flipped classroom} \cite{flippedlearning}.
+Essa metodologia de ensino a dist\^{a}ncia recebeu um nome: \textbf{flipped classroom} \cite{FlippedLearning}.
 Trata-se de uma invers\~{a}o nos padr\~{o}es de ensino adotados pelas escolas, no qual a passagem de
 conhecimento passa a ser online, atrav\'{e}s de v\'{i}deos de curta dura\c{c}\~{a}o, e a sala de aula torna-se
 um ambiente de resolu\c{c}\~{a}o de exerc\'{i}cios.
@@ -127,13 +127,14 @@ da PUC--Rio (INF 1383).
 
 Atualmente, os alunos da disciplina podem resolver os exerc\'{i}cios propostos em algumas
 aulas pr\'{a}ticas, durante hor\'{a}rio de aula, ou utilizar um programa desktop que se conecta ao
-servidor da disciplina com o \textbf{SGBD} j\'{a} configurado. Os exerc\'{i}cios est\~{a}o vinculados, na maioria das
-vezes, a um ou mais esquemas contidos no SGBD em quest\~{a}o. Dessa forma, os alunos acessam
-um mesmo esquema para tentar solucionar determinada quest\~{a}o. Quando trata-se de uma lista de
-exerc\'{i}cios que envolve puramente o comando \textbf{SELECT}, n\~{a}o h\'{a} maiores problemas quanto ao
-esquema compartilhado. Por\'{e}m, quando h\'{a} comandos \textbf{DML} do tipo \textbf{INSERT}, \textbf{UPDATE} ou
-\textbf{DELETE}, ou comandos \textbf{DDL} envolvidos na resolu\c{c}\~{a}o da lista, pode-se gerar uma
-indisponibiliza\c{c}\~{a}o moment\^{a}nea, caso um comando seja executado de forma incorreta.
+servidor da disciplina com o \textbf{SGBD} \cite{ElmasriNavathe05} j\'{a} configurado. 
+Os exerc\'{i}cios est\~{a}o vinculados, na maioria das vezes, a um ou mais esquemas contidos no SGBD 
+em quest\~{a}o. Dessa forma, os alunos acessam um mesmo esquema para tentar solucionar determinada quest\~{a}o.
+Quando trata-se de uma lista de exerc\'{i}cios que envolve puramente o comando \textbf{SELECT}, n\~{a}o h\'{a}
+maiores problemas quanto ao esquema compartilhado.
+Por\'{e}m, quando h\'{a} comandos \textbf{DML}\cite{ElmasriNavathe05} do tipo \textbf{INSERT}, \textbf{UPDATE} ou
+\textbf{DELETE}, ou comandos \textbf{DDL}\cite{ElmasriNavathe05} envolvidos na resolu\c{c}\~{a}o da lista, pode-se
+gerar uma indisponibiliza\c{c}\~{a}o moment\^{a}nea, caso um comando seja executado de forma incorreta.
 
 Sendo assim, duas das principais caracter\'{i}sticas do sistema proposto ser\~{a}o a utiliza\c{c}\~{a}o de
 esquemas distintos por alunos a cada quest\~{a}o e a possibilidade de voltar em uma determinada
@@ -147,9 +148,10 @@ estado anterior da base quando bem entender.
 
 \section{Avalia\c{c}\~{a}o do Sistema perante os Concorrentes -- An\'{a}lise SWOT}
 
-A \textbf{An\'{a}lise SWOT} \'{e} um sistema simples para posicionar ou verificar a posi\c{c}\~{a}o estrat\'{e}gica
-da empresa no ambiente em quest\~{a}o. O termo SWOT \'{e} uma sigla oriunda dos termos ingleses
-Strenghts (Forças), Weaknesses (Fraquezas), Opportunities (Oportunidades) e Threats (Ameaças).
+A \textbf{An\'{a}lise SWOT} \cite{Fine09} \'{e} um sistema simples para posicionar ou verificar a
+posi\c{c}\~{a}o estrat\'{e}gica da empresa no ambiente em quest\~{a}o. O termo SWOT \'{e} uma sigla
+oriunda dos termos ingleses Strenghts (Forças), Weaknesses (Fraquezas), Opportunities (Oportunidades)
+e Threats (Ameaças).
 
 -- Strengths (forças) - vantagens internas da empresa em relação às concorrentes. Ex.:
 qualidade do produto oferecido, bom serviço prestado ao cliente, solidez financeira, etc.
@@ -208,7 +210,7 @@ Segue a seguir a an\'{a}lise do projeto perante os concorrentes:
 
 \subsection{Escopo}
 
-A lista a seguir se refere \`{a} elicita\c{c}\~{a}o de requisitos referentes a uma plataforma de ensino online.
+A lista a seguir se refere \`{a} elicita\c{c}\~{a}o de requisitos \cite{Leite03} referentes a uma plataforma de ensino online.
 A mesma conter\'{a} tanto \textbf{requisitos funcionais} quanto \textbf{requisitos n\~{a}o funcionais}.
 
 \subsection{P\'{u}blico Alvo}
@@ -274,7 +276,7 @@ consequentemente, uma clara defini\c{c}\~{a}o de escopo.
 
 Iniciando pela Modelagem Conceitual [3.1], com a utiliza\c{c}\~{a}o do modelo entidade
 relacionamento, foi poss\'{i}vel obter uma alta abstra\c{c}\~{a}o da plataforma, assim como um melhor
-entendimento das regras de neg\'{o}cios envolvidas. Logo ap\'{o}s foram feitas as modelagens L\'{o}gica
+entendimento das regras de neg\'{o}cios envolvidas \cite{Heuser09}. Logo ap\'{o}s foram feitas as modelagens L\'{o}gica
 [3.2] e F\'{i}sica [3.3]. Na l\'{o}gica, explicitamos a estrutura a ser utilizada para persist\^{e}ncia dos dados,
 que no caso fora em tabelas, e os tipos de dados de cada atributo. J\'{a} na f\'{i}sica, foi definido o
 SGBD utilizado, que no caso fora o \textbf{PostgreSQL 9.1}, e definidas os comandos SQL do tipo DDL

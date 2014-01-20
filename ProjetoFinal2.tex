@@ -127,13 +127,14 @@ da PUC--Rio (INF 1383).
 
 Atualmente, os alunos da disciplina podem resolver os exerc\'{i}cios propostos em algumas
 aulas pr\'{a}ticas, durante hor\'{a}rio de aula, ou utilizar um programa desktop que se conecta ao
-servidor da disciplina com o \textbf{SGBD} j\'{a} configurado. Os exerc\'{i}cios est\~{a}o vinculados, na maioria das
-vezes, a um ou mais esquemas contidos no SGBD em quest\~{a}o. Dessa forma, os alunos acessam
-um mesmo esquema para tentar solucionar determinada quest\~{a}o. Quando trata-se de uma lista de
-exerc\'{i}cios que envolve puramente o comando \textbf{SELECT}, n\~{a}o h\'{a} maiores problemas quanto ao
-esquema compartilhado. Por\'{e}m, quando h\'{a} comandos \textbf{DML} do tipo \textbf{INSERT}, \textbf{UPDATE} ou
-\textbf{DELETE}, ou comandos \textbf{DDL} envolvidos na resolu\c{c}\~{a}o da lista, pode-se gerar uma
-indisponibiliza\c{c}\~{a}o moment\^{a}nea, caso um comando seja executado de forma incorreta.
+servidor da disciplina com o \textbf{SGBD} \cite{ElmasriNavathe05} j\'{a} configurado. 
+Os exerc\'{i}cios est\~{a}o vinculados, na maioria das vezes, a um ou mais esquemas contidos no SGBD 
+em quest\~{a}o. Dessa forma, os alunos acessam um mesmo esquema para tentar solucionar determinada quest\~{a}o.
+Quando trata-se de uma lista de exerc\'{i}cios que envolve puramente o comando \textbf{SELECT}, n\~{a}o h\'{a}
+maiores problemas quanto ao esquema compartilhado.
+Por\'{e}m, quando h\'{a} comandos \textbf{DML}\cite{ElmasriNavathe05} do tipo \textbf{INSERT}, \textbf{UPDATE} ou
+\textbf{DELETE}, ou comandos \textbf{DDL}\cite{ElmasriNavathe05} envolvidos na resolu\c{c}\~{a}o da lista, pode-se
+gerar uma indisponibiliza\c{c}\~{a}o moment\^{a}nea, caso um comando seja executado de forma incorreta.
 
 Sendo assim, duas das principais caracter\'{i}sticas do sistema proposto ser\~{a}o a utiliza\c{c}\~{a}o de
 esquemas distintos por alunos a cada quest\~{a}o e a possibilidade de voltar em uma determinada
@@ -147,9 +148,10 @@ estado anterior da base quando bem entender.
 
 \section{Avalia\c{c}\~{a}o do Sistema perante os Concorrentes -- An\'{a}lise SWOT}
 
-A \textbf{An\'{a}lise SWOT} \'{e} um sistema simples para posicionar ou verificar a posi\c{c}\~{a}o estrat\'{e}gica
-da empresa no ambiente em quest\~{a}o. O termo SWOT \'{e} uma sigla oriunda dos termos ingleses
-Strenghts (Forças), Weaknesses (Fraquezas), Opportunities (Oportunidades) e Threats (Ameaças).
+A \textbf{An\'{a}lise SWOT} \cite{Fine09} \'{e} um sistema simples para posicionar ou verificar a
+posi\c{c}\~{a}o estrat\'{e}gica da empresa no ambiente em quest\~{a}o. O termo SWOT \'{e} uma sigla
+oriunda dos termos ingleses Strenghts (Forças), Weaknesses (Fraquezas), Opportunities (Oportunidades)
+e Threats (Ameaças).
 
 -- Strengths (forças) - vantagens internas da empresa em relação às concorrentes. Ex.:
 qualidade do produto oferecido, bom serviço prestado ao cliente, solidez financeira, etc.
@@ -208,7 +210,7 @@ Segue a seguir a an\'{a}lise do projeto perante os concorrentes:
 
 \subsection{Escopo}
 
-A lista a seguir se refere \`{a} elicita\c{c}\~{a}o de requisitos referentes a uma plataforma de ensino online.
+A lista a seguir se refere \`{a} elicita\c{c}\~{a}o de requisitos \cite{Leite03} referentes a uma plataforma de ensino online.
 A mesma conter\'{a} tanto \textbf{requisitos funcionais} quanto \textbf{requisitos n\~{a}o funcionais}.
 
 \subsection{P\'{u}blico Alvo}
@@ -274,7 +276,7 @@ consequentemente, uma clara defini\c{c}\~{a}o de escopo.
 
 Iniciando pela Modelagem Conceitual [3.1], com a utiliza\c{c}\~{a}o do modelo entidade
 relacionamento, foi poss\'{i}vel obter uma alta abstra\c{c}\~{a}o da plataforma, assim como um melhor
-entendimento das regras de neg\'{o}cios envolvidas. Logo ap\'{o}s foram feitas as modelagens L\'{o}gica
+entendimento das regras de neg\'{o}cios envolvidas \cite{Heuser09}. Logo ap\'{o}s foram feitas as modelagens L\'{o}gica
 [3.2] e F\'{i}sica [3.3]. Na l\'{o}gica, explicitamos a estrutura a ser utilizada para persist\^{e}ncia dos dados,
 que no caso fora em tabelas, e os tipos de dados de cada atributo. J\'{a} na f\'{i}sica, foi definido o
 SGBD utilizado, que no caso fora o \textbf{PostgreSQL 9.1}, e definidas os comandos SQL do tipo DDL
@@ -288,8 +290,8 @@ para criação das tabelas, chaves primárias e estrangeiras, triggers, constrai
 \end{figure}
 
 Ap\'{o}s terminadas as abstra\c{c}\~{o}es referentes ao armazenamento dos dados, partimos para a
-defini\c{c}\~{a}o da intera\c{c}\~{a}o entre os usu\'{a}rios envolvidos e o sistema, atrav\'{e}s dos Casos de Uso [3.4], e
-para a defini\c{c}\~{a}o da arquitetura a ser utilizada no desenvolvimento da plataforma, atrav\'{e}s do
+defini\c{c}\~{a}o da intera\c{c}\~{a}o entre os usu\'{a}rios envolvidos e o sistema, atrav\'{e}s dos Casos de Uso [3.4]
+\cite{Larman04}, e para a defini\c{c}\~{a}o da arquitetura a ser utilizada no desenvolvimento da plataforma, atrav\'{e}s do
 Diagrama de Classes [3.5].
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -698,8 +700,8 @@ Conceitual e a Modelagem L\'{o}gica.
 
 \section{Modelagem F\'{i}sica}
 
-Durante esta fase, projetamos as especificações para o SGBD escolhido, no caso o \textbf{PostgreSQL 9.1},
-em termos de armazenamento físico das estruturas, da alocação de registros e dos índices.
+Durante esta fase, projetamos as especificações para o SGBD escolhido, no caso o \textbf{PostgreSQL 9.1}
+\cite{Postgres}, em termos de armazenamento físico das estruturas, da alocação de registros e dos índices.
 
 Para melhor visualiza\c{c}\~{a}o da estrutura elaborada, os comandos SQL foram separados em tr\^{e}s
 se\c{c}\~{o}es: \textbf{Tabelas}, que cont\'{e}m as sintaxes de cria\c{c}\~{a}o dos elementos desvinculados,
@@ -1101,7 +1103,7 @@ assim como destacar todas as ferramentas utilizadas.
 
 Como o sistema, desde seu in\'{i}cio, possui cunho opensource, foram utilizadas ferramentas do mesmo
 tipo para elabora\c{c}\~{a}o do projeto. Para facilitar a documenta\c{c}\~{a}o, evolu\c{c}\~{a}o da plataforma e
-acompanhamento pelo Prof. S\'{e}rgio Lifschitz, foi criado um \textbf{blog} referente ao projeto final.
+acompanhamento pelo Prof. S\'{e}rgio Lifschitz, foi criado um \textbf{blog} \cite{Blog} referente ao projeto final.
 
 Para controle de vers\~{a}o e futura participa\c{c}\~{a}o de outros interessados no projeto, foi utilizado
 o \textbf{git}, atrav\'{e}s da plataforma \textbf{GitHub}. J\'{a} para organiza\c{c}\~{a}o das tarefas, fora
@@ -1163,7 +1165,7 @@ Seguem os prot\'{o}tipos das telas:
 
 \section{Framework Django}
 
-A escolha do framework Django se deu, principalmente, pela sua arquitetura bastante modularizada.
+A escolha do framework Django \cite{Django} se deu, principalmente, pela sua arquitetura bastante modularizada.
 O c\'{o}digo, consequentemente, fica fortemente coeso e fracamento acoplado. Al\'{e}m disso, trata--se
 de uma ferramenta que veem sendo bastante utilizada pelos desenvolvedores, o que pode facilitar
 a aceita\c{c}\~{a}o da ferramenta pela comunidade de desenvolvedores.

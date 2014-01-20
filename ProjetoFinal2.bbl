@@ -1,12 +1,31 @@
-\begin{thebibliography}{1}  \addcontentsline{toc}{chapter}{Refer\^{e}ncias
+\begin{thebibliography}{10}  \addcontentsline{toc}{chapter}{Refer\^{e}ncias
   Bibliogr\'{a}ficas} \arial\markboth{\bibname}{\bibname}
+
+\bibitem[Blog]{Blog}
+Dispon\'{i}vel em: \url{http://dbflippedlearning.blogspot.com.br/}; Acessado em
+  19 de jan. de 2014.
 
 \bibitem[CodeSchool]{codeschool}
 Dispon\'{i}vel em: \url{http://www.codeschool.com/}; Acessado em 19 de jan. de
   2014.
 
+\bibitem[Django]{Django}
+Dispon\'{i}vel em: \url{https://www.djangoproject.com/}; Acessado em 19 de jan.
+  de 2014.
+
 \bibitem[Edx]{edx}
 Dispon\'{i}vel em: \url{https://www.edx.org/}; Acessado em 19 de jan. de 2014.
+
+\bibitem[ElmasriNavathe05]{ElmasriNavathe05}
+\MakeUppercase{Ramez~Elmasri, S. B.~N.\/}.
+\newblock {\bf Sistemas de Banco de Dados}.
+\newblock Pearson, S\~{a}o Paulo, 2005.
+
+\bibitem[Fine09]{Fine09}
+\MakeUppercase{Fine, L.~G.\/}.
+\newblock {\bf The SWOT Analysis: Using your Strength to overcome Weaknesses,
+  Using Opportunities to overcome Threats}.
+\newblock Kick It, 2009.
 
 \bibitem[FlippedLearning]{FlippedLearning}
 Dispon\'{i}vel em: \url{http://www.knewton.com/flipped-classroom/}; Acessado em
@@ -16,8 +35,28 @@ Dispon\'{i}vel em: \url{http://www.knewton.com/flipped-classroom/}; Acessado em
 Dispon\'{i}vel em: \url{http://www.gradiance.com/}; Acessado em 19 de jan. de
   2014.
 
+\bibitem[Heuser09]{Heuser09}
+\MakeUppercase{Heuser, C.~A.\/}.
+\newblock {\bf Projeto de Banco de Dados, 6a edi\c{c}\~{a}o}.
+\newblock Bookman, 2009.
+
 \bibitem[Khanacademy]{khanacademy}
 Dispon\'{i}vel em: \url{https://www.khanacademy.org/}; Acessado em 19 de jan.
   de 2014.
+
+\bibitem[Larman04]{Larman04}
+\MakeUppercase{Larman, C.\/}.
+\newblock {\bf Applying UML and Patterns: An Introduction to Object-Oriented
+  Analysis and Design and Iterative Development}.
+\newblock Prentice Hall, 2004.
+
+\bibitem[Leite03]{Leite03}
+\MakeUppercase{Julio Cesar Sampaio~do Prado~Leite, J. H.~D.\/}.
+\newblock {\bf Perspectives on Software Requirements}.
+\newblock Kluwer Academic Publishers, 2003.
+
+\bibitem[Postgres]{Postgres}
+Dispon\'{i}vel em: \url{http://www.postgresql.org/docs/9.1/static/}; Acessado
+  em 19 de jan. de 2014.
 
 \end{thebibliography}
