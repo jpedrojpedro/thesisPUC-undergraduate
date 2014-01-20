@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  19 JAN 2014 16:15
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  19 JAN 2014 22:13
 entering extended mode
  %&-line parsing enabled.
 **ProjetoFinal2.tex
@@ -698,7 +698,7 @@ Cap\'{\i }tulo 1.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/flipped_classroom.png, id=170, 707.64375pt x 482.55281pt>
+<Imagens/flipped_classroom.png, id=174, 707.64375pt x 482.55281pt>
 File: Imagens/flipped_classroom.png Graphic file (type png)
 
 <use Imagens/flipped_classroom.png> [9
@@ -718,7 +718,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 ) [11
 
 ]
-<Imagens/swot.jpg, id=186, 642.4pt x 451.6875pt>
+<Imagens/swot.jpg, id=190, 642.4pt x 451.6875pt>
 File: Imagens/swot.jpg Graphic file (type jpg)
  <use Imagens/swot.jpg>
 [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
@@ -738,7 +738,7 @@ Cap\'{\i }tulo 3.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/fases_projeto_banco_dados.jpg, id=202, 1403.2425pt x 1276.77pt>
+<Imagens/fases_projeto_banco_dados.jpg, id=206, 1403.2425pt x 1276.77pt>
 File: Imagens/fases_projeto_banco_dados.jpg Graphic file (type jpg)
 
 <use Imagens/fases_projeto_banco_dados.jpg> [15
@@ -746,7 +746,7 @@ File: Imagens/fases_projeto_banco_dados.jpg Graphic file (type jpg)
 ] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/ModelagemConceitual_v1_0.png, id=207, 797.98125pt x 473.51906pt>
+<Imagens/ModelagemConceitual_v1_0.png, id=211, 797.98125pt x 473.51906pt>
 File: Imagens/ModelagemConceitual_v1_0.png Graphic file (type png)
 
 <use Imagens/ModelagemConceitual_v1_0.png> [16pdfTeX warning (ext4): destinatio
@@ -764,11 +764,11 @@ licate ignored
                                                   \fi \fi 
 l.326 
        <./Imagens/ModelagemConceitual_v1_0.png>]
-<Imagens/ModelagemConceitual_forum_v1_1.png, id=217, 300.3722pt x 298.86656pt>
+<Imagens/ModelagemConceitual_forum_v1_1.png, id=221, 300.3722pt x 298.86656pt>
 File: Imagens/ModelagemConceitual_forum_v1_1.png Graphic file (type png)
 
 <use Imagens/ModelagemConceitual_forum_v1_1.png>
-<Imagens/ModelagemConceitual_exercicio_v1_1.png, id=218, 478.78876pt x 420.0693
+<Imagens/ModelagemConceitual_exercicio_v1_1.png, id=222, 478.78876pt x 420.0693
 8pt>
 File: Imagens/ModelagemConceitual_exercicio_v1_1.png Graphic file (type png)
  <use Imagens/ModelagemConceitual_exercicio_v1_1.png> [18pdfTeX warning (ext4):
@@ -779,7 +779,7 @@ File: Imagens/ModelagemConceitual_exercicio_v1_1.png Graphic file (type png)
                                                   \fi \fi 
 l.344 
        <./Imagens/ModelagemConceitual_forum_v1_1.png>]
-<Imagens/ModelagemConceitual_forum_v2_0.png, id=224, 572.1375pt x 331.2375pt>
+<Imagens/ModelagemConceitual_forum_v2_0.png, id=228, 572.1375pt x 331.2375pt>
 File: Imagens/ModelagemConceitual_forum_v2_0.png Graphic file (type png)
 
 <use Imagens/ModelagemConceitual_forum_v2_0.png> [19pdfTeX warning (ext4): dest
@@ -790,7 +790,7 @@ icate ignored
                                                   \fi \fi 
 l.367 
        <./Imagens/ModelagemConceitual_exercicio_v1_1.png>]
-<Imagens/ModelagemConceitual_exercicio_v2_0.png, id=231, 550.30594pt x 449.4290
+<Imagens/ModelagemConceitual_exercicio_v2_0.png, id=235, 550.30594pt x 449.4290
 6pt>
 File: Imagens/ModelagemConceitual_exercicio_v2_0.png Graphic file (type png)
  <use Imagens/ModelagemConceitual_exercicio_v2_0.png> [20pdfTeX warning (ext4):
@@ -819,23 +819,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 420--483
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.556 
-      ]
-Overfull \vbox (101.7401pt too high) has occurred while \output is active []
-
-
-[23pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}
-) has been already used, duplicate ignored
+l.557 
+      ] [23pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.556 
+l.620 
       ] [24pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.682 
+l.683 
       ]
 Overfull \vbox (53.11104pt too high) has occurred while \output is active []
 
@@ -845,13 +841,11 @@ Overfull \vbox (53.11104pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.682 
+l.683 
       ] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) (./noaccent.def
-File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 ) [26]
-Overfull \vbox (260.60231pt too high) has occurred while \output is active []
+Overfull \vbox (22.23868pt too high) has occurred while \output is active []
 
 
 [27pdfTeX warning (ext4): destination with the same identifier (name{table.3.5}
@@ -859,14 +853,9 @@ Overfull \vbox (260.60231pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.720 
+l.726 
       ]
-Underfull \hbox (badness 10000) in paragraph at lines 726--747
-[][]
- []
-
-
-Overfull \vbox (272.84697pt too high) has occurred while \output is active []
+Overfull \vbox (53.31566pt too high) has occurred while \output is active []
 
 
 [28pdfTeX warning (ext4): destination with the same identifier (name{table.3.6}
@@ -874,57 +863,59 @@ Overfull \vbox (272.84697pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.749 
-      ]
-Underfull \hbox (badness 10000) in paragraph at lines 755--774
-[][]
- []
-
-[29pdfTeX warning (ext4): destination with the same identifier (name{table.3.7}
-) has been already used, duplicate ignored
+l.756 
+      ] [29pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.3.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.805 
-      ]
-Underfull \hbox (badness 10000) in paragraph at lines 811--830
-[][]
- []
-
-[30pdfTeX warning (ext4): destination with the same identifier (name{table.3.8}
-) has been already used, duplicate ignored
+l.797 
+      ] [30pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.3.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.855 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.3
-.9}) has been already used, duplicate ignored
+l.819 
+      ] [31pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.3.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.855 
+l.840 
+      ] [32pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.3.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.867 
+      ] [33pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.3.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.890 
       ] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 ) (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [31pdfTeX warning (ext4): destination with the same identifier (name{table.3.
-10}) has been already used, duplicate ignored
+) [34pdfTeX warning (ext4): destination with the same identifier (name{table.3.
+12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.898   \item U
-               su\'{a}rio preenche o campo login.] (./noaccent.def
+l.921   \item U
+               su\'{a}rio preenche o campo senha.] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [32]
-(./noaccent.def
+) [35]
+[36] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [33] [34] (./noaccent.def
+) [37] [38] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [35] [36]
+) [39]
 Cap\'{\i }tulo 4.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [37
+) [40
 
 ]
 Cap\'{\i }tulo 5.
@@ -934,7 +925,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 \tf@brf=\write7
 \openout7 = `ProjetoFinal2.brf'.
 
- [38
+ [41
 
 ]
 (./noaccent.def
@@ -943,7 +934,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 
 LaTeX Warning: Empty `thebibliography' environment on input line 4.
 
-) [39
+) [42
 
 ] (./ProjetoFinal2.aux)
 
@@ -951,21 +942,22 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6390 strings out of 495061
- 89304 string characters out of 1182620
- 236785 words of memory out of 3000000
- 9223 multiletter control sequences out of 15000+50000
- 10451 words of font info for 39 fonts, out of 3000000 for 9000
+ 6396 strings out of 495061
+ 89336 string characters out of 1182620
+ 236742 words of memory out of 3000000
+ 9225 multiletter control sequences out of 15000+50000
+ 11096 words of font info for 42 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 48i,12n,45p,684b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,12n,45p,697b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmssi12.pfb>
-Output written on ProjetoFinal2.pdf (39 pages, 1362159 bytes).
+live/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmssi12.pfb>
+Output written on ProjetoFinal2.pdf (42 pages, 1387148 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 150 named destinations out of 1000 (max. 500000)
+ 463 PDF objects out of 1000 (max. 8388607)
+ 154 named destinations out of 1000 (max. 500000)
  174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
