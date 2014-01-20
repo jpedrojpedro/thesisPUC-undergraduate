@@ -30,7 +30,6 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%TODO: Agradecer Vanessa, JMilk, JJ e Daniel
 \agradecimentos{
 Agrade\c{c}o ao apoio incondicional da minha fam\'{i}lia em todos os momentos da minha vida.
 
@@ -1094,7 +1093,21 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 
 \chapter{Plataforma Web}
 
+Este cap\'{i}tulo tem como objetivo descrever a metodologia de desenvolvimento do presente projeto,
+assim como destacar todas as ferramentas utilizadas.
 
+Como o sistema, desde seu in\'{i}cio, possui cunho opensource, foram utilizadas ferramentas do mesmo
+tipo para elabora\c{c}\~{a}o do projeto. Para facilitar a documenta\c{c}\~{a}o, evolu\c{c}\~{a}o da plataforma e
+acompanhamento pelo Prof. S\'{e}rgio Lifschitz, foi criado um \textbf{blog} referente ao projeto final.
+
+Para controle de vers\~{a}o e futura participa\c{c}\~{a}o de outros interessados no projeto, foi utilizado
+o \textbf{git}, atrav\'{e}s da plataforma \textbf{GitHub}. J\'{a} para organiza\c{c}\~{a}o das tarefas, fora
+utilizado o \textbf{Trello}.
+
+A fim de minimizar o tempo de desenvolvimento do sistema, optou--se por um framework para sistemas web.
+O escolhido foi o \textbf{Django}, que tem \textbf{Python} como sua linguagem de programa\c{c}\~{a}o.
+E, por fim, para armazenamento dos dados e aprendizado dos alunos, utilizou--se o SGBD \textbf{Postgres},
+por ser gratuito, opensource e de f\'{a}cil utiliza\c{c}\~{a}o.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Mockups de Telas %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1145,11 +1158,52 @@ Seguem os prot\'{o}tipos das telas:
     \caption{P\'{a}gina com as quest\~{o}es que comp\~{o}e a lista selecionada}
 \end{figure}
 
+\section{Framework Django}
+
+A escolha do framework Django se deu, principalmente, pela sua arquitetura bastante modularizada.
+O c\'{o}digo, consequentemente, fica fortemente coeso e fracamento acoplado. Al\'{e}m disso, trata--se
+de uma ferramenta que veem sendo bastante utilizada pelos desenvolvedores, o que pode facilitar
+a aceita\c{c}\~{a}o da ferramenta pela comunidade de desenvolvedores.
+
+Uma caracter\'{i}stica do framework \'{e} ser baseado na arquitetura Model--View--Template, ao inv\'{e}s
+da tradicional Model--View--Controller. Por\'{e}m, ser\'{a} poss\'{i}vel perceber que trata--se apenas de
+uma escolha no nome, e que, na verdade, ambas as arquiteturas s\~{a}o bastante similares.
+
+Segue abaixo uma figura que demonstra a estrutura do framework e suas devidas explica\c{c}\~{o}es:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/django_structure.png}
+    \caption{Arquitetura do Framework Django}
+\end{figure}
+
+\begin{enumerate}
+    \item \textbf{URL Dispatcher}
+    \begin{itemize}
+	\item Respons\'{a}vel pelo mapeamento entre as requisi\c{c}\~{o}es feitas pelos usu\'{a}rios, baseadas na URL, 
+	      e os m\'{e}todos localizados nas views, que tem por fun\c{c}\~{a}o atender \`{a}s solicita\c{c}\~{o}es.
+    \end{itemize}
+    \item \textbf{View}
+    \begin{itemize}
+	\item 
+    \end{itemize}
+    \item \textbf{Model}
+    \begin{itemize}
+	\item 
+    \end{itemize}
+    \item \textbf{Template}
+    \begin{itemize}
+	\item 
+    \end{itemize}
+\end{enumerate}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Considerações Fiinais %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Considerações Finais %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Considera\c{c}\~{o}es Finais}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

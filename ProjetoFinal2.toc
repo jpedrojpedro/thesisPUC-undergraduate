@@ -6,8 +6,10 @@
 \contentsline {chapter}{\numberline {2}Proposta}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Avalia\c {c}\~{a}o do Sistema perante os Concorrentes -- An\'{a}lise SWOT}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}Requisitos}{13}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Requisitos N\~{a}o Funcionais}{13}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Requisitos Funcionais}{13}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Escopo}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}P\'{u}blico Alvo}{13}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Requisitos N\~{a}o Funcionais}{13}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Requisitos Funcionais}{14}{subsection.2.2.4}
 \contentsline {chapter}{\numberline {3}Projeto}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Modelagem Conceitual}{16}{section.3.1}
 \contentsline {section}{\numberline {3.2}Modelagem L\'{o}gica}{21}{section.3.2}
@@ -19,5 +21,6 @@
 \contentsline {section}{\numberline {3.5}Diagrama de Classes}{39}{section.3.5}
 \contentsline {chapter}{\numberline {4}Plataforma Web}{40}{chapter.4}
 \contentsline {section}{\numberline {4.1}Mockups de Telas}{40}{section.4.1}
-\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{46}{chapter.5}
-\contentsline {chapter}{Refer\^{e}ncias Bibliogr\'{a}ficas}{47}{chapter*.1}
+\contentsline {section}{\numberline {4.2}Framework Django}{46}{section.4.2}
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{49}{chapter.5}
+\contentsline {chapter}{Refer\^{e}ncias Bibliogr\'{a}ficas}{50}{chapter*.1}
