@@ -96,12 +96,13 @@ das dist\^{a}ncias entre educadores e alunos gerou uma gama de poss\'{i}veis ser
 em prol de um melhor ensino.
 
 A partir disso, algumas iniciativas foram desenvolvidas e est\~{a}o inseridas com sucesso no
-mercado. Foram contempladas desde ideias sem fins lucrativos, como \textbf{Edx}, \textbf{Khanacademy} e
-\textbf{Gradiance} (essa \'{u}ltima idealizada pelo Prof. Jeffrey D. Ullman), at\'{e} startups que oferecem
-parte dos cursos gratuitamente e outra parte paga, como o caso da \textbf{Code School}.
+mercado. Foram contempladas desde ideias sem fins lucrativos, como \textbf{Edx} \cite{edx}, 
+\textbf{Khanacademy} \cite{khanacademy} e \textbf{Gradiance} \cite{gradiance} (essa \'{u}ltima idealizada 
+pelo Prof. Jeffrey D. Ullman), at\'{e} startups que oferecem parte dos cursos gratuitamente e outra 
+parte paga, como o caso da \textbf{Code School} \cite{codeschool}.
 
-Essa metodologia de ensino a dist\^{a}ncia recebeu um nome: \textbf{flipped classroom}. Trata-se de
-uma invers\~{a}o nos padr\~{o}es de ensino adotados pelas escolas, no qual a passagem de
+Essa metodologia de ensino a dist\^{a}ncia recebeu um nome: \textbf{flipped classroom} \cite{flippedlearning}.
+Trata-se de uma invers\~{a}o nos padr\~{o}es de ensino adotados pelas escolas, no qual a passagem de
 conhecimento passa a ser online, atrav\'{e}s de v\'{i}deos de curta dura\c{c}\~{a}o, e a sala de aula torna-se
 um ambiente de resolu\c{c}\~{a}o de exerc\'{i}cios.
 
@@ -1085,6 +1086,8 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 % Diagrama de Classes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%TODO: Diagrama de Classes!!!
+
 \section{Diagrama de Classes}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1207,14 +1210,12 @@ Segue abaixo uma figura que demonstra a estrutura do framework e suas devidas ex
 
 \chapter{Considera\c{c}\~{o}es Finais}
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \arial
-\bibliography{Exemplo}
+\bibliography{ProjetoFinal2}
 
 \normalfont
 

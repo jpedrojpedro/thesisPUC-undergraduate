@@ -1,4 +1,23 @@
-\begin{thebibliography}{}  \addcontentsline{toc}{chapter}{Refer\^{e}ncias
+\begin{thebibliography}{1}  \addcontentsline{toc}{chapter}{Refer\^{e}ncias
   Bibliogr\'{a}ficas} \arial\markboth{\bibname}{\bibname}
+
+\bibitem[CodeSchool]{codeschool}
+Dispon\'{i}vel em: \url{http://www.codeschool.com/}; Acessado em 19 de jan. de
+  2014.
+
+\bibitem[Edx]{edx}
+Dispon\'{i}vel em: \url{https://www.edx.org/}; Acessado em 19 de jan. de 2014.
+
+\bibitem[FlippedLearning]{FlippedLearning}
+Dispon\'{i}vel em: \url{http://www.knewton.com/flipped-classroom/}; Acessado em
+  19 de jan. de 2014.
+
+\bibitem[Gradiance]{gradiance}
+Dispon\'{i}vel em: \url{http://www.gradiance.com/}; Acessado em 19 de jan. de
+  2014.
+
+\bibitem[Khanacademy]{khanacademy}
+Dispon\'{i}vel em: \url{https://www.khanacademy.org/}; Acessado em 19 de jan.
+  de 2014.
 
 \end{thebibliography}
