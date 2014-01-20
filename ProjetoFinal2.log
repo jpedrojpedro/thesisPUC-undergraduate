@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  19 JAN 2014 22:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  19 JAN 2014 23:22
 entering extended mode
  %&-line parsing enabled.
 **ProjetoFinal2.tex
@@ -915,9 +915,72 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 Cap\'{\i }tulo 4.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [40
+) (./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+)
+<Imagens/LoginPage.png, id=395, 1027.84pt x 770.88pt>
+File: Imagens/LoginPage.png Graphic file (type png)
 
-]
+<use Imagens/LoginPage.png>
+<Imagens/WelcomePage.png, id=396, 1027.84pt x 770.88pt>
+File: Imagens/WelcomePage.png Graphic file (type png)
+
+<use Imagens/WelcomePage.png> [40
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1110 
+        <./Imagens/LoginPage.png>]
+<Imagens/BoardPage.png, id=404, 1027.84pt x 770.88pt>
+File: Imagens/BoardPage.png Graphic file (type png)
+
+<use Imagens/BoardPage.png> [41pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.4.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1116 
+        <./Imagens/WelcomePage.png>]
+<Imagens/ForumPage.png, id=411, 1027.84pt x 770.88pt>
+File: Imagens/ForumPage.png Graphic file (type png)
+
+<use Imagens/ForumPage.png> [42pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.4.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1122 
+        <./Imagens/BoardPage.png>]
+<Imagens/ExercisePage.png, id=418, 1027.84pt x 770.88pt>
+File: Imagens/ExercisePage.png Graphic file (type png)
+
+<use Imagens/ExercisePage.png> [43pdfTeX warning (ext4): destination with the s
+ame identifier (name{figure.4.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1128 
+        <./Imagens/ForumPage.png>]
+<Imagens/QuestionPage.png, id=426, 1027.84pt x 770.88pt>
+File: Imagens/QuestionPage.png Graphic file (type png)
+
+<use Imagens/QuestionPage.png> [44pdfTeX warning (ext4): destination with the s
+ame identifier (name{figure.4.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1134 
+        <./Imagens/ExercisePage.png>] [45pdfTeX warning (ext4): destination wit
+h the same identifier (name{figure.4.6}) has been already used, duplicate ignor
+ed
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1139 \chapter
+               {Considera\c{c}\~{o}es Finais} <./Imagens/QuestionPage.png>]
 Cap\'{\i }tulo 5.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
@@ -925,7 +988,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 \tf@brf=\write7
 \openout7 = `ProjetoFinal2.brf'.
 
- [41
+ [46
 
 ]
 (./noaccent.def
@@ -934,18 +997,21 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 
 LaTeX Warning: Empty `thebibliography' environment on input line 4.
 
-) [42
+) [47
 
 ] (./ProjetoFinal2.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 6396 strings out of 495061
- 89336 string characters out of 1182620
+ 6441 strings out of 495061
+ 90226 string characters out of 1182620
  236742 words of memory out of 3000000
- 9225 multiletter control sequences out of 15000+50000
+ 9250 multiletter control sequences out of 15000+50000
  11096 words of font info for 42 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  48i,12n,45p,697b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -955,9 +1021,9 @@ live/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/
 amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
 cm/cmssi12.pfb>
-Output written on ProjetoFinal2.pdf (42 pages, 1387148 bytes).
+Output written on ProjetoFinal2.pdf (47 pages, 1684171 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 154 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 505 PDF objects out of 1000 (max. 8388607)
+ 166 named destinations out of 1000 (max. 500000)
+ 204 words of extra memory for PDF output out of 10000 (max. 10000000)
 

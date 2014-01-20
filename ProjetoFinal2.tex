@@ -92,7 +92,7 @@ became more dynamic and less expository.
 \chapter{Introdu\c{c}\~{a}o}
 
 Atrav\'{e}s do advento e populariza\c{c}\~{a}o da internet, pessoas envolvidas com educa\c{c}\~{a}o
-encontraram uma poss\'{i}vel solu\c{c}\~{a}o para d\'{e}ficit de ensino global. A diminui\c{c}\~{a}o
+encontraram uma poss\'{i}vel solu\c{c}\~{a}o para o d\'{e}ficit de ensino global. A diminui\c{c}\~{a}o
 das dist\^{a}ncias entre educadores e alunos gerou uma gama de poss\'{i}veis servi\c{c}os a serem prestados
 em prol de um melhor ensino.
 
@@ -109,7 +109,7 @@ um ambiente de resolu\c{c}\~{a}o de exerc\'{i}cios.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{Imagens/flipped_classroom.png}
-    \caption{Inversão nos padrões de ensino sugerida pelo modelo flipped classroom}
+    \caption{Invers\~{a}o nos padr\~{o}es de ensino sugerida pelo modelo flipped classroom}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -205,6 +205,17 @@ Segue a seguir a an\'{a}lise do projeto perante os concorrentes:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Requisitos}
+
+\subsection{Escopo}
+
+A lista a seguir se refere \`{a} elicita\c{c}\~{a}o de requisitos referentes a uma plataforma de ensino online.
+A mesma conter\'{a} tanto \textbf{requisitos funcionais} quanto \textbf{requisitos n\~{a}o funcionais}.
+
+\subsection{P\'{u}blico Alvo}
+
+Em um primeiro momento, a plataforma em quest\~{a}o se destina a estudantes da Pontif\'{i}cia Universidade
+Cat\'{o}lica do Rio de Janeiro que estejam cursando a disciplina de Banco de Dados. Em um futuro pr\'{o}ximo, 
+deseja--se disponibilizar o projeto a diversos cursos.
 
 \subsection{Requisitos N\~{a}o Funcionais}
 
@@ -1082,6 +1093,67 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Plataforma Web}
+
+Este cap\'{i}tulo tem como objetivo descrever a metodologia de desenvolvimento do presente projeto,
+assim como destacar todas as ferramentas utilizadas.
+
+Como o sistema, desde seu in\'{i}cio, possui cunho opensource, foram utilizadas ferramentas do mesmo
+tipo para elabora\c{c}\~{a}o do mesmo. Para facilitar a documenta\c{c}\~{a}o e evolu\c{c}\~{a}o do projeto,
+al\'{e}m do contato com o Prof. S\'{e}rgio Lifschitz, foi criado um \textbf{blog} referente ao projeto final.
+
+Para controle de vers\~{a}o e futura participa\c{c}\~{a}o de outros interessados no projeto foi utilizado
+o \textbf{git}, atrav\'{e}s da plataforma \textbf{GitHub}.
+
+%TODO: Mencionar Trello, Django e Postgres.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Mockups de Telas %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Mockups de Telas}
+
+Para facilitar a etapa de desenvolvimento da plataforma, foram elaborados mocks das telas.
+Dessa forma, p\^{o}de-se definir, juntamente com os \textbf{Casos de Uso} (apresentados anteriormente), como
+se daria a intera\c{c}\~{a}o dos usu\'{a}rios com o sistema e o fluxo de informa\c{c}\~{a}o no
+mesmo.
+
+Seguem os prot\'{o}tipos das telas:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/LoginPage.png}
+    \caption{P\'{a}gina para valida\c{c}\~{a}o do usu\'{a}rio}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/WelcomePage.png}
+    \caption{P\'{a}gina inicial do sistema}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/BoardPage.png}
+    \caption{P\'{a}gina que mostra o desempenho dos alunos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/ForumPage.png}
+    \caption{P\'{a}gina de busca e inser\c{c}\~{a}o de d\'{u}vidas no f\'{o}rum}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/ExercisePage.png}
+    \caption{P\'{a}gina que lista os exerc\'{i}cios cadastrados}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/QuestionPage.png}
+    \caption{P\'{a}gina com as quest\~{o}es que comp\~{o}e a lista selecionada}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Considerações Fiinais %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

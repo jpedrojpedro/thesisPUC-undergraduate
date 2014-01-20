@@ -92,7 +92,7 @@ became more dynamic and less expository.
 \chapter{Introdu\c{c}\~{a}o}
 
 Atrav\'{e}s do advento e populariza\c{c}\~{a}o da internet, pessoas envolvidas com educa\c{c}\~{a}o
-encontraram uma poss\'{i}vel solu\c{c}\~{a}o para d\'{e}ficit de ensino global. A diminui\c{c}\~{a}o
+encontraram uma poss\'{i}vel solu\c{c}\~{a}o para o d\'{e}ficit de ensino global. A diminui\c{c}\~{a}o
 das dist\^{a}ncias entre educadores e alunos gerou uma gama de poss\'{i}veis servi\c{c}os a serem prestados
 em prol de um melhor ensino.
 
@@ -109,7 +109,7 @@ um ambiente de resolu\c{c}\~{a}o de exerc\'{i}cios.
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{Imagens/flipped_classroom.png}
-    \caption{Inversão nos padrões de ensino sugerida pelo modelo flipped classroom}
+    \caption{Invers\~{a}o nos padr\~{o}es de ensino sugerida pelo modelo flipped classroom}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -205,6 +205,17 @@ Segue a seguir a an\'{a}lise do projeto perante os concorrentes:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Requisitos}
+
+\subsection{Escopo}
+
+A lista a seguir se refere \`{a} elicita\c{c}\~{a}o de requisitos referentes a uma plataforma de ensino online.
+A mesma conter\'{a} tanto \textbf{requisitos funcionais} quanto \textbf{requisitos n\~{a}o funcionais}.
+
+\subsection{P\'{u}blico Alvo}
+
+Em um primeiro momento, a plataforma em quest\~{a}o se destina a estudantes da Pontif\'{i}cia Universidade
+Cat\'{o}lica do Rio de Janeiro que estejam cursando a disciplina de Banco de Dados. Em um futuro pr\'{o}ximo, 
+deseja--se disponibilizar o projeto a diversos cursos.
 
 \subsection{Requisitos N\~{a}o Funcionais}
 
@@ -847,19 +858,19 @@ estrangeiras.
     \begin{tabular}{|l|}
     \hline
     Chaves Estrangeiras :: Tabela : lista\_exercicio                                                                                                                                                                                                                                                                                                      \\ \hline
-    ALTER TABLE lista\_exercicio ADD CONSTRAINT fk\_lista\_exercicio\_assunto FOREIGN KEY (id\_assunto) REFERENCES assunto (id);                                                                                                                                                                                                                          \\ \hline
+    ALTER TABLE lista\_exercicio ADD CONSTRAINT fk\_lista\_exercicio\_assunto \\FOREIGN KEY (id\_assunto) REFERENCES assunto (id);                                                                                                                                                                                                                          \\ \hline
     Chaves Estrangeiras :: Tabela : questao                                                                                                                                                                                                                                                                                                               \\ \hline
-    ALTER TABLE questao ADD CONSTRAINT fk\_questao\_lista\_exercicio FOREIGN KEY (id\_exercicio) REFERENCES lista\_exercicio (id);\\ALTER TABLE questao ADD CONSTRAINT fk\_questao\_usuario FOREIGN KEY (login\_usuario) REFERENCES usuario (login);\\ALTER TABLE questao ADD CONSTRAINT fk\_questao\_esquema FOREIGN KEY (nome\_esquema) REFERENCES esquema (nome); \\ \hline
+    ALTER TABLE questao ADD CONSTRAINT fk\_questao\_lista\_exercicio \\FOREIGN KEY (id\_exercicio) REFERENCES lista\_exercicio (id);\\ALTER TABLE questao ADD CONSTRAINT fk\_questao\_usuario \\FOREIGN KEY (login\_usuario) REFERENCES usuario (login);\\ALTER TABLE questao ADD CONSTRAINT fk\_questao\_esquema \\FOREIGN KEY (nome\_esquema) REFERENCES esquema (nome); \\ \hline
     Chaves Estrangeiras :: Tabela : resposta                                                                                                                                                                                                                                                                                                              \\ \hline
-    ALTER TABLE resposta ADD CONSTRAINT fk\_resposta\_questao FOREIGN KEY (id\_questao) REFERENCES questao (id);\\ALTER TABLE resposta ADD CONSTRAINT fk\_resposta\_usuario FOREIGN KEY (login\_usuario) REFERENCES usuario (login);                                                                                                                      \\ \hline
+    ALTER TABLE resposta ADD CONSTRAINT fk\_resposta\_questao \\FOREIGN KEY (id\_questao) REFERENCES questao (id);\\ALTER TABLE resposta ADD CONSTRAINT fk\_resposta\_usuario \\FOREIGN KEY (login\_usuario) REFERENCES usuario (login);                                                                                                                      \\ \hline
     Chaves Estrangeiras :: Tabela : instancia                                                                                                                                                                                                                                                                                                             \\ \hline
-    ALTER TABLE instancia ADD CONSTRAINT fk\_instancia\_esquema FOREIGN KEY (nome\_esquema) REFERENCES esquema (nome);\\ALTER TABLE instancia ADD CONSTRAINT fk\_instancia\_usuario FOREIGN KEY (login\_usuario) REFERENCES usuario (login);                                                                                                              \\ \hline
+    ALTER TABLE instancia ADD CONSTRAINT fk\_instancia\_esquema \\FOREIGN KEY (nome\_esquema) REFERENCES esquema (nome);\\ALTER TABLE instancia ADD CONSTRAINT fk\_instancia\_usuario \\FOREIGN KEY (login\_usuario) REFERENCES usuario (login);                                                                                                              \\ \hline
     Chaves Estrangeiras :: Tabela : modificacao                                                                                                                                                                                                                                                                                                           \\ \hline
-    ALTER TABLE modificacao ADD CONSTRAINT fk\_modificacao\_instancia FOREIGN KEY (nome\_instancia) REFERENCES instancia (nome);\\ALTER TABLE modificacao ADD CONSTRAINT fk\_modificacao\_usuario FOREIGN KEY (login\_usuario) REFERENCES usuario (login);                                                                                                \\ \hline
+    ALTER TABLE modificacao ADD CONSTRAINT fk\_modificacao\_instancia \\FOREIGN KEY (nome\_instancia) REFERENCES instancia (nome);\\ALTER TABLE modificacao ADD CONSTRAINT fk\_modificacao\_usuario \\FOREIGN KEY (login\_usuario) REFERENCES usuario (login);                                                                                                \\ \hline
     Chaves Estrangeiras :: Tabela : visualizacao                                                                                                                                                                                                                                                                                                          \\ \hline
-    ALTER TABLE visualizacao ADD CONSTRAINT fk\_visualizacao\_instancia FOREIGN KEY (nome\_instancia) REFERENCES instancia (nome);\\ALTER TABLE visualizacao ADD CONSTRAINT fk\_visualizacao\_usuario FOREIGN KEY (login\_usuario) REFERENCES usuario (login);                                                                                            \\ \hline
+    ALTER TABLE visualizacao ADD CONSTRAINT fk\_visualizacao\_instancia \\FOREIGN KEY (nome\_instancia) REFERENCES instancia (nome);\\ALTER TABLE visualizacao ADD CONSTRAINT fk\_visualizacao\_usuario \\FOREIGN KEY (login\_usuario) REFERENCES usuario (login);                                                                                            \\ \hline
     Chaves Estrangeiras :: Tabela : assunto\_lista\_exercicio                                                                                                                                                                                                                                                                                             \\ \hline
-    ALTER TABLE assunto\_lista\_exercicio ADD CONSTRAINT fk\_assunto\_lista\_exercicio\_assunto FOREIGN KEY (id\_assunto) REFERENCES assunto (id);\\ALTER TABLE assunto\_lista\_exercicio ADD CONSTRAINT fk\_assunto\_lista\_exercicio\_exercicio FOREIGN KEY (id\_exercicio) REFERENCES lista\_exercicio (id);                                           \\ \hline
+    ALTER TABLE assunto\_lista\_exercicio ADD CONSTRAINT fk\_assunto\_lista\_exercicio\_assunto \\FOREIGN KEY (id\_assunto) REFERENCES assunto (id);\\ALTER TABLE assunto\_lista\_exercicio ADD CONSTRAINT fk\_assunto\_lista\_exercicio\_exercicio \\FOREIGN KEY (id\_exercicio) REFERENCES lista\_exercicio (id);                                           \\ \hline
     \end{tabular}
     }
     \caption {Adi\c{c}\~{a}o das Restri\c{c}\~{o}es (parte 1)}
@@ -874,15 +885,15 @@ estrangeiras.
     \begin{tabular}{|l|}
     \hline
     Chaves Estrangeiras :: Tabela : duvida                                                                                                                                                                                                                                                                                    \\ \hline
-    ALTER TABLE duvida ADD CONSTRAINT fk\_duvida\_assunto FOREIGN KEY (id\_assunto) REFERENCES assunto (id);\\ALTER TABLE duvida ADD CONSTRAINT fk\_duvida\_usuario FOREIGN KEY (login\_usuario) REFERENCES usuario (login);\\ALTER TABLE duvida ADD CONSTRAINT fk\_duvida\_questao FOREIGN KEY (id\_questao) REFERENCES questao (id); \\ \hline
+    ALTER TABLE duvida ADD CONSTRAINT fk\_duvida\_assunto \\FOREIGN KEY (id\_assunto) REFERENCES assunto (id);\\ALTER TABLE duvida ADD CONSTRAINT fk\_duvida\_usuario \\FOREIGN KEY (login\_usuario) REFERENCES usuario (login);\\ALTER TABLE duvida ADD CONSTRAINT fk\_duvida\_questao \\FOREIGN KEY (id\_questao) REFERENCES questao (id); \\ \hline
     Chaves Estrangeiras :: Tabela : comentario                                                                                                                                                                                                                                                                                \\ \hline
-    ALTER TABLE comentario ADD CONSTRAINT fk\_comentario\_duvida FOREIGN KEY (id\_duvida) REFERENCES duvida (id);\\ALTER TABLE comentario ADD CONSTRAINT fk\_comentario\_usuario FOREIGN KEY (login\_usuario) REFERENCES usuario (login);                                                                                     \\ \hline
+    ALTER TABLE comentario ADD CONSTRAINT fk\_comentario\_duvida \\FOREIGN KEY (id\_duvida) REFERENCES duvida (id);\\ALTER TABLE comentario ADD CONSTRAINT fk\_comentario\_usuario \\FOREIGN KEY (login\_usuario) REFERENCES usuario (login);                                                                                     \\ \hline
     Chaves Estrangeiras :: Tabela : usuario\_modera\_duvida                                                                                                                                                                                                                                                                   \\ \hline
-    ALTER TABLE usuario\_modera\_duvida ADD CONSTRAINT fk\_usuario\_modera\_duvida\_usuario FOREIGN KEY (login\_moderador) REFERENCES usuario (login);\\ALTER TABLE usuario\_modera\_duvida ADD CONSTRAINT fk\_usuario\_modera\_duvida\_duvida FOREIGN KEY (id\_duvida) REFERENCES duvida (id);                               \\ \hline
+    ALTER TABLE usuario\_modera\_duvida ADD CONSTRAINT fk\_usuario\_modera\_duvida\_usuario \\FOREIGN KEY (login\_moderador) REFERENCES usuario (login);\\ALTER TABLE usuario\_modera\_duvida ADD CONSTRAINT fk\_usuario\_modera\_duvida\_duvida \\FOREIGN KEY (id\_duvida) REFERENCES duvida (id);                               \\ \hline
     Chaves Estrangeiras :: Tabela : usuario\_modera\_comentario                                                                                                                                                                                                                                                               \\ \hline
-    ALTER TABLE usuario\_modera\_comentario ADD CONSTRAINT fk\_usuario\_modera\_comentario\_usuario FOREIGN KEY (login\_moderador) REFERENCES usuario (login);\\ALTER TABLE usuario\_modera\_comentario ADD CONSTRAINT fk\_usuario\_modera\_comentario\_comentario FOREIGN KEY (id\_comentario) REFERENCES comentario (id);   \\ \hline
+    ALTER TABLE usuario\_modera\_comentario ADD CONSTRAINT fk\_usuario\_modera\_comentario\_usuario \\FOREIGN KEY (login\_moderador) REFERENCES usuario (login);\\ALTER TABLE usuario\_modera\_comentario ADD CONSTRAINT fk\_usuario\_modera\_comentario\_comentario \\FOREIGN KEY (id\_comentario) REFERENCES comentario (id);   \\ \hline
     Chaves Estrangeiras :: Tabela : assunto\_duvida                                                                                                                                                                                                                                                                           \\ \hline
-    ALTER TABLE assunto\_duvida ADD CONSTRAINT fk\_assunto\_duvida\_duvida FOREIGN KEY (id\_duvida) REFERENCES duvida (id);\\ALTER TABLE assunto\_duvida ADD CONSTRAINT fk\_assunto\_duvida\_assunto FOREIGN KEY (id\_assunto) REFERENCES assunto (id);                                                                       \\ \hline
+    ALTER TABLE assunto\_duvida ADD CONSTRAINT fk\_assunto\_duvida\_duvida \\FOREIGN KEY (id\_duvida) REFERENCES duvida (id);\\ALTER TABLE assunto\_duvida ADD CONSTRAINT fk\_assunto\_duvida\_assunto \\FOREIGN KEY (id\_assunto) REFERENCES assunto (id);                                                                       \\ \hline
     \end{tabular}
     }
     \caption {Adi\c{c}\~{a}o das Restri\c{c}\~{o}es (parte 2)}
@@ -1082,6 +1093,65 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Plataforma Web}
+
+Este cap\'{i}tulo tem como objetivo descrever a metodologia de desenvolvimento do presente projeto,
+assim como destacar todas as ferramentas utilizadas.
+
+Como o sistema, desde seu in\'{i}cio, possui cunho opensource, foram utilizadas ferramentas do mesmo
+tipo para elabora\c{c}\~{a}o do mesmo. Para facilitar a documenta\c{c}\~{a}o e evolu\c{c}\~{a}o do projeto,
+al\'{e}m do contato com o Prof. S\'{e}rgio Lifschitz, foi criado um \textbf{blog} referente ao projeto final.
+
+Para controle de vers\~{a}o e futura participa\c{c}\~{a}o de outros interessados no projeto foi utilizado
+o \textbf{git}, atrav\'{e}s da plataforma \textbf{GitHub}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Mockups de Telas %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Mockups de Telas}
+
+Para facilitar a etapa de desenvolvimento da plataforma, foram elaborados mocks das telas.
+Dessa forma, p\^{o}de-se definir, juntamente com os \textbf{Casos de Uso} (apresentados anteriormente), como
+se daria a intera\c{c}\~{a}o dos usu\'{a}rios com o sistema e o fluxo de informa\c{c}\~{a}o no
+mesmo.
+
+Seguem os prot\'{o}tipos das telas:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/LoginPage.png}
+    \caption{P\'{a}gina para valida\c{c}\~{a}o do usu\'{a}rio}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/WelcomePage.png}
+    \caption{P\'{a}gina inicial do sistema}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/BoardPage.png}
+    \caption{P\'{a}gina que mostra o desempenho dos alunos}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/ForumPage.png}
+    \caption{P\'{a}gina de busca e inser\c{c}\~{a}o de d\'{u}vidas no f\'{o}rum}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/ExercisePage.png}
+    \caption{P\'{a}gina que lista os exerc\'{i}cios cadastrados}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/QuestionPage.png}
+    \caption{P\'{a}gina com as quest\~{o}es que comp\~{o}e a lista selecionada}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Considerações Fiinais %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
