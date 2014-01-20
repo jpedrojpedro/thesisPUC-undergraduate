@@ -13,12 +13,15 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Segunda vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada nos exerc\'{i}cios}}{19}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Terceira vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada no f\'{o}rum}}{20}{figure.3.5}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Terceira vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada nos exerc\'{i}cios}}{20}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de Classes do pacote Templates}}{40}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagrama de Classes do pacote Views}}{40}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama de Classes do pacote Models}}{42}{figure.3.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces P\'{a}gina para valida\c {c}\~{a}o do usu\'{a}rio}}{41}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces P\'{a}gina inicial do sistema}}{42}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces P\'{a}gina que mostra o desempenho dos alunos}}{43}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces P\'{a}gina de busca e inser\c {c}\~{a}o de d\'{u}vidas no f\'{o}rum}}{44}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces P\'{a}gina que lista os exerc\'{i}cios cadastrados}}{45}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces P\'{a}gina com as quest\~{o}es que comp\~{o}e a lista selecionada}}{46}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Arquitetura do Framework Django}}{47}{figure.4.7}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces P\'{a}gina para valida\c {c}\~{a}o do usu\'{a}rio}}{44}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces P\'{a}gina inicial do sistema}}{45}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces P\'{a}gina que mostra o desempenho dos alunos}}{46}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces P\'{a}gina de busca e inser\c {c}\~{a}o de d\'{u}vidas no f\'{o}rum}}{47}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces P\'{a}gina que lista os exerc\'{i}cios cadastrados}}{48}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces P\'{a}gina com as quest\~{o}es que comp\~{o}e a lista selecionada}}{49}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Arquitetura do Framework Django}}{50}{figure.4.7}
 \addvspace {10\p@ }

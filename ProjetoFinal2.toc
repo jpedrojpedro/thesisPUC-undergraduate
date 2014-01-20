@@ -19,8 +19,8 @@
 \contentsline {subsection}{\numberline {3.4.2}Cadastro de Nova D\'{u}vida no F\'{o}rum}{36}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Resolu\c {c}\~{a}o das Listas de Exerc\'{i}cios}{37}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Diagrama de Classes}{39}{section.3.5}
-\contentsline {chapter}{\numberline {4}Plataforma Web}{40}{chapter.4}
-\contentsline {section}{\numberline {4.1}Mockups de Telas}{40}{section.4.1}
-\contentsline {section}{\numberline {4.2}Framework Django}{46}{section.4.2}
-\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{49}{chapter.5}
-\contentsline {chapter}{Refer\^{e}ncias Bibliogr\'{a}ficas}{50}{chapter*.1}
+\contentsline {chapter}{\numberline {4}Plataforma Web}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Mockups de Telas}{43}{section.4.1}
+\contentsline {section}{\numberline {4.2}Framework Django}{49}{section.4.2}
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{52}{chapter.5}
+\contentsline {chapter}{Refer\^{e}ncias Bibliogr\'{a}ficas}{53}{chapter*.1}

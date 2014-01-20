@@ -1088,9 +1088,43 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 % Diagrama de Classes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%TODO: Diagrama de Classes!!!
-
 \section{Diagrama de Classes}
+
+Para uma melhor visualiza\c{c}\~{a}o e entendimento do Diagrama de Classes, o mesmo foi
+dividido em tr\^{e}s modelos. Cada um deles refere--se as classes contidas nos pacotes do
+projeto. Os pacotes s\~{a}o: \textbf{Templates}, \textbf{Views} e \textbf{Models}.
+
+No pacote \textbf{Models}, est\~{a}o contidos os arquivos a serem renderizados no browser.
+Perceba que foi realizado um template base para os demais templates. A exce\c{c}\~{a}o se d\'{a}
+na tela de Login.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/DiagramaDeClasseTemplates.png}
+    \caption{Diagrama de Classes do pacote Templates}
+\end{figure}
+
+No pacote \textbf{Views}, est\~{a}o contidos os arquivos respons\'{a}veis por tratar as
+requisi\c{c}\~{o}es realizadas pelos usu\'{a}rios do sistema.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/DiagramaDeClasseViews.png}
+    \caption{Diagrama de Classes do pacote Views}
+\end{figure}
+
+No pacote \textbf{Models}, est\~{a}o contidos os arquivos que servem de mapeamento objeto
+relacional. Ou seja, uma representa\c{c}\~{a}o dos elementos do banco de dados.
+
+Diferentemente das modelagens anteriores, a ilustra\c{c}\~{a}o contempla uma solu\c{c}\~{a}o
+unificada entre \textbf{F\'{o}rum} e \textbf{Exerc\'{i}cios}. A figura segue na p\'{a}gina
+seguinte, na horizontal, para facilitar o entendimento.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/DiagramaDeClasseModels.png}
+    \caption{Diagrama de Classes do pacote Models}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Plataforma Web %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1211,6 +1245,8 @@ Segue abaixo uma figura que demonstra a estrutura do framework e suas devidas ex
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Considera\c{c}\~{o}es Finais}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
