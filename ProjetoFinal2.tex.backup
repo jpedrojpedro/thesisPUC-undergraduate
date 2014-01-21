@@ -1116,8 +1116,11 @@ requisi\c{c}\~{o}es realizadas pelos usu\'{a}rios do sistema.
 No pacote \textbf{Models}, est\~{a}o contidos os arquivos que servem de mapeamento objeto
 relacional. Ou seja, uma representa\c{c}\~{a}o dos elementos do banco de dados.
 
+Diferentemente das modelagens anteriores, a ilustra\c{c}\~{a}o contempla uma solu\c{c}\~{a}o
+unificada entre \textbf{F\'{o}rum} e \textbf{Exerc\'{i}cios}. A figura segue na p\'{a}gina
+seguinte, na horizontal, para facilitar o entendimento.
+
 \begin{figure}[H]
-    \tiny
     \centering
     \includegraphics[width=\linewidth]{Imagens/DiagramaDeClasseModels.png}
     \caption{Diagrama de Classes do pacote Models}
@@ -1238,10 +1241,42 @@ Segue abaixo uma figura que demonstra a estrutura do framework e suas devidas ex
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Considerações Finais %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Considerações Finais %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Considera\c{c}\~{o}es Finais}
+
+Esse trabalho teve como objetivo criar uma ferramenta online com vi\'{e}s acad\^{e}mico
+e opensource, focado, inicialmente, em facilitar o ensino do conte\'{u}do da disciplina
+Banco de Dados. Todas as se\c{c}\~{o}es anteriores mostraram as etapas de desenvolvimento
+da plataforma, incluindo um estudo de outros softwares similares.
+
+Atrav\'{e}s desse levantamento de dados, p\^{o}de--se perceber que a utiliza\c{c}\~{a}o 
+desse aprendizado \`{a}s avessas \cite{FlippedLearning} nada mais \'{e} que uma tentativa
+de aproximar os estudantes dos temas abordados em sala. Por\^{e}m, fazendo essa tentativa
+de aproxima\c{c}\~{a}o via tecnologia web e mobile.
+
+Assim sendo, teremos uma real valida\c{c}\~{a}o do projeto elaborado com a utiliza\c{c}\~{a}o
+do mesmo pelos alunos nos pr\'{o}ximos per\'{i}odos seguintes. Poss\'{i}veis ajustes haver\'{a}
+de serem feitos, assim como a implementa\c{c}\~{a}o de algumas funcionalidades que foram propostas,
+mas n\~{a}o contempladas na presente vers\~{a}o.
+
+Segue a lista dos requisitos que n\~{a}o foram contemplados:
+
+\begin{itemize}
+  \item [R10] Monitoramento da evolu\c{c}\~{a}o dos alunos.
+  \begin{itemize}
+    \item Ser\'{a} uma tela importante quando o sistema estiver em pleno funcionamento.
+	  O professor da disciplina ter\'{a} possibilidade de ver um relat\'{o}rio de
+	  evolu\c{c}\~{a}o da turma, em uma vis\~{a}o geral, e um relat\'{o}rio filtrando
+	  por alunos.
+  \end{itemize}
+  \item [R11] Permiss\~{a}o para cancelar uma thread inadequada no f\'{o}rum.
+  \begin{itemize}
+    \item Essa funcionalidade ser\'{a} imprescind\'{i}vel
+  \end{itemize}
+
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bibliografia %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
