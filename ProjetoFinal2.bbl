@@ -5,7 +5,7 @@
 Dispon\'{i}vel em: \url{http://dbflippedlearning.blogspot.com.br/}; Acessado em
   19 de jan. de 2014.
 
-\bibitem[CodeSchool]{codeschool}
+\bibitem[CodeSchool]{CodeSchool}
 Dispon\'{i}vel em: \url{http://www.codeschool.com/}; Acessado em 19 de jan. de
   2014.
 
@@ -13,7 +13,7 @@ Dispon\'{i}vel em: \url{http://www.codeschool.com/}; Acessado em 19 de jan. de
 Dispon\'{i}vel em: \url{https://www.djangoproject.com/}; Acessado em 19 de jan.
   de 2014.
 
-\bibitem[Edx]{edx}
+\bibitem[Edx]{Edx}
 Dispon\'{i}vel em: \url{https://www.edx.org/}; Acessado em 19 de jan. de 2014.
 
 \bibitem[ElmasriNavathe05]{ElmasriNavathe05}
@@ -31,7 +31,7 @@ Dispon\'{i}vel em: \url{https://www.edx.org/}; Acessado em 19 de jan. de 2014.
 Dispon\'{i}vel em: \url{http://www.knewton.com/flipped-classroom/}; Acessado em
   19 de jan. de 2014.
 
-\bibitem[Gradiance]{gradiance}
+\bibitem[Gradiance]{Gradiance}
 Dispon\'{i}vel em: \url{http://www.gradiance.com/}; Acessado em 19 de jan. de
   2014.
 
@@ -40,7 +40,7 @@ Dispon\'{i}vel em: \url{http://www.gradiance.com/}; Acessado em 19 de jan. de
 \newblock {\bf Projeto de Banco de Dados, 6a edi\c{c}\~{a}o}.
 \newblock Bookman, 2009.
 
-\bibitem[Khanacademy]{khanacademy}
+\bibitem[Khanacademy]{Khanacademy}
 Dispon\'{i}vel em: \url{https://www.khanacademy.org/}; Acessado em 19 de jan.
   de 2014.
 
@@ -58,5 +58,13 @@ Dispon\'{i}vel em: \url{https://www.khanacademy.org/}; Acessado em 19 de jan.
 \bibitem[Postgres]{Postgres}
 Dispon\'{i}vel em: \url{http://www.postgresql.org/docs/9.1/static/}; Acessado
   em 19 de jan. de 2014.
+
+\bibitem[SalmanKhan]{SalmanKhan}
+Dispon\'{i}vel em: \url{http://pt.wikipedia.org/wiki/Salman_Khan}; Acessado em
+  19 de jan. de 2014.
+
+\bibitem[Ullman]{Ullman}
+Dispon\'{i}vel em: \url{http://infolab.stanford.edu/~ullman/}; Acessado em 19
+  de jan. de 2014.
 
 \end{thebibliography}

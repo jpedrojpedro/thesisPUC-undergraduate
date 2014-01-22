@@ -3,25 +3,30 @@
 \select@language {british}
 \select@language {brazil}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Invers\~{a}o nos padr\~{o}es de ensino sugerida pelo modelo flipped classroom}}{10}{figure.1.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Invers\~{a}o nos padr\~{o}es de ensino sugerida pelo modelo flipped classroom; Retirada do infogr\'{a}fico contido em \cite {FlippedLearning}}}{10}{figure.1.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o que demonstra todos os crit\IeC {\'e}rios utilizados na An\IeC {\'a}lise SWOT}}{12}{figure.2.1}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o que demonstra todos os crit\IeC {\'e}rios utilizados na An\IeC {\'a}lise SWOT}}{14}{figure.2.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Fases do projeto e da implementa\IeC {\c c}\IeC {\~a}o de banco de dados sugerida no livro \textbf {'Sistemas de Banco de Dados', 4a edi\IeC {\c c}\IeC {\~a}o, Elsmari e Navathe}}}{16}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Primeira vers\IeC {\~a}o da Modelagem Conceitual}}{17}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Segunda vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada no f\'{o}rum}}{18}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Segunda vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada nos exerc\'{i}cios}}{19}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Terceira vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada no f\'{o}rum}}{20}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Terceira vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada nos exerc\'{i}cios}}{20}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de Classes do pacote Templates}}{40}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagrama de Classes do pacote Views}}{40}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama de Classes do pacote Models}}{42}{figure.3.9}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Fases do projeto e da implementa\IeC {\c c}\IeC {\~a}o de banco de dados sugerida no livro \textbf {'Sistemas de Banco de Dados', 4a edi\IeC {\c c}\IeC {\~a}o, Elsmari e Navathe}}}{18}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Primeira vers\IeC {\~a}o da Modelagem Conceitual}}{19}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Segunda vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada no f\'{o}rum}}{20}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Segunda vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada nos exerc\'{i}cios}}{21}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Terceira vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada no f\'{o}rum}}{22}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Terceira vers\~{a}o da Modelagem Conceitual; solu\c {c}\~{a}o focada nos exerc\'{i}cios}}{22}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de Classes do pacote Templates}}{42}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagrama de Classes do pacote Views}}{42}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagrama de Classes do pacote Models}}{44}{figure.3.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces P\'{a}gina para valida\c {c}\~{a}o do usu\'{a}rio}}{44}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces P\'{a}gina inicial do sistema}}{45}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces P\'{a}gina que mostra o desempenho dos alunos}}{46}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces P\'{a}gina de busca e inser\c {c}\~{a}o de d\'{u}vidas no f\'{o}rum}}{47}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces P\'{a}gina que lista os exerc\'{i}cios cadastrados}}{48}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces P\'{a}gina com as quest\~{o}es que comp\~{o}e a lista selecionada}}{49}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Arquitetura do Framework Django}}{50}{figure.4.7}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces P\'{a}gina para valida\c {c}\~{a}o do usu\'{a}rio}}{46}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces P\'{a}gina inicial do sistema}}{47}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces P\'{a}gina que mostra o desempenho dos alunos}}{48}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces P\'{a}gina de busca e inser\c {c}\~{a}o de d\'{u}vidas no f\'{o}rum}}{49}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces P\'{a}gina que lista os exerc\'{i}cios cadastrados}}{50}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces P\'{a}gina com as quest\~{o}es que comp\~{o}e a lista selecionada}}{51}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Arquitetura do Framework Django}}{52}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces P\'{a}gina para valida\c {c}\~{a}o do usu\'{a}rio}}{53}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces P\'{a}gina inicial do sistema}}{54}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces P\'{a}gina de busca e inser\c {c}\~{a}o de d\'{u}vidas no f\'{o}rum}}{54}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces P\'{a}gina que lista os exerc\'{i}cios cadastrados}}{55}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces P\'{a}gina com as quest\~{o}es que comp\~{o}e a lista selecionada}}{55}{figure.4.12}
 \addvspace {10\p@ }

@@ -33,6 +33,16 @@
   note = {Dispon\'{i}vel em: \url{http://dbflippedlearning.blogspot.com.br/}; Acessado em 19 de jan. de 2014.}
 }
 
+@Misc{Django,
+  key = {Django},
+  note = {Dispon\'{i}vel em: \url{https://www.djangoproject.com/}; Acessado em 19 de jan. de 2014.}
+}
+
+@Misc{SalmanKhan,
+  key = {SalmanKhan},
+  note = {Dispon\'{i}vel em: \url{http://pt.wikipedia.org/wiki/Salman_Khan}; Acessado em 19 de jan. de 2014.}
+}
+
 @Book{ElmasriNavathe05,
   key = {ElmasriNavathe05},
   author = {Ramez Elmasri, Shamkant B. Navathe},

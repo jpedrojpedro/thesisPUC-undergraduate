@@ -4,23 +4,29 @@
 \select@language {brazil}
 \contentsline {chapter}{\numberline {1}Introdu\c {c}\~{a}o}{9}{chapter.1}
 \contentsline {chapter}{\numberline {2}Proposta}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Avalia\c {c}\~{a}o do Sistema perante os Concorrentes -- An\'{a}lise SWOT}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Requisitos}{13}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Escopo}{13}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}P\'{u}blico Alvo}{13}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Requisitos N\~{a}o Funcionais}{13}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Requisitos Funcionais}{14}{subsection.2.2.4}
-\contentsline {chapter}{\numberline {3}Projeto}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Modelagem Conceitual}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}Modelagem L\'{o}gica}{21}{section.3.2}
-\contentsline {section}{\numberline {3.3}Modelagem F\'{i}sica}{26}{section.3.3}
-\contentsline {section}{\numberline {3.4}Casos de Uso}{34}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Acesso \`{a} Plataforma}{34}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Cadastro de Nova D\'{u}vida no F\'{o}rum}{36}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Resolu\c {c}\~{a}o das Listas de Exerc\'{i}cios}{37}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Diagrama de Classes}{39}{section.3.5}
-\contentsline {chapter}{\numberline {4}Plataforma Web}{43}{chapter.4}
-\contentsline {section}{\numberline {4.1}Mockups de Telas}{43}{section.4.1}
-\contentsline {section}{\numberline {4.2}Framework Django}{49}{section.4.2}
-\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{52}{chapter.5}
-\contentsline {chapter}{Refer\^{e}ncias Bibliogr\'{a}ficas}{54}{chapter*.1}
+\contentsline {section}{\numberline {2.1}An\'{a}lise dos Projetos Similares}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Edx}{12}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Khanacademy}{12}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Gradiance}{12}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Code School}{12}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Avalia\c {c}\~{a}o do Sistema perante os Concorrentes -- An\'{a}lise SWOT}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}Requisitos}{15}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Escopo}{15}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}P\'{u}blico Alvo}{15}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Requisitos N\~{a}o Funcionais}{15}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Requisitos Funcionais}{15}{subsection.2.3.4}
+\contentsline {chapter}{\numberline {3}Projeto}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Modelagem Conceitual}{18}{section.3.1}
+\contentsline {section}{\numberline {3.2}Modelagem L\'{o}gica}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Modelagem F\'{i}sica}{28}{section.3.3}
+\contentsline {section}{\numberline {3.4}Casos de Uso}{36}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Acesso \`{a} Plataforma}{36}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Cadastro de Nova D\'{u}vida no F\'{o}rum}{38}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Resolu\c {c}\~{a}o das Listas de Exerc\'{i}cios}{39}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Diagrama de Classes}{41}{section.3.5}
+\contentsline {chapter}{\numberline {4}Plataforma Web}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Mockups de Telas}{45}{section.4.1}
+\contentsline {section}{\numberline {4.2}Framework Django}{51}{section.4.2}
+\contentsline {section}{\numberline {4.3}Screenshots do Sistema}{53}{section.4.3}
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{56}{chapter.5}
+\contentsline {chapter}{Refer\^{e}ncias Bibliogr\'{a}ficas}{58}{chapter*.1}

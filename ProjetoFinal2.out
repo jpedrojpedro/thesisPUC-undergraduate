@@ -3,8 +3,9 @@
 \BOOKMARK [0][]{anchor:contents.0}{Sum\341rio}{}
 \BOOKMARK [0][]{chapter.1}{Introdu\347\343o}{}
 \BOOKMARK [0][]{chapter.2}{Proposta}{}
-\BOOKMARK [1][]{section.2.1}{Avalia\347\343o do Sistema perante os Concorrentes \205 An\341lise SWOT}{chapter.2}
-\BOOKMARK [1][]{section.2.2}{Requisitos}{chapter.2}
+\BOOKMARK [1][]{section.2.1}{An\341lise dos Projetos Similares}{chapter.2}
+\BOOKMARK [1][]{section.2.2}{Avalia\347\343o do Sistema perante os Concorrentes \205 An\341lise SWOT}{chapter.2}
+\BOOKMARK [1][]{section.2.3}{Requisitos}{chapter.2}
 \BOOKMARK [0][]{chapter.3}{Projeto}{}
 \BOOKMARK [1][]{section.3.1}{Modelagem Conceitual}{chapter.3}
 \BOOKMARK [1][]{section.3.2}{Modelagem L\363gica}{chapter.3}
@@ -14,5 +15,6 @@
 \BOOKMARK [0][]{chapter.4}{Plataforma Web}{}
 \BOOKMARK [1][]{section.4.1}{Mockups de Telas}{chapter.4}
 \BOOKMARK [1][]{section.4.2}{Framework Django}{chapter.4}
+\BOOKMARK [1][]{section.4.3}{Screenshots do Sistema}{chapter.4}
 \BOOKMARK [0][]{chapter.5}{Considera\347\365es Finais}{}
 \BOOKMARK [0][]{chapter*.1}{Refer\352ncias Bibliogr\341ficas}{}

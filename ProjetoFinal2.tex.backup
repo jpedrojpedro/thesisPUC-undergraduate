@@ -96,20 +96,27 @@ das dist\^{a}ncias entre educadores e alunos gerou uma gama de poss\'{i}veis ser
 em prol de um melhor ensino.
 
 A partir disso, algumas iniciativas foram desenvolvidas e est\~{a}o inseridas com sucesso no
-mercado. Foram contempladas desde ideias sem fins lucrativos, como \textbf{Edx} \cite{edx}, 
-\textbf{Khanacademy} \cite{khanacademy} e \textbf{Gradiance} \cite{gradiance} (essa \'{u}ltima idealizada 
+mercado. Foram contempladas desde ideias sem fins lucrativos, como \textbf{Edx} \cite{Edx}, 
+\textbf{Khanacademy} \cite{Khanacademy} e \textbf{Gradiance} \cite{Gradiance} (essa \'{u}ltima idealizada 
 pelo Prof. Jeffrey D. Ullman), at\'{e} startups que oferecem parte dos cursos gratuitamente e outra 
-parte paga, como o caso da \textbf{Code School} \cite{codeschool}.
+parte paga, como o caso da \textbf{Code School} \cite{CodeSchool}.
 
-Essa metodologia de ensino a dist\^{a}ncia recebeu um nome: \textbf{flipped classroom} \cite{FlippedLearning}.
+Essa metodologia de ensino recebeu um nome: \textbf{flipped classroom} \cite{FlippedLearning}.
 Trata-se de uma invers\~{a}o nos padr\~{o}es de ensino adotados pelas escolas, no qual a passagem de
-conhecimento passa a ser online, atrav\'{e}s de v\'{i}deos de curta dura\c{c}\~{a}o, e a sala de aula torna-se
-um ambiente de resolu\c{c}\~{a}o de exerc\'{i}cios.
+conhecimento passa a ser online, atrav\'{e}s de v\'{i}deos de curta dura\c{c}\~{a}o que devem ser assistidos
+pelos alunos fora da sala de aula. Dessa forma, a sala de aula se torna um ambiente de resolu\c{c}\~{a}o de 
+d\'{u}vidas e exerc\'{i}cios.
+
+Baseado nesse modelo, foi proposta a elabora\'{c}\~{a}o de uma plataforma web que contempla alguns dos princ\'{i}pios
+sugeridos pela metodologia flipped classroom. Vale ressaltar que houve uma descontinua\c{c}\~{a}o de tema e de orientador
+entre os projetos I e II. Logo, todo o trabalho proposto e apresentado \'{e} referente ao desenvolvimento de apenas
+um semestre.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{Imagens/flipped_classroom.png}
-    \caption{Invers\~{a}o nos padr\~{o}es de ensino sugerida pelo modelo flipped classroom}
+    \caption{Invers\~{a}o nos padr\~{o}es de ensino sugerida pelo modelo flipped classroom;
+	     Retirada do infogr\'{a}fico contido em \cite{FlippedLearning}}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -141,6 +148,47 @@ esquemas distintos por alunos a cada quest\~{a}o e a possibilidade de voltar em 
 modifica\c{c}\~{a}o feita anteriormente no esquema. Logo, al\'{e}m de ter liberdade de executar qualquer
 comando na base, sabendo que n\~{a}o interferir\'{a} os demais alunos, o aluno poder\'{a} voltar em um
 estado anterior da base quando bem entender.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Projetos Similares %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{An\'{a}lise dos Projetos Similares}
+
+\subsection{Edx}
+
+A ideia do \textbf{Edx} \'{e} expandir o acesso \`{a} educa\c{c}\~{a}o para todos,
+disponibilizando ensino e aprendizado do campus das respectivas faculdades participantes
+do projeto no meio online.
+
+O \textbf{Edx} tem sua sede em Cambridge, Massachusetts e \'{e} comandada pela parceria
+das faculdades MIT e Harvard. Al\'{e}m de disponibilizar cursos das supracitadas universidades,
+outras faculdades americanas bem conceituadas resolveram participar do projeto, cedendo v\'{i}deos
+de das aulas dadas e exerc\'{i}cios praticados online.
+
+Vale ressaltar que a parceria n\~{a}o possui fins lucrativos.
+
+\subsection{Khanacademy}
+
+Esta plataforma de ensino foi iniciada por Salman Amin "Sal" Khan \cite{SalmanKhan}, que, inicialmente,
+produzia v\'{i}deos que comtemplavam um amplo espectro de assuntos acad\^{e}micos, com \^{e}nfase em 
+matem\'{a}tica e ci\^{e}ncias. O objetivo inicial era auxiliar o aprendizado de uma prima, que morava
+distante de sua resid\^{e}ncia.
+
+Os v\'{i}deos postados no YouTube obtiveram milhares de visualiza\c{c}\~{o}es em poucos anos. Ap\'{o}s o
+reconhecimento obtido, Khan resolveu fundar a \textbf{KhanAcademy}. Trata--se tamb\'{e}m de uma plataforma 
+web sem fins lucrativos e a abordagem adotada tem tudo haver com o conceito de flipped learning.
+
+\subsection{Gradiance}
+
+O \textbf{Gradiance} trata-se de um software web pago com o objetivo de oferecer servi\'{c}os de aprendizado
+online focado em alguns temas. Os temas abordados s\~{a}o: Sistemas de Banco de Dados, Compiladores, Teoria de
+Aut\^{o}matos e Sistemas Operacionais.
+
+Esse sistema \'{e} oferecido em algumas faculdades americanas e tem como idealizador o Prof. Jeffrey D. Ullman.
+
+\subsection{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Análise SWOT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1273,9 +1321,27 @@ Segue a lista dos requisitos que n\~{a}o foram contemplados:
   \end{itemize}
   \item [R11] Permiss\~{a}o para cancelar uma thread inadequada no f\'{o}rum.
   \begin{itemize}
-    \item Essa funcionalidade ser\'{a} imprescind\'{i}vel
+    \item Essa funcionalidade ser\'{a} importante, pois auxiliar\'{a} a manter o f\'{o}rum
+	  com temas relevantes aos dados na disciplina.
   \end{itemize}
-
+  \item [R13] Possibilidade de compartilhar com seus colegas de turma suas inst\^{a}ncias.
+  \begin{itemize}
+    \item Nesta vers\~{a}o, cada aluno j\'{a} possui sua inst\^{a}ncia, a cada nova lista
+	  de exerc\'{i}cios. Por\'{e}m, ainda n\~{a}o \'{e} poss\'{i}vel compartilhar suas
+	  inst\^{a}ncias, assim  como n\~{a}o \'{e} poss\'{i}vel tamb\'{e}m voltar em estados
+	  anteriores da mesma. Essa ser\'{a} um funcionalidade diferencial, pois permitir\'{a}
+	  exerc\'{i}cios envolvendo comandos \textbf{DDL}.
+  \end{itemize}
+  \item [R16] Possibilidade de fazer upload de foto para facilitar a identifica\c{c}\~{a}o do aluno.
+  \begin{itemize}
+    \item Essa funcionalidade auxiliar\'{a}, principalmente, no acompanhamento dos relat\'{o}rios
+	  por alunos, assim como no acompanhamento da participa\c{c}\~{a}o dos mesmos no f\'{o}rum.
+  \end{itemize}
+  \item [R17] Possibilidade de compartilhar as quest\~{o}es em redes sociais (Facebook, Google+ e Twiter).
+  \begin{itemize}
+    \item Apenas ser\'{a} interessante se, algum dia, a plataforma crescer e obtiver um alcance maior
+	  de alunos e interessados.
+  \end{itemize}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
