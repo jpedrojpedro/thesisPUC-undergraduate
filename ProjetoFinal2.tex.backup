@@ -90,7 +90,7 @@ became more dynamic and less expository.
 
 \chapter{Introdu\c{c}\~{a}o}
 
-Atrav\'{e}s do advento e populariza\c{c}\~{a}o da internet, pessoas envolvidas com educa\c{c}\~{a}o
+Atrav\'{e}s do advento e populariza\c{c}\~{a}o da Internet, pessoas envolvidas com educa\c{c}\~{a}o
 encontraram uma poss\'{i}vel solu\c{c}\~{a}o para o d\'{e}ficit de ensino global. A diminui\c{c}\~{a}o
 das dist\^{a}ncias entre educadores e alunos gerou uma gama de poss\'{i}veis servi\c{c}os a serem prestados
 em prol de um melhor ensino.
@@ -107,10 +107,10 @@ conhecimento passa a ser online, atrav\'{e}s de v\'{i}deos de curta dura\c{c}\~{
 pelos alunos fora da sala de aula. Dessa forma, a sala de aula se torna um ambiente de resolu\c{c}\~{a}o de 
 d\'{u}vidas e exerc\'{i}cios.
 
-Baseado nesse modelo, foi proposta a elabora\'{c}\~{a}o de uma plataforma web que contempla alguns dos princ\'{i}pios
-sugeridos pela metodologia flipped classroom. Vale ressaltar que houve uma descontinua\c{c}\~{a}o de tema e de orientador
-entre os projetos I e II. Logo, todo o trabalho proposto e apresentado \'{e} referente ao desenvolvimento de apenas
-um semestre.
+Baseado nesse modelo, foi proposta a elabora\c{c}\~{a}o de uma plataforma web que contempla alguns dos princ\'{i}pios
+sugeridos pela metodologia flipped classroom. Vale ressaltar que houve uma descontinua\c{c}\~{a}o de tema e troca de 
+orientador entre os projetos finais I e II. Logo, todo o trabalho proposto e apresentado \'{e} referente ao 
+desenvolvimento de apenas um semestre.
 
 \begin{figure}[H]
     \centering
@@ -146,11 +146,12 @@ gerar uma indisponibiliza\c{c}\~{a}o moment\^{a}nea, caso um comando seja execut
 Sendo assim, duas das principais caracter\'{i}sticas do sistema proposto ser\~{a}o a utiliza\c{c}\~{a}o de
 esquemas distintos por alunos a cada quest\~{a}o e a possibilidade de voltar em uma determinada
 modifica\c{c}\~{a}o feita anteriormente no esquema. Logo, al\'{e}m de ter liberdade de executar qualquer
-comando na base, sabendo que n\~{a}o interferir\'{a} os demais alunos, o aluno poder\'{a} voltar em um
+comando na base, sabendo que n\~{a}o interferir\'{a} os demais alunos, o aluno poder\'{a} voltar para um
 estado anterior da base quando bem entender.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Projetos Similares %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{An\'{a}lise dos Projetos Similares}
 
@@ -160,35 +161,41 @@ A ideia do \textbf{Edx} \'{e} expandir o acesso \`{a} educa\c{c}\~{a}o para todo
 disponibilizando ensino e aprendizado do campus das respectivas faculdades participantes
 do projeto no meio online.
 
-O \textbf{Edx} tem sua sede em Cambridge, Massachusetts e \'{e} comandada pela parceria
+O \textbf{Edx} tem sua sede em Cambridge, Massachusetts e \'{e} comandado pela parceria
 das faculdades MIT e Harvard. Al\'{e}m de disponibilizar cursos das supracitadas universidades,
 outras faculdades americanas bem conceituadas resolveram participar do projeto, cedendo v\'{i}deos
-de das aulas dadas e exerc\'{i}cios praticados online.
+de aulas dadas e exerc\'{i}cios praticados online.
 
 Vale ressaltar que a parceria n\~{a}o possui fins lucrativos.
 
 \subsection{Khanacademy}
 
 Esta plataforma de ensino foi iniciada por Salman Amin "Sal" Khan \cite{SalmanKhan}, que, inicialmente,
-produzia v\'{i}deos que comtemplavam um amplo espectro de assuntos acad\^{e}micos, com \^{e}nfase em 
+produzia v\'{i}deos que contemplavam um amplo espectro de assuntos acad\^{e}micos, com \^{e}nfase em 
 matem\'{a}tica e ci\^{e}ncias. O objetivo inicial era auxiliar o aprendizado de uma prima, que morava
 distante de sua resid\^{e}ncia.
 
 Os v\'{i}deos postados no YouTube obtiveram milhares de visualiza\c{c}\~{o}es em poucos anos. Ap\'{o}s o
 reconhecimento obtido, Khan resolveu fundar a \textbf{KhanAcademy}. Trata--se tamb\'{e}m de uma plataforma 
-web sem fins lucrativos e a abordagem adotada tem tudo haver com o conceito de flipped learning.
+web sem fins lucrativos e a abordagem adotada est\'{a} de acordo com o conceito de flipped learning.
 
 \subsection{Gradiance}
 
-O \textbf{Gradiance} trata-se de um software web pago com o objetivo de oferecer servi\'{c}os de aprendizado
-online focado em alguns temas. Os temas abordados s\~{a}o: Sistemas de Banco de Dados, Compiladores, Teoria de
-Aut\^{o}matos e Sistemas Operacionais.
+O \textbf{Gradiance} trata-se de um software web pago com o objetivo de oferecer servi\c{c}os de aprendizado
+online focado em alguns temas de computa\c{c}\~{a}o. Os temas abordados s\~{a}o: Sistemas de Banco de Dados,
+Compiladores, Teoria de Aut\^{o}matos e Sistemas Operacionais.
 
-Esse sistema \'{e} oferecido em algumas faculdades americanas e tem como idealizador o Prof. Jeffrey D. Ullman.
+Esse sistema \'{e} oferecido em algumas faculdades americanas e tem como idealizador o Prof. Jeffrey D. Ullman
+\cite{Ullman}, que possui livros e artigos publicados abrangendo os temas mencionados anteriormente.
 
-\subsection{}
+\subsection{Code School}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+O \textbf{Code School} \'{e} uma empresa startup que desenvolveu uma plataforma web com o objetivo de auxiliar
+o aprendizado de linguagens de programa\c{c}\~{a}o. A empresa possui fins lucrativos e o interessado paga
+uma mensalidade para ter acesso a um curso espec\'{i}fico, ou uma tarifa maior para abranger todos os cursos.
+
+A empresa acredita que a melhor forma de aprendizado ocorre na pr\'{a}tica. Sendo assim, seu objetivo \'{e}
+transferir conhecimento atrav\'{e}s da elabora\c{c}\~{a}o de diversos desafios intrigantes para o usu\'{a}rio.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Análise SWOT %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -207,7 +214,7 @@ qualidade do produto oferecido, bom serviço prestado ao cliente, solidez financ
 -- Weaknesses (fraquezas) - desvantagens internas da empresa em relação às concorrentes.
 Ex.: altos custos de produção, má imagem, instalações desadequadas, marca fraca, etc.;
 
--- Opportunities (oportunidades) – aspectos externos positivos que podem potenciar a
+-- Opportunities (oportunidades) – aspectos externos positivos que podem potencializar a
 vantagem competitiva da empresa. Ex.: mudanças nos gostos dos clientes, falência de
 empresa concorrente, etc.;
 
@@ -240,8 +247,8 @@ Segue a seguir a an\'{a}lise do projeto perante os concorrentes:
     \textbf{Oportunidades}                                                                       \\ \hline
     Ferramenta facilmente acessível pelos alunos e professores                                   \\ \hline
     Apenas o Gradiance possui curso específico para aprendizado de Banco de Dados                \\ \hline
-    Maior independencia no aprendizado do aluno (aprender fora da sala de aula)                  \\ \hline
-    Gerar maior interesse nos alunos, pois aprende-se fazendo (aprendizado no prática)           \\ \hline
+    Maior independ\^{e}ncia no aprendizado do aluno (aprender fora da sala de aula)              \\ \hline
+    Gerar maior interesse nos alunos, pois aprende-se fazendo (aprendizado na prática)           \\ \hline
     Conceito de Flipped Learning ainda pouco desenvolvido no Brasil                              \\ \hline
     \textbf{Ameaças}                                                                             \\ \hline
     Desinteresse dos alunos pelo aprendizado de Banco de Dados                                   \\ \hline
@@ -288,7 +295,7 @@ Aluno e Professor.
 
 \textbf{Funcionalidades Professor:}
 
-[R7] Controle dos alunos que possuem acesso a ferramenta.
+[R7] Controle dos alunos que possuem acesso \`{a} ferramenta.
 
 [R8] M\'{o}dulo de edi\c{c}\~{a}o dos exerc\'{i}cios e quest\~{o}es.
 
@@ -318,16 +325,16 @@ Aluno e Professor.
 
 \chapter{Projeto}
 
-Neste t\'{o}pico ser\~{a}o expostos todas as abstra\c{c}\~{o}es de projeto realizadas em ordem
+Neste t\'{o}pico ser\~{a}o expostas todas as abstra\c{c}\~{o}es de projeto realizadas em ordem
 cronol\'{o}gica. Essa evolu\c{c}\~{a}o sequencial permitiu um melhor entendimento do problema e,
 consequentemente, uma clara defini\c{c}\~{a}o de escopo.
 
 Iniciando pela Modelagem Conceitual [3.1], com a utiliza\c{c}\~{a}o do modelo entidade
 relacionamento, foi poss\'{i}vel obter uma alta abstra\c{c}\~{a}o da plataforma, assim como um melhor
-entendimento das regras de neg\'{o}cios envolvidas \cite{Heuser09}. Logo ap\'{o}s foram feitas as modelagens L\'{o}gica
-[3.2] e F\'{i}sica [3.3]. Na l\'{o}gica, explicitamos a estrutura a ser utilizada para persist\^{e}ncia dos dados,
-que no caso fora em tabelas, e os tipos de dados de cada atributo. J\'{a} na f\'{i}sica, foi definido o
-SGBD utilizado, que no caso fora o \textbf{PostgreSQL 9.1}, e definidas os comandos SQL do tipo DDL
+entendimento das regras de neg\'{o}cios envolvidas \cite{Heuser09}. Logo ap\'{o}s, foram feitas as modelagens l\'{o}gica
+[3.2] e f\'{i}sica [3.3]. Na l\'{o}gica, explicitamos a estrutura a ser utilizada para persist\^{e}ncia dos dados,
+que no caso foi em tabelas, e os tipos de dados de cada atributo. J\'{a} na f\'{i}sica, foi definido o
+SGBD utilizado, que no caso foi o \textbf{PostgreSQL 9.1}, e definidas os comandos SQL do tipo DDL
 para criação das tabelas, chaves primárias e estrangeiras, triggers, constraints, entre outros.
 
 \begin{figure}[H]
@@ -348,7 +355,7 @@ Diagrama de Classes [3.5].
 
 \section{Modelagem Conceitual}
 
-Nesta se\c{c}\~{a}o vamos mostrar a evolu\c{c}\~{a}o da concep\c{c}\~{a}o do projeto atrav\'{e}s das tr\^{e}s vers\~{o}es
+Nesta se\c{c}\~{a}o, vamos mostrar a evolu\c{c}\~{a}o da concep\c{c}\~{a}o do projeto atrav\'{e}s das tr\^{e}s vers\~{o}es
 elaboradas com o uso do diagrama entidade relacionamento.
 
 \begin{figure}[H]
@@ -361,7 +368,7 @@ A entidade usu\'{a}rio serve como representa\c{c}\~{a}o tanto para aluno, quanto
 Como n\~{a}o foram encontrados atributos \'{u}nicos que fossem capazes de diferenciar as poss\'{i}veis
 entidades aluno e professor, n\~{a}o houve necessidade da utiliza\c{c}\~{a}o de heran\c{c}a (tamb\'{e}m chamado
 de “IS-A”). No caso, haveria a possibilidade de aluno e professor herdarem caracter\'{i}sticas da
-entidade usu\'{a}rio. Para a diferencia\c{c}\~{a}o do papel, aluno ou professor, fora utilizado o atributo
+entidade usu\'{a}rio. Para a diferencia\c{c}\~{a}o do papel, aluno ou professor, foi utilizado o atributo
 'professor' (depois ser\'{a} poss\'{i}vel perceber que o mesmo deixou de ser utilizado, por n\~{a}o se fazer
 necess\'{a}ria a distin\c{c}\~{a}o de pap\'{e}is nesse n\'{i}vel de abstra\c{c}\~{a}o do modelo).
 
@@ -370,25 +377,25 @@ sistema foi idealizado para permitir n\~{a}o s\'{o} quest\~{o}es relacionadas a 
 abordado na disciplina Banco de Dados. Como caracter\'{i}sticas, a entidade esquema possui um
 nome, como identificador, e um campo destinado a seu DDL de cria\c{c}\~{a}o, chamado cria\c{c}\~{a}o.
 Quando um aluno inicia um novo exerc\'{i}cio e caso o mesmo seja vinculado a um esquema
-para ser respondido, \'{e} criado uma inst\^{a}ncia. A inst\^{a}ncia nada mais \'{e} do que uma c\'{o}pia, em seu
+para ser respondido, \'{e} criada uma inst\^{a}ncia. A inst\^{a}ncia nada mais \'{e} do que uma c\'{o}pia, em seu
 estado inicial, do esquema associado ao exerc\'{i}cio. Essa escolha foi tomada a fim de dar maior
 liberdade na utiliza\c{c}\~{a}o da base por parte dos alunos. \'{E} comum, em outras plataformas, a
 exist\^{e}ncia de bases compartilhadas para resolu\c{c}\~{a}o dos exerc\'{i}cios em SQL. Por\'{e}m, acredita-se
-que essa pr\'{a}tica inibe o aluno (como mencionado em se\c{c}\~{a}o anterior), que passa a ter medo de
+que essa pr\'{a}tica inibe o aluno (como mencionado em se\c{c}\~{a}o anterior), que passa a ter receio de
 errar e prejudicar a turma.
 
-Ainda em rela\c{c}\~{a}o a inst\^{a}ncia, foi dada a liberdade para que o aluno possa compartilh\'{a}-la
+Ainda em rela\c{c}\~{a}o \`{a} inst\^{a}ncia, foi dada a liberdade para que o aluno possa compartilh\'{a}-la
 com seus colegas de turma. O mesmo fica expl\'{i}cito ao analisarmos a cardinalidade do
-relacionamento “visualiza”, entre as entidades usu\'{a}rio e inst\^{a}ncia. J\'{a} em rela\c{c}\~{a}o a a\c{c}\~{a}o de
-“modifica\c{c}\~{a}o” da inst\^{a}ncia, apenas o usu\'{a}rio dono na mesma poder\'{a} realiz\'{a}-la.
-Para haver maior intera\c{c}\~{a}o dos usu\'{a}rio com a plataforma, foi possibilitada a cria\c{c}\~{a}o uma
-\'{a}rea de f\'{o}rum por disciplina. E o usu\'{a}rio com o papel de professor seria o moderador, j\'{a} os alunos
-participariam com d\'{u}vidas e coment\'{a}rios relacionados a mat\'{e}ria dada.
+relacionamento “visualiza”, entre as entidades usu\'{a}rio e inst\^{a}ncia. J\'{a} em rela\c{c}\~{a}o \`{a} a\c{c}\~{a}o de
+“modifica\c{c}\~{a}o” da inst\^{a}ncia, apenas o usu\'{a}rio dono da mesma poder\'{a} realiz\'{a}-la.
+Para haver maior intera\c{c}\~{a}o dos usu\'{a}rios com a plataforma, foi possibilitada a cria\c{c}\~{a}o uma
+\'{a}rea de f\'{o}rum por disciplina. E o usu\'{a}rio com o papel de professor seria o moderador; j\'{a} os alunos
+participariam com d\'{u}vidas e coment\'{a}rios relacionados \`{a} mat\'{e}ria dada.
 
 A caracter\'{i}stica preponderante desta vers\~{a}o era fazer uma plataforma que englobasse
 diversas disciplinas. Por\'{e}m, conforme foi sendo definido o escopo, p\^{o}de-se observar que um fator
 de diferencia\c{c}\~{a}o perante os demais sistemas seria o foco no tema banco de dados. Essa escolha
-provocou uma melhor visualiza\c{c}\~{a}o da solu\c{c}\~{a}o, que pode ser percebido nas duas seguintes
+provocou uma melhor visualiza\c{c}\~{a}o da solu\c{c}\~{a}o, que pode ser percebida nas duas seguintes
 vers\~{o}es.
 
 \begin{figure}[H]
@@ -432,10 +439,10 @@ quest\~{o}es dos exerc\'{i}cios. Al\'{e}m disso uma d\'{u}vida se fez presente: 
     \caption{Terceira vers\~{a}o da Modelagem Conceitual; solu\c{c}\~{a}o focada nos exerc\'{i}cios}
 \end{figure}
 
-Com rela\c{c}\~{a}o a modelagem referente ao f\'{o}rum, podemos perceber a adi\c{c}\~{a}o das datas no
-relacionamento “relatar” e “escrever”, ao inv\'{e}s de estarem presentes nas entidades d\'{u}vida e
+Com rela\c{c}\~{a}o \`{a} modelagem referente ao f\'{o}rum, podemos perceber a adi\c{c}\~{a}o das datas no
+relacionamento “relata” e “escreve”, ao inv\'{e}s de estarem presentes nas entidades d\'{u}vida e
 coment\'{a}rio, respectivamente. Tamb\'{e}m foram adicionadas as a\c{c}\~{o}es de “modera\c{c}\~{a}o” do f\'{o}rum,
-que anteriormente n\~{a}o foram contempladas. Em ambas um campo de 'justificativa' fora inserido,
+que anteriormente n\~{a}o foram contempladas. Em ambas um campo de 'justificativa' foi inserido,
 para permitir que o moderador possa explicar os motivos de um poss\'{i}vel cancelamento de d\'{u}vida
 ou coment\'{a}rio.
 
@@ -444,7 +451,7 @@ entidade quest\~{a}o. Dessa maneira, foi possibilitada a inser\c{c}\~{a}o de d\'
 exerc\'{i}cios contidos na plataforma, mas como d\'{u}vidas te\'{o}ricas, que tenham sido abordadas na
 disciplina, ou exerc\'{i}cios de fontes externas, por exemplo de outras faculdades.
 
-Com rela\c{c}\~{a}o a modelagem referente aos exerc\'{i}cios, as entidades esquema e inst\^{a}ncia
+Com rela\c{c}\~{a}o \`{a} modelagem referente aos exerc\'{i}cios, as entidades esquema e inst\^{a}ncia
 deixarem de ser, respectivamente, superclasse e subclasse uma da outra. Logo, houve uma
 substitui\c{c}\~{a}o da representa\c{c}\~{a}o de heran\c{c}a por uma de relacionamento, com a a\c{c}\~{a}o “originar”.
 
@@ -452,7 +459,7 @@ Outro ponto importante \'{e} a persist\^{e}ncia das respostas dos usu\'{a}rios \
 armazenadas tanto as respostas corretas como as incorretas. Houve a op\c{c}\~{a}o de representar a
 a\c{c}\~{a}o de “acerto” separado da a\c{c}\~{a}o de “resposta”. Logo, deve-se tomar cuidado para manter a
 restri\c{c}\~{a}o de integridade sem\^{a}ntica nesse caso, j\'{a} que devemos identificar quais das respostas do
-usu\'{a}rio fora a correta.
+usu\'{a}rio s\~{a}o corretas.
 
 Perceba que o relacionamento da a\c{c}\~{a}o “v\'{i}nculo” era entre as entidades exerc\'{i}cio e
 esquema. Todavia, uma lista de exerc\'{i}cios pode conter quest\~{o}es referentes a diferentes
@@ -466,9 +473,9 @@ esquemas. Assim sendo, a entidade quest\~{a}o passa a estar vinculada a um deter
 
 Nesta fase, o mapeamento ainda n\~{a}o considera nenhuma caracter\'{i}stica espec\'{i}fica ou
 casos especiais que se aplicam \`{a} implementa\c{c}\~{a}o do modelo de dados do SGBD. Ou seja, tudo
-que for relatado pode ser aplicado a qualquer escolha de SGBD na pr\'{o}xima etapa.
+que explicado pode ser aplicado a qualquer escolha de SGBD na pr\'{o}xima etapa.
 
-Dessa forma, foram listadas todas as tabelas com suas chaves prim\'{a}rias e estrangeiras
+Foram listadas todas as tabelas com suas chaves prim\'{a}rias e estrangeiras
 identificadas, atributos e tipos de dados. Al\'{e}m disso, foram identificados os campos: Entidade,
 Atributo e Relacionamento. Com esses campos, foi poss\'{i}vel realizar o rastro entre a Modelagem
 Conceitual e a Modelagem L\'{o}gica.
@@ -983,7 +990,7 @@ redirecionado para a p\'{a}gina de entrada no sistema.
   \item Usu\'{a}rio pressiona a tecla 'Enter' ou clica no bot\~{a}o 'Entrar'.
   \item Sistema recebe a requisi\c{c}\~{a}o de entrada.
   \item As credenciais digitadas s\~{a}o verificadas no Banco de Dados.
-  \item Sistema emite feedback positivo ao Usu\'{a}rio, atrav\'{e}s do acesso a p\'{a}gina inicial.
+  \item Sistema emite feedback positivo ao Usu\'{a}rio, atrav\'{e}s do acesso \`{a} p\'{a}gina inicial.
 \end{enumerate}
 
 \textbf{Fluxos Alternativos:}
@@ -1023,7 +1030,7 @@ Ao fim, basta pressionar o bot\~{a}o 'Salvar'. O sistema emitir\'{a} uma mensage
 
 \begin{enumerate}
   \item Usu\'{a}rio seleciona a op\c{c}\~{a}o 'F\'{o}rum' dispon\'{i}vel no menu do Sistema.
-  \item Sistema recebe a requisi\c{c}\~{a}o e retorna a p\'{a}gina de F\'{o}rum.
+  \item Sistema recebe a requisi\c{c}\~{a}o e retorna \`{a} p\'{a}gina de F\'{o}rum.
   \item Usu\'{a}rio deve pressionar o bot\~{a}o 'Nova D\'{u}vida'.
   \item Usu\'{a}rio redige sua D\'{u}vida no campo dispon\'{i}vel.
   \item Usu\'{a}rio deve pressionar o bot\~{a}o 'Salvar'.
@@ -1050,7 +1057,7 @@ Ao fim, basta pressionar o bot\~{a}o 'Salvar'. O sistema emitir\'{a} uma mensage
 
 \begin{enumerate}
   \item Usu\'{a}rio seleciona a op\c{c}\~{a}o 'F\'{o}rum' dispon\'{i}vel no menu do Sistema.
-  \item Sistema recebe a requisi\c{c}\~{a}o e retorna a p\'{a}gina de F\'{o}rum.
+  \item Sistema recebe a requisi\c{c}\~{a}o e retorna \`{a} p\'{a}gina de F\'{o}rum.
   \item Usu\'{a}rio deve pressionar o bot\~{a}o 'Nova D\'{u}vida'.
   \item Usu\'{a}rio redige sua D\'{u}vida no campo dispon\'{i}vel.
   \item Usu\'{a}rio deve pressionar o bot\~{a}o 'Salvar'.
@@ -1089,9 +1096,9 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
   \item Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para buscar as Quest\~{o}es.
   \item Sistema exibe a listagem de todas as Quest\~{o}es da respectiva Lista de Exerc\'{i}cios.
   \item Usu\'{a}rio escolhe uma das Quest\~{o}es para resolver.
-  \item Usu\'{a}rio preenche o campo dispon\'{i}vel com o SQL que acredita ser o correto.
+  \item Usu\'{a}rio preenche o campo dispon\'{i}vel com o comando SQL que acredita ser o correto.
   \item Usu\'{a}rio pressiona o bot\~{a}o 'Enviar'.
-  \item Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para obter o SQL gabarito da Quest\~{a}o.
+  \item Sistema recebe a requisi\c{c}\~{a}o e acessa o Banco de Dados para obter o gabarito da Quest\~{a}o.
   \item Ambos os comandos SQL s\~{a}o executados e seus resultados comparados.
   \item Sistema exibe uma mensagem de feedback da Quest\~{a}o resolvida.
 \end{enumerate}
@@ -1139,7 +1146,7 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 \section{Diagrama de Classes}
 
 Para uma melhor visualiza\c{c}\~{a}o e entendimento do Diagrama de Classes, o mesmo foi
-dividido em tr\^{e}s modelos. Cada um deles refere--se as classes contidas nos pacotes do
+dividido em tr\^{e}s modelos. Cada um deles refere-se \`{a}s classes contidas nos pacotes do
 projeto. Os pacotes s\~{a}o: \textbf{Templates}, \textbf{Views} e \textbf{Models}.
 
 No pacote \textbf{Models}, est\~{a}o contidos os arquivos a serem renderizados no browser.
@@ -1165,8 +1172,8 @@ No pacote \textbf{Models}, est\~{a}o contidos os arquivos que servem de mapeamen
 relacional. Ou seja, uma representa\c{c}\~{a}o dos elementos do banco de dados.
 
 Diferentemente das modelagens anteriores, a ilustra\c{c}\~{a}o contempla uma solu\c{c}\~{a}o
-unificada entre \textbf{F\'{o}rum} e \textbf{Exerc\'{i}cios}. A figura segue na p\'{a}gina
-seguinte, na horizontal, para facilitar o entendimento.
+unificada entre \textbf{F\'{o}rum} e \textbf{Exerc\'{i}cios}. A figura da p\'{a}gina
+seguinte segue na horizontal para facilitar o entendimento.
 
 \begin{figure}[H]
     \centering
@@ -1188,7 +1195,7 @@ tipo para elabora\c{c}\~{a}o do projeto. Para facilitar a documenta\c{c}\~{a}o, 
 acompanhamento pelo Prof. S\'{e}rgio Lifschitz, foi criado um \textbf{blog} \cite{Blog} referente ao projeto final.
 
 Para controle de vers\~{a}o e futura participa\c{c}\~{a}o de outros interessados no projeto, foi utilizado
-o \textbf{git}, atrav\'{e}s da plataforma \textbf{GitHub}. J\'{a} para organiza\c{c}\~{a}o das tarefas, fora
+o \textbf{git}, atrav\'{e}s da plataforma \textbf{GitHub}. J\'{a} para organiza\c{c}\~{a}o das tarefas, foi
 utilizado o \textbf{Trello}.
 
 A fim de minimizar o tempo de desenvolvimento do sistema, optou--se por um framework para sistemas web.
@@ -1203,7 +1210,7 @@ por ser gratuito, opensource e de f\'{a}cil utiliza\c{c}\~{a}o.
 \section{Mockups de Telas}
 
 Para facilitar a etapa de desenvolvimento da plataforma, foram elaborados mocks das telas.
-Dessa forma, p\^{o}de-se definir, juntamente com os \textbf{Casos de Uso} (apresentados anteriormente), como
+Dessa forma, foi poss\'{i}vel definir, juntamente com os \textbf{Casos de Uso} (apresentados anteriormente), como
 se daria a intera\c{c}\~{a}o dos usu\'{a}rios com o sistema e o fluxo de informa\c{c}\~{a}o no
 mesmo.
 
@@ -1242,14 +1249,18 @@ Seguem os prot\'{o}tipos das telas:
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{Imagens/QuestionPage.png}
-    \caption{P\'{a}gina com as quest\~{o}es que comp\~{o}e a lista selecionada}
+    \caption{P\'{a}gina com as quest\~{o}es que comp\~{o}em a lista selecionada}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Framework Django %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Framework Django}
 
 A escolha do framework Django \cite{Django} se deu, principalmente, pela sua arquitetura bastante modularizada.
-O c\'{o}digo, consequentemente, fica fortemente coeso e fracamento acoplado. Al\'{e}m disso, trata--se
-de uma ferramenta que veem sendo bastante utilizada pelos desenvolvedores, o que pode facilitar
+O c\'{o}digo, consequentemente, fica fortemente coeso e fracamente acoplado. Al\'{e}m disso, trata--se
+de uma ferramenta que vem sendo bastante utilizada, o que pode facilitar
 a aceita\c{c}\~{a}o da ferramenta pela comunidade de desenvolvedores.
 
 Uma caracter\'{i}stica do framework \'{e} ser baseado na arquitetura Model--View--Template, ao inv\'{e}s
@@ -1287,6 +1298,45 @@ Segue abaixo uma figura que demonstra a estrutura do framework e suas devidas ex
 	      pr\'{o}pria, de f\'{a}cil aprendizado e similares a linguagem de express\~{a}o (da sigla UEL em ingl\^{e}s).
     \end{itemize}
 \end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Screenshot do Sistema %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Screenshots do Sistema}
+
+Para ilustrar o resultado final do projeto, seguem alguns screenshots do sistema.
+As telas servem de comparativo com o que foi sugerido na se\c{c}\~{a}o referente aos Mockups de Telas.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/login_page.png}
+    \caption{P\'{a}gina para valida\c{c}\~{a}o do usu\'{a}rio}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/welcome_page.png}
+    \caption{P\'{a}gina inicial do sistema}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/forum_page.png}
+    \caption{P\'{a}gina de busca e inser\c{c}\~{a}o de d\'{u}vidas no f\'{o}rum}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/exercise_page.png}
+    \caption{P\'{a}gina que lista os exerc\'{i}cios cadastrados}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Imagens/question_page.png}
+    \caption{P\'{a}gina com as quest\~{o}es que comp\~{o}e a lista selecionada}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Considerações Finais %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
