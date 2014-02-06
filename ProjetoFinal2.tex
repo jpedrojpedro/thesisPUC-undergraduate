@@ -139,8 +139,12 @@ Os exerc\'{i}cios est\~{a}o vinculados, na maioria das vezes, a um ou mais esque
 em quest\~{a}o. Dessa forma, os alunos acessam um mesmo esquema para tentar solucionar determinada quest\~{a}o.
 Quando trata--se de uma lista de exerc\'{i}cios que envolve puramente o comando \textbf{SELECT}, n\~{a}o h\'{a}
 maiores problemas quanto ao esquema compartilhado.
-Por\'{e}m, quando h\'{a} comandos \textbf{DML}\cite{ElmasriNavathe05} do tipo \textbf{INSERT}, \textbf{UPDATE} ou
-\textbf{DELETE}, ou comandos \textbf{DDL}\cite{ElmasriNavathe05} envolvidos na resolu\c{c}\~{a}o da lista, pode--se
+Por\'{e}m, quando h\'{a} comandos \textbf{DML} \footnote{DML, que significa Linguagem de Manipula\c{c}\~{a}o de Dados,
+\'{e} um subconjunto da linguagem SQL que \'{e} utilizado para realizar inclus\~{o}es, consultas, altera\c{c}\~{o}es e
+exclus\~{o}es de dados presentes em registros.} \cite{ElmasriNavathe05} do tipo \textbf{INSERT}, \textbf{UPDATE}, 
+\textbf{SELECT} ou \textbf{DELETE}, ou comandos \textbf{DDL} \footnote{DDL, que significa Linguagem de Defini\c{c}\~{a}o
+de Dados, permite a defini\c{c}\~{a}o de tabelas novas e elementos associados. Ou seja, permite altera\c{c}\~{o}es na 
+estrutura do banco de dados.} \cite{ElmasriNavathe05} envolvidos na resolu\c{c}\~{a}o da lista, pode--se
 gerar uma indisponibiliza\c{c}\~{a}o moment\^{a}nea, caso um comando seja executado de forma incorreta.
 
 Sendo assim, duas das principais caracter\'{i}sticas do sistema proposto ser\~{a}o a utiliza\c{c}\~{a}o de
@@ -448,7 +452,7 @@ que anteriormente n\~{a}o foram contempladas. Em ambas um campo de 'justificativ
 para permitir que o moderador possa explicar os motivos de um poss\'{i}vel cancelamento de d\'{u}vida
 ou coment\'{a}rio.
 
-Al\'{e}m disso, perceba que a entidade d\'{u}vida agora pode, ou n\~{a}o, estar relacionada com a
+Al\'{e}m disso, a entidade d\'{u}vida agora pode, ou n\~{a}o, estar relacionada com a
 entidade quest\~{a}o. Dessa maneira, foi possibilitada a inser\c{c}\~{a}o de d\'{u}vidas n\~{a}o somente aos
 exerc\'{i}cios contidos na plataforma, mas como d\'{u}vidas te\'{o}ricas, que tenham sido abordadas na
 disciplina, ou exerc\'{i}cios de fontes externas, por exemplo de outras faculdades.
@@ -463,7 +467,7 @@ a\c{c}\~{a}o de “acerto” separado da a\c{c}\~{a}o de “resposta”. Logo, d
 restri\c{c}\~{a}o de integridade sem\^{a}ntica nesse caso, j\'{a} que devemos identificar quais das respostas do
 usu\'{a}rio s\~{a}o corretas.
 
-Perceba que o relacionamento da a\c{c}\~{a}o “v\'{i}nculo” era entre as entidades exerc\'{i}cio e
+O relacionamento da a\c{c}\~{a}o “v\'{i}nculo” era entre as entidades exerc\'{i}cio e
 esquema. Todavia, uma lista de exerc\'{i}cios pode conter quest\~{o}es referentes a diferentes
 esquemas. Assim sendo, a entidade quest\~{a}o passa a estar vinculada a um determinado esquema.
 
@@ -825,90 +829,6 @@ estrangeiras.
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Adição dos Comentários Parte 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{table}[H]
-    \tiny
-    \resizebox{\linewidth}{!}{
-    \begin{tabular}{|l|}
-    \hline
-    Comentários :: Tabela : usuario                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ \hline
-    COMMENT ON COLUMN public.usuario.login IS \\'Identificador da tupla, criado pelo usuário e faz parte da sua chave de acesso ao sistema.'; \\COMMENT ON COLUMN public.usuario.senha IS \\'Criado pelo usuário e faz parte da sua chave de acesso ao sistema.'; \\COMMENT ON COLUMN public.usuario.nome IS \\'Nome completo do usuário.'; \\COMMENT ON COLUMN public.usuario.email IS \\'Email para contato para notificações do fórum, liberação de exercícios e resgate de senha.'; \\COMMENT ON COLUMN public.usuario.professor IS \\'distingue o papel do usuario: aluno ou professor.';                                            \\ \hline
-    Comentários :: Tabela : usuario\_modera\_comentario                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   \\ \hline
-    COMMENT ON COLUMN public.usuario\_modera\_comentario.login\_moderador IS \\'Identifica o moderador que cancelou o comentário.'; \\COMMENT ON COLUMN public.usuario\_modera\_comentario.id\_comentario IS \\'Identifica qual comentário foi cancelado.'; \\COMMENT ON COLUMN public.usuario\_modera\_comentario.justificativa IS \\'Possui a justificativa do cancelamento dada pelo moderador do fórum.'; \\COMMENT ON COLUMN public.usuario\_modera\_comentario.dt\_cancelamento IS \\'Identifica quando o comentário fora cancelado no fórum.';                                                                                     \\ \hline
-    Comentários :: Tabela : duvida                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        \\ \hline
-    COMMENT ON COLUMN public.duvida.id IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.duvida.id\_assunto IS \\'Informa quais temas são abordados na dúvida.'; \\COMMENT ON COLUMN public.duvida.login\_usuario IS \\'Identifica o aluno responsável pela dúvida.'; \\COMMENT ON COLUMN public.duvida.id\_questao IS \\'Identifica um possível vínculo entre dúvida e questão.'; \\COMMENT ON COLUMN public.duvida.pergunta IS \\'Trata-se da pergunta feita pelo aluno no fórum.'; \\COMMENT ON COLUMN public.duvida.dt\_duvida IS \\'Identifica quando a dúvida fora postada no fórum.';                                     \\ \hline
-    Comentários :: Tabela : comentario                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
-    COMMENT ON COLUMN public.comentario.id IS \\'identificador dos comentarios'; \\COMMENT ON COLUMN public.comentario.id\_duvida IS \\'Identifica a qual dúvida se refere o comentário.'; \\COMMENT ON COLUMN public.comentario.login\_usuario IS \\'Identifica o aluno responsável pelo comentário.'; \\COMMENT ON COLUMN public.comentario.texto\_comentario IS \\'Trata-se do comentário feito pelo aluno no fórum.'; \\COMMENT ON COLUMN public.comentario.dt\_comentario IS \\'Identifica quando o comentário fora postada no fórum.';                                                                                              \\ \hline
-    \end{tabular}
-    }
-    \caption {Adi\c{c}\~{a}o dos Coment\'{a}rios (parte 1)}
-\end{table}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Adição dos Comentários Parte 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{table}[H]
-    \resizebox{\linewidth}{!}{
-    \begin{tabular}{|l|}
-    \hline
-    Comentários :: Tabela : questao                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ \hline
-    COMMENT ON COLUMN public.questao.id IS \\'identificador da questao'; \\COMMENT ON COLUMN public.questao.id\_exercicio IS \\'Identifica a qual lista de exercício a questão está atrelada.'; \\COMMENT ON COLUMN public.questao.login\_usuario IS \\'Identificação do usuário responsável pela criação da questão.'; \\COMMENT ON COLUMN public.questao.nome\_esquema IS \\'Identifica a qual esquema a questão pode estar vinculada.'; \\COMMENT ON COLUMN public.questao.pergunta IS \\'Informa o enunciado da questão a ser respondida pelo aluno.'; \\COMMENT ON COLUMN public.questao.resposta IS \\'Trata-se do gabarito dado pelo professor.'; \\ \hline
-    Comentários :: Tabela : usuario\_modera\_duvida                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ \hline
-    COMMENT ON COLUMN public.usuario\_modera\_duvida.login\_moderador IS \\'Identifica o moderador que cancelou a dúvida.'; \\COMMENT ON COLUMN public.usuario\_modera\_duvida.id\_duvida IS \\'Identifica qual dúvida foi cancelada.'; \\COMMENT ON COLUMN public.usuario\_modera\_duvida.justificativa IS \\'Possui a justificativa do cancelamento dada pelo moderador do fórum.'; \\COMMENT ON COLUMN public.usuario\_modera\_duvida.dt\_cancelamento IS \\'Identifica quando a dúvida fora cancelada no fórum.'; \\COMMENT ON CONSTRAINT pk\_usuario\_modera\_duvida ON public.usuario\_modera\_duvida IS \\'Chave primaria da tabela usuario\_modera\_duvida.'; \\ \hline
-    Comentários :: Tabela : assunto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ \hline
-    COMMENT ON COLUMN public.assunto.id IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.assunto.nome IS \\'Nome do assunto relacionado.'; \\COMMENT ON CONSTRAINT pk\_assunto ON public.assunto IS \\'Chave primaria da tabela assunto.';                                                                                                                                                                                                                                                                                                                                                                                      \\ \hline
-    \end{tabular}
-    }
-    \caption {Adi\c{c}\~{a}o dos Coment\'{a}rios (parte 2)}
-\end{table}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Adição dos Comentários Parte 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{table}[H]
-    \tiny
-    \resizebox{\linewidth}{!}{
-    \begin{tabular}{|l|}
-    \hline
-    Comentários :: Tabela : lista\_exercicio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           \\ \hline
-    COMMENT ON COLUMN public.lista\_exercicio.id IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.lista\_exercicio.id\_assunto IS \\'Informa quais temas são abordados na lista de exercício.'; \\COMMENT ON COLUMN public.lista\_exercicio.descricao IS \\'Possível sugestões do professor de como resolver a lista, com sugestão de referências bibliográficas.'; \\COMMENT ON COLUMN public.lista\_exercicio.dt\_liberada IS \\'Armazena em que dia a lista fora liberada aos alunos.'; \\COMMENT ON CONSTRAINT pk\_lista\_exercicio ON public.lista\_exercicio IS \\'Chave primaria da tabela lista\_exercicio.';                                        \\ \hline
-    Comentários :: Tabela : resposta                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   \\ \hline
-    COMMENT ON COLUMN public.resposta.id IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.resposta.id\_questao IS \\'Identifica qual questão se refere a resposta dada.'; \\COMMENT ON COLUMN public.resposta.login\_usuario IS \\'Identifica qual aluno respondeu a questão.'; \\COMMENT ON COLUMN public.resposta.dt\_resposta IS \\'Identifica quando a resposta foi dada.'; \\COMMENT ON COLUMN public.resposta.dt\_acerto IS \\'Identifica quando houve o acerto da resposta.'; \\COMMENT ON COLUMN public.resposta.resposta IS \\'Armazena qual foi a resposta dada.'; \\COMMENT ON CONSTRAINT pk\_resposta ON public.resposta IS \\'Chave primaria da tabela resposta.'; \\ \hline
-    Comentários :: Tabela : esquema                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
-    COMMENT ON COLUMN public.esquema.nome IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.esquema.criacao IS \\'Trata-se do comando DDL para criação do esquema.'; \\COMMENT ON CONSTRAINT pk\_esquema ON public.esquema IS \\'Chave primaria da tabela esquema.';                                                                                                                                                                                                                                                                                                                                                                                          \\ \hline
-    Comentários :: Tabela : instancia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  \\ \hline
-    COMMENT ON COLUMN public.instancia.nome IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.instancia.nome\_esquema IS \\'Identifica qual esquema que originou a presente instância.'; \\COMMENT ON COLUMN public.instancia.login\_usuario IS \\'Identifica qual o aluno responsável pelas modificações da instância.'; \\COMMENT ON COLUMN public.instancia.dt\_criacao IS \\'Identifica quando a instância foi criada pelo aluno.'; \\COMMENT ON CONSTRAINT pk\_instancia ON public.instancia IS \\'Chave primaria da tabela instancia.';                                                                                                                 \\ \hline
-    \end{tabular}
-    }
-    \caption {Adi\c{c}\~{a}o dos Coment\'{a}rios (parte 3)}
-\end{table}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Adição dos Comentários Parte 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{table}[H]
-    \resizebox{\linewidth}{!}{
-    \begin{tabular}{|l|}
-    \hline
-    Comentários :: Tabela : modificacao                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                \\ \hline
-    COMMENT ON COLUMN public.modificacao.id IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.modificacao.nome\_instancia IS \\'Identifica a instância que está sendo alterada.'; \\COMMENT ON COLUMN public.modificacao.login\_usuario IS \\'Identifica o usuário autor da modificação.'; \\COMMENT ON COLUMN public.modificacao.dt\_modificacao IS \\'Identifica quando a instância foi alterada.'; \\COMMENT ON COLUMN public.modificacao.comando IS \\'Trata-se do comando DDL para alteração do esquema.'; \\COMMENT ON CONSTRAINT pk\_modificacao ON public.modificacao IS \\'Chave primaria da tabela modificacao.';                                   \\ \hline
-    Comentários :: Tabela : visualizacao                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ \hline
-    COMMENT ON COLUMN public.visualizacao.nome\_instancia IS \\'Identifica a instância que está sendo alterada.'; \\COMMENT ON COLUMN public.visualizacao.login\_usuario IS \\'Identifica o usuário autor da modificação. ';                                                                                                                                                                                                                                                                                                                                                                                                                                           \\ \hline
-    Comentários :: Tabela : assunto\_lista\_exercicio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  \\ \hline
-    COMMENT ON COLUMN public.assunto\_lista\_exercicio.id\_assunto IS \\'Identifica quais assuntos são abordados na lista de exercícios.'; \\COMMENT ON COLUMN public.assunto\_lista\_exercicio.id\_exercicio IS \\'Identificador da lista de exercício.'; \\COMMENT ON CONSTRAINT pk\_assunto\_lista\_exercicio ON public.assunto\_lista\_exercicio IS \\'Chave primaria da tabela assunto\_lista\_exercicio.';                                                                                                                                                                                                                                                       \\ \hline
-    Comentários :: Tabela : assunto\_duvida                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            \\ \hline
-    COMMENT ON COLUMN public.assunto\_duvida.id\_assunto IS \\'Identifica quais assuntos são abordados nas dúvidas do fórum.'; \\COMMENT ON COLUMN public.assunto\_duvida.id\_exercicio IS \\'Identificador da dúvida.'; \\COMMENT ON CONSTRAINT pk\_assunto\_duvida ON public.assunto\_duvida IS \\'Chave primaria da tabela assunto\_duvida.';                                                                                                                                                                                                                                                                                                                       \\ \hline
-    \end{tabular}
-    }
-    \caption {Adi\c{c}\~{a}o dos Coment\'{a}rios (parte 4)}
-\end{table}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Adição das Constraints Parte 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -1152,7 +1072,7 @@ dividido em tr\^{e}s modelos. Cada um deles refere--se \`{a}s classes contidas n
 projeto. Os pacotes s\~{a}o: \textbf{Templates}, \textbf{Views} e \textbf{Models}.
 
 No pacote \textbf{Models}, est\~{a}o contidos os arquivos a serem renderizados no browser.
-Perceba que foi realizado um template base para os demais templates. A exce\c{c}\~{a}o se d\'{a}
+Foi realizado um template base para os demais templates. A exce\c{c}\~{a}o se d\'{a}
 na tela de Login.
 
 \begin{figure}[H]
@@ -1264,6 +1184,17 @@ A escolha do framework Django \cite{Django} se deu, principalmente, pela sua arq
 O c\'{o}digo, consequentemente, fica fortemente coeso e fracamente acoplado. Al\'{e}m disso, trata--se
 de uma ferramenta que vem sendo bastante utilizada, o que pode facilitar
 a aceita\c{c}\~{a}o da ferramenta pela comunidade de desenvolvedores.
+
+Outro fator importante \'{e} a utiliza\c{c}\~{a}o de \textbf{Python} como linguagem de programa\c{c}\~{a}o. Quando foi
+criada, em 1991, tinha como objetivos principais: produtividade e legibilidade. Segue a lista de algumas caracter\'{i}sticas
+marcantes da linguagem:
+
+\begin{itemize}
+  \item Baixa utiliza\c{c}\~{a}o de caracteres especiais, o que torna a linguagem muito parecida com pseudo-c\'{o}digo
+  \item Utiliza\c{c}\~{a}o de identa\c{c}\~{a}o para delimitar blocos de opera\c{c}\~{o}es
+  \item Coletor de lixo para gerenciamento autom\'{a}tico da mem\'{o}ria
+  \item Suporte \`{a} m\'{u}ltiplos paradigmas de programa\c{c}\~{a}o
+\end{itemize}
 
 Uma caracter\'{i}stica do framework \'{e} ser baseado na arquitetura Model--View--Template, ao inv\'{e}s
 da tradicional Model--View--Controller. Por\'{e}m, ser\'{a} poss\'{i}vel perceber que trata--se apenas de
@@ -1404,5 +1335,97 @@ Segue a lista dos requisitos que n\~{a}o foram contemplados:
 \bibliography{ProjetoFinal2}
 
 \normalfont
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Anexos %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+
+\chapter{Coment\'{a}rios referentes aos campos das tabelas criadas}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Adição dos Comentários Parte 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[H]
+    \tiny
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{|l|}
+    \hline
+    Comentários :: Tabela : usuario                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ \hline
+    COMMENT ON COLUMN public.usuario.login IS \\'Identificador da tupla, criado pelo usuário e faz parte da sua chave de acesso ao sistema.'; \\COMMENT ON COLUMN public.usuario.senha IS \\'Criado pelo usuário e faz parte da sua chave de acesso ao sistema.'; \\COMMENT ON COLUMN public.usuario.nome IS \\'Nome completo do usuário.'; \\COMMENT ON COLUMN public.usuario.email IS \\'Email para contato para notificações do fórum, liberação de exercícios e resgate de senha.'; \\COMMENT ON COLUMN public.usuario.professor IS \\'distingue o papel do usuario: aluno ou professor.';                                            \\ \hline
+    Comentários :: Tabela : usuario\_modera\_comentario                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   \\ \hline
+    COMMENT ON COLUMN public.usuario\_modera\_comentario.login\_moderador IS \\'Identifica o moderador que cancelou o comentário.'; \\COMMENT ON COLUMN public.usuario\_modera\_comentario.id\_comentario IS \\'Identifica qual comentário foi cancelado.'; \\COMMENT ON COLUMN public.usuario\_modera\_comentario.justificativa IS \\'Possui a justificativa do cancelamento dada pelo moderador do fórum.'; \\COMMENT ON COLUMN public.usuario\_modera\_comentario.dt\_cancelamento IS \\'Identifica quando o comentário fora cancelado no fórum.';                                                                                     \\ \hline
+    Comentários :: Tabela : duvida                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        \\ \hline
+    COMMENT ON COLUMN public.duvida.id IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.duvida.id\_assunto IS \\'Informa quais temas são abordados na dúvida.'; \\COMMENT ON COLUMN public.duvida.login\_usuario IS \\'Identifica o aluno responsável pela dúvida.'; \\COMMENT ON COLUMN public.duvida.id\_questao IS \\'Identifica um possível vínculo entre dúvida e questão.'; \\COMMENT ON COLUMN public.duvida.pergunta IS \\'Trata-se da pergunta feita pelo aluno no fórum.'; \\COMMENT ON COLUMN public.duvida.dt\_duvida IS \\'Identifica quando a dúvida fora postada no fórum.';                                     \\ \hline
+    Comentários :: Tabela : comentario                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
+    COMMENT ON COLUMN public.comentario.id IS \\'identificador dos comentarios'; \\COMMENT ON COLUMN public.comentario.id\_duvida IS \\'Identifica a qual dúvida se refere o comentário.'; \\COMMENT ON COLUMN public.comentario.login\_usuario IS \\'Identifica o aluno responsável pelo comentário.'; \\COMMENT ON COLUMN public.comentario.texto\_comentario IS \\'Trata-se do comentário feito pelo aluno no fórum.'; \\COMMENT ON COLUMN public.comentario.dt\_comentario IS \\'Identifica quando o comentário fora postada no fórum.';                                                                                              \\ \hline
+    \end{tabular}
+    }
+    \caption {Adi\c{c}\~{a}o dos Coment\'{a}rios (parte 1)}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Adição dos Comentários Parte 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[H]
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{|l|}
+    \hline
+    Comentários :: Tabela : questao                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ \hline
+    COMMENT ON COLUMN public.questao.id IS \\'identificador da questao'; \\COMMENT ON COLUMN public.questao.id\_exercicio IS \\'Identifica a qual lista de exercício a questão está atrelada.'; \\COMMENT ON COLUMN public.questao.login\_usuario IS \\'Identificação do usuário responsável pela criação da questão.'; \\COMMENT ON COLUMN public.questao.nome\_esquema IS \\'Identifica a qual esquema a questão pode estar vinculada.'; \\COMMENT ON COLUMN public.questao.pergunta IS \\'Informa o enunciado da questão a ser respondida pelo aluno.'; \\COMMENT ON COLUMN public.questao.resposta IS \\'Trata-se do gabarito dado pelo professor.'; \\ \hline
+    Comentários :: Tabela : usuario\_modera\_duvida                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ \hline
+    COMMENT ON COLUMN public.usuario\_modera\_duvida.login\_moderador IS \\'Identifica o moderador que cancelou a dúvida.'; \\COMMENT ON COLUMN public.usuario\_modera\_duvida.id\_duvida IS \\'Identifica qual dúvida foi cancelada.'; \\COMMENT ON COLUMN public.usuario\_modera\_duvida.justificativa IS \\'Possui a justificativa do cancelamento dada pelo moderador do fórum.'; \\COMMENT ON COLUMN public.usuario\_modera\_duvida.dt\_cancelamento IS \\'Identifica quando a dúvida fora cancelada no fórum.'; \\COMMENT ON CONSTRAINT pk\_usuario\_modera\_duvida ON public.usuario\_modera\_duvida IS \\'Chave primaria da tabela usuario\_modera\_duvida.'; \\ \hline
+    Comentários :: Tabela : assunto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \\ \hline
+    COMMENT ON COLUMN public.assunto.id IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.assunto.nome IS \\'Nome do assunto relacionado.'; \\COMMENT ON CONSTRAINT pk\_assunto ON public.assunto IS \\'Chave primaria da tabela assunto.';                                                                                                                                                                                                                                                                                                                                                                                      \\ \hline
+    \end{tabular}
+    }
+    \caption {Adi\c{c}\~{a}o dos Coment\'{a}rios (parte 2)}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Adição dos Comentários Parte 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[H]
+    \tiny
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{|l|}
+    \hline
+    Comentários :: Tabela : lista\_exercicio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           \\ \hline
+    COMMENT ON COLUMN public.lista\_exercicio.id IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.lista\_exercicio.id\_assunto IS \\'Informa quais temas são abordados na lista de exercício.'; \\COMMENT ON COLUMN public.lista\_exercicio.descricao IS \\'Possível sugestões do professor de como resolver a lista, com sugestão de referências bibliográficas.'; \\COMMENT ON COLUMN public.lista\_exercicio.dt\_liberada IS \\'Armazena em que dia a lista fora liberada aos alunos.'; \\COMMENT ON CONSTRAINT pk\_lista\_exercicio ON public.lista\_exercicio IS \\'Chave primaria da tabela lista\_exercicio.';                                        \\ \hline
+    Comentários :: Tabela : resposta                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   \\ \hline
+    COMMENT ON COLUMN public.resposta.id IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.resposta.id\_questao IS \\'Identifica qual questão se refere a resposta dada.'; \\COMMENT ON COLUMN public.resposta.login\_usuario IS \\'Identifica qual aluno respondeu a questão.'; \\COMMENT ON COLUMN public.resposta.dt\_resposta IS \\'Identifica quando a resposta foi dada.'; \\COMMENT ON COLUMN public.resposta.dt\_acerto IS \\'Identifica quando houve o acerto da resposta.'; \\COMMENT ON COLUMN public.resposta.resposta IS \\'Armazena qual foi a resposta dada.'; \\COMMENT ON CONSTRAINT pk\_resposta ON public.resposta IS \\'Chave primaria da tabela resposta.'; \\ \hline
+    Comentários :: Tabela : esquema                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
+    COMMENT ON COLUMN public.esquema.nome IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.esquema.criacao IS \\'Trata-se do comando DDL para criação do esquema.'; \\COMMENT ON CONSTRAINT pk\_esquema ON public.esquema IS \\'Chave primaria da tabela esquema.';                                                                                                                                                                                                                                                                                                                                                                                          \\ \hline
+    Comentários :: Tabela : instancia                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  \\ \hline
+    COMMENT ON COLUMN public.instancia.nome IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.instancia.nome\_esquema IS \\'Identifica qual esquema que originou a presente instância.'; \\COMMENT ON COLUMN public.instancia.login\_usuario IS \\'Identifica qual o aluno responsável pelas modificações da instância.'; \\COMMENT ON COLUMN public.instancia.dt\_criacao IS \\'Identifica quando a instância foi criada pelo aluno.'; \\COMMENT ON CONSTRAINT pk\_instancia ON public.instancia IS \\'Chave primaria da tabela instancia.';                                                                                                                 \\ \hline
+    \end{tabular}
+    }
+    \caption {Adi\c{c}\~{a}o dos Coment\'{a}rios (parte 3)}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Adição dos Comentários Parte 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[H]
+    \resizebox{\linewidth}{!}{
+    \begin{tabular}{|l|}
+    \hline
+    Comentários :: Tabela : modificacao                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                \\ \hline
+    COMMENT ON COLUMN public.modificacao.id IS \\'Identificador da tupla.'; \\COMMENT ON COLUMN public.modificacao.nome\_instancia IS \\'Identifica a instância que está sendo alterada.'; \\COMMENT ON COLUMN public.modificacao.login\_usuario IS \\'Identifica o usuário autor da modificação.'; \\COMMENT ON COLUMN public.modificacao.dt\_modificacao IS \\'Identifica quando a instância foi alterada.'; \\COMMENT ON COLUMN public.modificacao.comando IS \\'Trata-se do comando DDL para alteração do esquema.'; \\COMMENT ON CONSTRAINT pk\_modificacao ON public.modificacao IS \\'Chave primaria da tabela modificacao.';                                   \\ \hline
+    Comentários :: Tabela : visualizacao                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\ \hline
+    COMMENT ON COLUMN public.visualizacao.nome\_instancia IS \\'Identifica a instância que está sendo alterada.'; \\COMMENT ON COLUMN public.visualizacao.login\_usuario IS \\'Identifica o usuário autor da modificação. ';                                                                                                                                                                                                                                                                                                                                                                                                                                           \\ \hline
+    Comentários :: Tabela : assunto\_lista\_exercicio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  \\ \hline
+    COMMENT ON COLUMN public.assunto\_lista\_exercicio.id\_assunto IS \\'Identifica quais assuntos são abordados na lista de exercícios.'; \\COMMENT ON COLUMN public.assunto\_lista\_exercicio.id\_exercicio IS \\'Identificador da lista de exercício.'; \\COMMENT ON CONSTRAINT pk\_assunto\_lista\_exercicio ON public.assunto\_lista\_exercicio IS \\'Chave primaria da tabela assunto\_lista\_exercicio.';                                                                                                                                                                                                                                                       \\ \hline
+    Comentários :: Tabela : assunto\_duvida                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            \\ \hline
+    COMMENT ON COLUMN public.assunto\_duvida.id\_assunto IS \\'Identifica quais assuntos são abordados nas dúvidas do fórum.'; \\COMMENT ON COLUMN public.assunto\_duvida.id\_exercicio IS \\'Identificador da dúvida.'; \\COMMENT ON CONSTRAINT pk\_assunto\_duvida ON public.assunto\_duvida IS \\'Chave primaria da tabela assunto\_duvida.';                                                                                                                                                                                                                                                                                                                       \\ \hline
+    \end{tabular}
+    }
+    \caption {Adi\c{c}\~{a}o dos Coment\'{a}rios (parte 4)}
+\end{table}
 
 \end{document}

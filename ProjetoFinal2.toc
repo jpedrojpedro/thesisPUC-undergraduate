@@ -19,14 +19,15 @@
 \contentsline {section}{\numberline {3.1}Modelagem Conceitual}{18}{section.3.1}
 \contentsline {section}{\numberline {3.2}Modelagem L\'{o}gica}{23}{section.3.2}
 \contentsline {section}{\numberline {3.3}Modelagem F\'{i}sica}{28}{section.3.3}
-\contentsline {section}{\numberline {3.4}Casos de Uso}{36}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Acesso \`{a} Plataforma}{36}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Cadastro de Nova D\'{u}vida no F\'{o}rum}{38}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Resolu\c {c}\~{a}o das Listas de Exerc\'{i}cios}{39}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Diagrama de Classes}{41}{section.3.5}
-\contentsline {chapter}{\numberline {4}Plataforma Web}{45}{chapter.4}
-\contentsline {section}{\numberline {4.1}Mockups de Telas}{45}{section.4.1}
-\contentsline {section}{\numberline {4.2}Framework Django}{50}{section.4.2}
-\contentsline {section}{\numberline {4.3}Screenshots do Sistema}{52}{section.4.3}
-\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{55}{chapter.5}
-\contentsline {chapter}{Refer\^{e}ncias Bibliogr\'{a}ficas}{57}{chapter*.1}
+\contentsline {section}{\numberline {3.4}Casos de Uso}{32}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Acesso \`{a} Plataforma}{32}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Cadastro de Nova D\'{u}vida no F\'{o}rum}{34}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Resolu\c {c}\~{a}o das Listas de Exerc\'{i}cios}{35}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Diagrama de Classes}{37}{section.3.5}
+\contentsline {chapter}{\numberline {4}Plataforma Web}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Mockups de Telas}{41}{section.4.1}
+\contentsline {section}{\numberline {4.2}Framework Django}{46}{section.4.2}
+\contentsline {section}{\numberline {4.3}Screenshots do Sistema}{48}{section.4.3}
+\contentsline {chapter}{\numberline {5}Considera\c {c}\~{o}es Finais}{51}{chapter.5}
+\contentsline {chapter}{Refer\^{e}ncias Bibliogr\'{a}ficas}{53}{chapter*.1}
+\contentsline {chapter}{\numberline {A}Coment\'{a}rios referentes aos campos das tabelas criadas}{55}{appendix.A}

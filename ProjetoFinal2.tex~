@@ -139,8 +139,12 @@ Os exerc\'{i}cios est\~{a}o vinculados, na maioria das vezes, a um ou mais esque
 em quest\~{a}o. Dessa forma, os alunos acessam um mesmo esquema para tentar solucionar determinada quest\~{a}o.
 Quando trata--se de uma lista de exerc\'{i}cios que envolve puramente o comando \textbf{SELECT}, n\~{a}o h\'{a}
 maiores problemas quanto ao esquema compartilhado.
-Por\'{e}m, quando h\'{a} comandos \textbf{DML}\cite{ElmasriNavathe05} do tipo \textbf{INSERT}, \textbf{UPDATE} ou
-\textbf{DELETE}, ou comandos \textbf{DDL}\cite{ElmasriNavathe05} envolvidos na resolu\c{c}\~{a}o da lista, pode--se
+Por\'{e}m, quando h\'{a} comandos \textbf{DML} \footnote{DML, que significa Linguagem de Manipula\c{c}\~{a}o de Dados,
+\'{e} um subconjunto da linguagem SQL que \'{e} utilizado para realizar inclus\~{o}es, consultas, altera\c{c}\~{o}es e
+exclus\~{o}es de dados presentes em registros.} \cite{ElmasriNavathe05} do tipo \textbf{INSERT}, \textbf{UPDATE}, 
+\textbf{SELECT} ou \textbf{DELETE}, ou comandos \textbf{DDL} \footnote{DDL, que significa Linguagem de Defini\c{c}\~{a}o
+de Dados, permite a defini\c{c}\~{a}o de tabelas novas e elementos associados. Ou seja, permite altera\c{c}\~{o}es na 
+estrutura do banco de dados.} \cite{ElmasriNavathe05} envolvidos na resolu\c{c}\~{a}o da lista, pode--se
 gerar uma indisponibiliza\c{c}\~{a}o moment\^{a}nea, caso um comando seja executado de forma incorreta.
 
 Sendo assim, duas das principais caracter\'{i}sticas do sistema proposto ser\~{a}o a utiliza\c{c}\~{a}o de
@@ -448,7 +452,7 @@ que anteriormente n\~{a}o foram contempladas. Em ambas um campo de 'justificativ
 para permitir que o moderador possa explicar os motivos de um poss\'{i}vel cancelamento de d\'{u}vida
 ou coment\'{a}rio.
 
-Al\'{e}m disso, perceba que a entidade d\'{u}vida agora pode, ou n\~{a}o, estar relacionada com a
+Al\'{e}m disso, a entidade d\'{u}vida agora pode, ou n\~{a}o, estar relacionada com a
 entidade quest\~{a}o. Dessa maneira, foi possibilitada a inser\c{c}\~{a}o de d\'{u}vidas n\~{a}o somente aos
 exerc\'{i}cios contidos na plataforma, mas como d\'{u}vidas te\'{o}ricas, que tenham sido abordadas na
 disciplina, ou exerc\'{i}cios de fontes externas, por exemplo de outras faculdades.
@@ -463,7 +467,7 @@ a\c{c}\~{a}o de “acerto” separado da a\c{c}\~{a}o de “resposta”. Logo, d
 restri\c{c}\~{a}o de integridade sem\^{a}ntica nesse caso, j\'{a} que devemos identificar quais das respostas do
 usu\'{a}rio s\~{a}o corretas.
 
-Perceba que o relacionamento da a\c{c}\~{a}o “v\'{i}nculo” era entre as entidades exerc\'{i}cio e
+O relacionamento da a\c{c}\~{a}o “v\'{i}nculo” era entre as entidades exerc\'{i}cio e
 esquema. Todavia, uma lista de exerc\'{i}cios pode conter quest\~{o}es referentes a diferentes
 esquemas. Assim sendo, a entidade quest\~{a}o passa a estar vinculada a um determinado esquema.
 
@@ -1152,7 +1156,7 @@ dividido em tr\^{e}s modelos. Cada um deles refere--se \`{a}s classes contidas n
 projeto. Os pacotes s\~{a}o: \textbf{Templates}, \textbf{Views} e \textbf{Models}.
 
 No pacote \textbf{Models}, est\~{a}o contidos os arquivos a serem renderizados no browser.
-Perceba que foi realizado um template base para os demais templates. A exce\c{c}\~{a}o se d\'{a}
+Foi realizado um template base para os demais templates. A exce\c{c}\~{a}o se d\'{a}
 na tela de Login.
 
 \begin{figure}[H]
@@ -1264,6 +1268,17 @@ A escolha do framework Django \cite{Django} se deu, principalmente, pela sua arq
 O c\'{o}digo, consequentemente, fica fortemente coeso e fracamente acoplado. Al\'{e}m disso, trata--se
 de uma ferramenta que vem sendo bastante utilizada, o que pode facilitar
 a aceita\c{c}\~{a}o da ferramenta pela comunidade de desenvolvedores.
+
+Outro fator importante \'{e} a utiliza\c{c}\~{a}o de \textbf{Python} como linguagem de programa\c{c}\~{a}o. Quando foi
+criada, em 1991, tinha como objetivos principais: produtividade e legibilidade. Segue a lista de algumas caracter\'{i}sticas
+marcantes da linguagem:
+
+\begin{itemize}
+  \item Baixa utiliza\c{c}\~{a}o de caracteres especiais, o que torna a linguagem muito parecida com pseudo-c\'{o}digo
+  \item Utiliza\c{c}\~{a}o de identa\c{c}\~{a}o para delimitar blocos de opera\c{c}\~{o}es
+  \item Coletor de lixo para gerenciamento autom\'{a}tico da mem\'{o}ria
+  \item Suporte \`{a} m\'{u}ltiplos paradigmas de programa\c{c}\~{a}o
+\end{itemize}
 
 Uma caracter\'{i}stica do framework \'{e} ser baseado na arquitetura Model--View--Template, ao inv\'{e}s
 da tradicional Model--View--Controller. Por\'{e}m, ser\'{a} poss\'{i}vel perceber que trata--se apenas de
@@ -1404,5 +1419,13 @@ Segue a lista dos requisitos que n\~{a}o foram contemplados:
 \bibliography{ProjetoFinal2}
 
 \normalfont
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Anexos %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+
+\chapter{Testando Ap\^{e}ndices}
 
 \end{document}

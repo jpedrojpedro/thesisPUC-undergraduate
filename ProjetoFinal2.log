@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.20)  5 FEB 2014 12:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.8)  6 FEB 2014 17:21
 entering extended mode
  %&-line parsing enabled.
 **ProjetoFinal2.tex
@@ -619,17 +619,17 @@ LaTeX Info: Redefining \pageref on input line 85.
 
 \AtBeginShipoutBox=\box30
 Package epstopdf Info: Source file: <puc.eps>
-(epstopdf)                    date: 2014-01-17 00:32:42
+(epstopdf)                    date: 2014-02-06 16:44:35
 (epstopdf)                    size: 200513 bytes
 (epstopdf)             Output file: <puc-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-17 00:32:42
+(epstopdf)                    date: 2014-02-06 16:44:35
 (epstopdf)                    size: 35883 bytes
 (epstopdf)             Command: <epstopdf --outfile=puc-eps-converted-to.pdf pu
 c.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<puc-eps-converted-to.pdf, id=83, 51.19125pt x 86.3225pt>
+<puc-eps-converted-to.pdf, id=87, 51.19125pt x 86.3225pt>
 File: puc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use puc-eps-converted-to.pdf>
@@ -648,10 +648,10 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
 puc-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <puc.eps>
-(epstopdf)                    date: 2014-01-17 00:32:42
+(epstopdf)                    date: 2014-02-06 16:44:35
 (epstopdf)                    size: 200513 bytes
 (epstopdf)             Output file: <puc-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-17 00:32:42
+(epstopdf)                    date: 2014-02-06 16:44:35
 (epstopdf)                    size: 35883 bytes
 (epstopdf)             Command: <epstopdf --outfile=puc-eps-converted-to.pdf pu
 c.eps>
@@ -698,7 +698,7 @@ Cap\'{\i }tulo 1.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/flipped_classroom.png, id=232, 707.64375pt x 482.55281pt>
+<Imagens/flipped_classroom.png, id=237, 707.64375pt x 482.55281pt>
 File: Imagens/flipped_classroom.png Graphic file (type png)
 
 <use Imagens/flipped_classroom.png> [9
@@ -729,7 +729,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 ) [12] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/swot.jpg, id=271, 642.4pt x 451.6875pt>
+<Imagens/swot.jpg, id=283, 642.4pt x 451.6875pt>
 File: Imagens/swot.jpg Graphic file (type jpg)
  <use Imagens/swot.jpg>
 [13] (./noaccent.def
@@ -739,7 +739,7 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.266 \section{Requisitos}
+l.270 \section{Requisitos}
                            <./Imagens/swot.jpg>] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
@@ -754,7 +754,7 @@ Cap\'{\i }tulo 3.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/fases_projeto_banco_dados.jpg, id=297, 1403.2425pt x 1276.77pt>
+<Imagens/fases_projeto_banco_dados.jpg, id=309, 1403.2425pt x 1276.77pt>
 File: Imagens/fases_projeto_banco_dados.jpg Graphic file (type jpg)
 
 <use Imagens/fases_projeto_banco_dados.jpg> [17
@@ -762,7 +762,7 @@ File: Imagens/fases_projeto_banco_dados.jpg Graphic file (type jpg)
 ] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/ModelagemConceitual_v1_0.png, id=304, 797.98125pt x 473.51906pt>
+<Imagens/ModelagemConceitual_v1_0.png, id=316, 797.98125pt x 473.51906pt>
 File: Imagens/ModelagemConceitual_v1_0.png Graphic file (type png)
 
 <use Imagens/ModelagemConceitual_v1_0.png> [18pdfTeX warning (ext4): destinatio
@@ -771,20 +771,20 @@ ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.368 
+l.372 
        <./Imagens/fases_projeto_banco_dados.jpg>] [19pdfTeX warning (ext4): des
 tination with the same identifier (name{figure.3.2}) has been already used, dup
 licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.396 
+l.400 
        <./Imagens/ModelagemConceitual_v1_0.png>]
-<Imagens/ModelagemConceitual_forum_v1_1.png, id=316, 300.3722pt x 298.86656pt>
+<Imagens/ModelagemConceitual_forum_v1_1.png, id=328, 300.3722pt x 298.86656pt>
 File: Imagens/ModelagemConceitual_forum_v1_1.png Graphic file (type png)
 
 <use Imagens/ModelagemConceitual_forum_v1_1.png>
-<Imagens/ModelagemConceitual_exercicio_v1_1.png, id=317, 478.78876pt x 420.0693
+<Imagens/ModelagemConceitual_exercicio_v1_1.png, id=329, 478.78876pt x 420.0693
 8pt>
 File: Imagens/ModelagemConceitual_exercicio_v1_1.png Graphic file (type png)
  <use Imagens/ModelagemConceitual_exercicio_v1_1.png> [20pdfTeX warning (ext4):
@@ -793,9 +793,9 @@ File: Imagens/ModelagemConceitual_exercicio_v1_1.png Graphic file (type png)
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.414 
+l.418 
        <./Imagens/ModelagemConceitual_forum_v1_1.png>]
-<Imagens/ModelagemConceitual_forum_v2_0.png, id=323, 572.1375pt x 331.2375pt>
+<Imagens/ModelagemConceitual_forum_v2_0.png, id=335, 572.1375pt x 331.2375pt>
 File: Imagens/ModelagemConceitual_forum_v2_0.png Graphic file (type png)
 
 <use Imagens/ModelagemConceitual_forum_v2_0.png> [21pdfTeX warning (ext4): dest
@@ -804,9 +804,9 @@ icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.437 
+l.441 
        <./Imagens/ModelagemConceitual_exercicio_v1_1.png>]
-<Imagens/ModelagemConceitual_exercicio_v2_0.png, id=329, 550.30594pt x 449.4290
+<Imagens/ModelagemConceitual_exercicio_v2_0.png, id=341, 550.30594pt x 449.4290
 6pt>
 File: Imagens/ModelagemConceitual_exercicio_v2_0.png Graphic file (type png)
  <use Imagens/ModelagemConceitual_exercicio_v2_0.png> [22pdfTeX warning (ext4):
@@ -815,18 +815,18 @@ File: Imagens/ModelagemConceitual_exercicio_v2_0.png Graphic file (type png)
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.450 
+l.454 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.450 
+l.454 
        <./Imagens/ModelagemConceitual_forum_v2_0.png> <./Imagens/ModelagemConce
 itual_exercicio_v2_0.png>] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 490--553
+Underfull \hbox (badness 10000) in paragraph at lines 494--557
 [][]
  []
 
@@ -835,19 +835,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 490--553
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.627 
+l.631 
       ] [25pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.690 
+l.694 
       ] [26pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.753 
+l.757 
       ]
 Overfull \vbox (53.11104pt too high) has occurred while \output is active []
 
@@ -857,7 +857,7 @@ Overfull \vbox (53.11104pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.753 
+l.757 
       ] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 ) [28]
@@ -869,7 +869,7 @@ Overfull \vbox (22.23868pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.796 
+l.800 
       ]
 Overfull \vbox (53.31566pt too high) has occurred while \output is active []
 
@@ -879,89 +879,65 @@ Overfull \vbox (53.31566pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.826 
+l.830 
       ] [31pdfTeX warning (ext4): destination with the same identifier (name{ta
 ble.3.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.867 
-      ] [32pdfTeX warning (ext4): destination with the same identifier (name{ta
-ble.3.8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.889 
-      ] [33pdfTeX warning (ext4): destination with the same identifier (name{ta
-ble.3.9}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.910 
-      ] [34pdfTeX warning (ext4): destination with the same identifier (name{ta
-ble.3.10}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.937 
-      ] [35pdfTeX warning (ext4): destination with the same identifier (name{ta
-ble.3.11}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.960 
+l.880 
       ] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 ) (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [36pdfTeX warning (ext4): destination with the same identifier (name{table.3.
-12}) has been already used, duplicate ignored
+) [32pdfTeX warning (ext4): destination with the same identifier (name{table.3.
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.991   \item U
+l.911   \item U
                su\'{a}rio preenche o campo senha.] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [37]
-[38] (./noaccent.def
+) [33]
+[34] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [39] [40] (./noaccent.def
+) [35] [36] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/DiagramaDeClasseTemplates.png, id=479, 543.02875pt x 282.05376pt>
+<Imagens/DiagramaDeClasseTemplates.png, id=474, 543.02875pt x 282.05376pt>
 File: Imagens/DiagramaDeClasseTemplates.png Graphic file (type png)
 
-<use Imagens/DiagramaDeClasseTemplates.png> [41]
-<Imagens/DiagramaDeClasseViews.png, id=492, 563.10374pt x 442.65375pt>
+<use Imagens/DiagramaDeClasseTemplates.png> [37]
+<Imagens/DiagramaDeClasseViews.png, id=488, 563.10374pt x 442.65375pt>
 File: Imagens/DiagramaDeClasseViews.png Graphic file (type png)
 
-<use Imagens/DiagramaDeClasseViews.png> [42pdfTeX warning (ext4): destination w
+<use Imagens/DiagramaDeClasseViews.png> [38pdfTeX warning (ext4): destination w
 ith the same identifier (name{figure.3.7}) has been already used, duplicate ign
 ored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1175 
+l.1095 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .3.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1175 
+l.1095 
         <./Imagens/DiagramaDeClasseTemplates.png> <./Imagens/DiagramaDeClasseVi
-ews.png>] <Imagens/DiagramaDeClasseModels.png, id=499, 849.1725pt x 1662.21pt>
+ews.png>] <Imagens/DiagramaDeClasseModels.png, id=495, 849.1725pt x 1662.21pt>
 File: Imagens/DiagramaDeClasseModels.png Graphic file (type png)
 
-<use Imagens/DiagramaDeClasseModels.png> [43]
+<use Imagens/DiagramaDeClasseModels.png> [39]
 Overfull \vbox (125.25618pt too high) has occurred while \output is active []
 
 
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1185 
+l.1105 
         <./Imagens/DiagramaDeClasseModels.png>]
 Cap\'{\i }tulo 4.
 (./noaccent.def
@@ -969,146 +945,145 @@ File: noaccent.def 2003/11/25 v0.1 Input encoding file
 ) (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/LoginPage.png, id=511, 770.88pt x 280.04625pt>
+<Imagens/LoginPage.png, id=506, 770.88pt x 280.04625pt>
 File: Imagens/LoginPage.png Graphic file (type png)
 
-<use Imagens/LoginPage.png> [45
+<use Imagens/LoginPage.png> [41
 
 ]
-<Imagens/WelcomePage.png, id=517, 1027.84pt x 770.88pt>
+<Imagens/WelcomePage.png, id=512, 1027.84pt x 770.88pt>
 File: Imagens/WelcomePage.png Graphic file (type png)
 
 <use Imagens/WelcomePage.png>
-<Imagens/BoardPage.png, id=518, 1027.84pt x 770.88pt>
+<Imagens/BoardPage.png, id=513, 1027.84pt x 770.88pt>
 File: Imagens/BoardPage.png Graphic file (type png)
 
-<use Imagens/BoardPage.png> [46pdfTeX warning (ext4): destination with the same
+<use Imagens/BoardPage.png> [42pdfTeX warning (ext4): destination with the same
  identifier (name{figure.4.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1238 
+l.1158 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1238 
+l.1158 
         <./Imagens/LoginPage.png> <./Imagens/WelcomePage.png>]
-<Imagens/ForumPage.png, id=525, 1027.84pt x 770.88pt>
+<Imagens/ForumPage.png, id=520, 1027.84pt x 770.88pt>
 File: Imagens/ForumPage.png Graphic file (type png)
 
-<use Imagens/ForumPage.png> [47pdfTeX warning (ext4): destination with the same
+<use Imagens/ForumPage.png> [43pdfTeX warning (ext4): destination with the same
  identifier (name{figure.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1244 
+l.1164 
         <./Imagens/BoardPage.png>]
-<Imagens/ExercisePage.png, id=531, 1027.84pt x 770.88pt>
+<Imagens/ExercisePage.png, id=527, 1027.84pt x 770.88pt>
 File: Imagens/ExercisePage.png Graphic file (type png)
 
-<use Imagens/ExercisePage.png> [48pdfTeX warning (ext4): destination with the s
+<use Imagens/ExercisePage.png> [44pdfTeX warning (ext4): destination with the s
 ame identifier (name{figure.4.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1250 
+l.1170 
         <./Imagens/ForumPage.png>]
-<Imagens/QuestionPage.png, id=537, 1027.84pt x 770.88pt>
+<Imagens/QuestionPage.png, id=533, 1027.84pt x 770.88pt>
 File: Imagens/QuestionPage.png Graphic file (type png)
 
-<use Imagens/QuestionPage.png> [49pdfTeX warning (ext4): destination with the s
+<use Imagens/QuestionPage.png> [45pdfTeX warning (ext4): destination with the s
 ame identifier (name{figure.4.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1256 
+l.1176 
         <./Imagens/ExercisePage.png>] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-)
-<Imagens/django_structure.png, id=545, 188.20313pt x 255.95625pt>
+) [46pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1202 
+        <./Imagens/QuestionPage.png>]
+<Imagens/django_structure.png, id=546, 188.20313pt x 255.95625pt>
 File: Imagens/django_structure.png Graphic file (type png)
 
-<use Imagens/django_structure.png> [50pdfTeX warning (ext4): destination with t
-he same identifier (name{figure.4.6}) has been already used, duplicate ignored
+<use Imagens/django_structure.png> [47pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.4.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1279 
-        <./Imagens/QuestionPage.png>] [51pdfTeX warning (ext4): destination wit
-h the same identifier (name{figure.4.7}) has been already used, duplicate ignor
-ed
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1288 	\item R
-               espons\'{a}vel por executar as a\c{c}\~{o}es das requisi\c{c}...
+l.1214 	\item R
+               espons\'{a}vel pelo mapeamento entre as requisi\c{c}\~{o}es f...
  <./Imagens/django_structure.png>] (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
-<Imagens/login_page.png, id=558, 904.88063pt x 279.29344pt>
+<Imagens/login_page.png, id=552, 904.88063pt x 279.29344pt>
 File: Imagens/login_page.png Graphic file (type png)
 
 <use Imagens/login_page.png>
-<Imagens/welcome_page.png, id=559, 772.38562pt x 368.87813pt>
+<Imagens/welcome_page.png, id=553, 772.38562pt x 368.87813pt>
 File: Imagens/welcome_page.png Graphic file (type png)
 
-<use Imagens/welcome_page.png> [52pdfTeX warning (ext4): destination with the s
+<use Imagens/welcome_page.png> [48pdfTeX warning (ext4): destination with the s
 ame identifier (name{figure.4.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1324 
+l.1255 
         <./Imagens/login_page.png>]
-<Imagens/forum_page.png, id=568, 776.14969pt x 467.49657pt>
+<Imagens/forum_page.png, id=563, 776.14969pt x 467.49657pt>
 File: Imagens/forum_page.png Graphic file (type png)
 
 <use Imagens/forum_page.png>
-<Imagens/exercise_page.png, id=569, 782.17218pt x 353.82187pt>
+<Imagens/exercise_page.png, id=564, 782.17218pt x 353.82187pt>
 File: Imagens/exercise_page.png Graphic file (type png)
 
-<use Imagens/exercise_page.png> [53pdfTeX warning (ext4): destination with the 
+<use Imagens/exercise_page.png> [49pdfTeX warning (ext4): destination with the 
 same identifier (name{figure.4.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1336 
+l.1267 
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .4.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1336 
+l.1267 
         <./Imagens/welcome_page.png> <./Imagens/forum_page.png>]
-<Imagens/question_page.png, id=576, 777.65532pt x 510.40688pt>
+<Imagens/question_page.png, id=572, 777.65532pt x 510.40688pt>
 File: Imagens/question_page.png Graphic file (type png)
 
-<use Imagens/question_page.png> [54pdfTeX warning (ext4): destination with the 
+<use Imagens/question_page.png> [50pdfTeX warning (ext4): destination with the 
 same identifier (name{figure.4.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1347 \chapter
+l.1278 \chapter
                {Considera\c{c}\~{o}es Finais}pdfTeX warning (ext4): destination
  with the same identifier (name{figure.4.12}) has been already used, duplicate 
 ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1347 \chapter
+l.1278 \chapter
                {Considera\c{c}\~{o}es Finais} <./Imagens/exercise_page.png> <./
 Imagens/question_page.png>]
 Cap\'{\i }tulo 5.
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
-) [55
+) [51
 
 ] (./ProjetoFinal2.bbl (./ProjetoFinal2.brf)
 \tf@brf=\write7
 \openout7 = `ProjetoFinal2.brf'.
 
- [56]
+ [52]
 (./noaccent.def
 File: noaccent.def 2003/11/25 v0.1 Input encoding file 
 )
@@ -1117,31 +1092,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
 wton . com /
  []
 
-[57
+[53
 
-]) [58] (./ProjetoFinal2.aux)
+]) [54]
+Ap\^endice A.
+(./noaccent.def
+File: noaccent.def 2003/11/25 v0.1 Input encoding file 
+) [55
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.A.1}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1387 
+       ] [56pdfTeX warning (ext4): destination with the same identifier (name{t
+able.A.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1409 
+       ] [57pdfTeX warning (ext4): destination with the same identifier (name{t
+able.A.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1430 
+       ] [58pdfTeX warning (ext4): destination with the same identifier (name{t
+able.A.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1431 \end{document}
+                     ] (./ProjetoFinal2.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6669 strings out of 495061
- 93860 string characters out of 1182620
- 238786 words of memory out of 3000000
- 9402 multiletter control sequences out of 15000+50000
- 11265 words of font info for 43 fonts, out of 3000000 for 9000
+ 6681 strings out of 495061
+ 94045 string characters out of 1182621
+ 237868 words of memory out of 3000000
+ 9409 multiletter control sequences out of 15000+50000
+ 12319 words of font info for 48 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  48i,12n,45p,697b,613s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmssi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.
-pfb>
-Output written on ProjetoFinal2.pdf (58 pages, 2510625 bytes).
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on ProjetoFinal2.pdf (58 pages, 2545504 bytes).
 PDF statistics:
- 701 PDF objects out of 1000 (max. 8388607)
- 214 named destinations out of 1000 (max. 500000)
- 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 726 PDF objects out of 1000 (max. 8388607)
+ 217 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 

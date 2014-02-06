@@ -57,7 +57,7 @@ Obrigado a todos.
 Elabora\c{c}\~{a}o de uma plataforma web que auxilie o aprendizado do aluno da disciplina Banco de
 Dados. O tema surgiu a partir do conceito flipped classroom, que se trata de um modelo que
 sugere o aprendizado online. O aluno assiste, pratica e discute determinados assuntos em casa,
-trazendo as d\'{u}vidas para a sala de aula. Dessa forma, as aulas tornam-se mais din\^{a}micas e
+trazendo as d\'{u}vidas para a sala de aula. Dessa forma, as aulas tornam--se mais din\^{a}micas e
 menos expositivas.
 }
 
@@ -102,7 +102,7 @@ pelo Prof. Jeffrey D. Ullman), at\'{e} startups que oferecem parte dos cursos gr
 parte paga, como o caso da \textbf{Code School} \cite{CodeSchool}.
 
 Essa metodologia de ensino recebeu um nome: \textbf{flipped classroom} \cite{FlippedLearning}.
-Trata-se de uma invers\~{a}o nos padr\~{o}es de ensino adotados pelas escolas, no qual a passagem de
+Trata--se de uma invers\~{a}o nos padr\~{o}es de ensino adotados pelas escolas, no qual a passagem de
 conhecimento passa a ser online, atrav\'{e}s de v\'{i}deos de curta dura\c{c}\~{a}o que devem ser assistidos
 pelos alunos fora da sala de aula. Dessa forma, a sala de aula se torna um ambiente de resolu\c{c}\~{a}o de 
 d\'{u}vidas e exerc\'{i}cios.
@@ -137,10 +137,10 @@ aulas pr\'{a}ticas, durante hor\'{a}rio de aula, ou utilizar um programa desktop
 servidor da disciplina com o \textbf{SGBD} \cite{ElmasriNavathe05} j\'{a} configurado. 
 Os exerc\'{i}cios est\~{a}o vinculados, na maioria das vezes, a um ou mais esquemas contidos no SGBD 
 em quest\~{a}o. Dessa forma, os alunos acessam um mesmo esquema para tentar solucionar determinada quest\~{a}o.
-Quando trata-se de uma lista de exerc\'{i}cios que envolve puramente o comando \textbf{SELECT}, n\~{a}o h\'{a}
+Quando trata--se de uma lista de exerc\'{i}cios que envolve puramente o comando \textbf{SELECT}, n\~{a}o h\'{a}
 maiores problemas quanto ao esquema compartilhado.
 Por\'{e}m, quando h\'{a} comandos \textbf{DML}\cite{ElmasriNavathe05} do tipo \textbf{INSERT}, \textbf{UPDATE} ou
-\textbf{DELETE}, ou comandos \textbf{DDL}\cite{ElmasriNavathe05} envolvidos na resolu\c{c}\~{a}o da lista, pode-se
+\textbf{DELETE}, ou comandos \textbf{DDL}\cite{ElmasriNavathe05} envolvidos na resolu\c{c}\~{a}o da lista, pode--se
 gerar uma indisponibiliza\c{c}\~{a}o moment\^{a}nea, caso um comando seja executado de forma incorreta.
 
 Sendo assim, duas das principais caracter\'{i}sticas do sistema proposto ser\~{a}o a utiliza\c{c}\~{a}o de
@@ -148,6 +148,8 @@ esquemas distintos por alunos a cada quest\~{a}o e a possibilidade de voltar em 
 modifica\c{c}\~{a}o feita anteriormente no esquema. Logo, al\'{e}m de ter liberdade de executar qualquer
 comando na base, sabendo que n\~{a}o interferir\'{a} os demais alunos, o aluno poder\'{a} voltar para um
 estado anterior da base quando bem entender.
+
+\pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Projetos Similares %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -181,7 +183,7 @@ web sem fins lucrativos e a abordagem adotada est\'{a} de acordo com o conceito 
 
 \subsection{Gradiance}
 
-O \textbf{Gradiance} trata-se de um software web pago com o objetivo de oferecer servi\c{c}os de aprendizado
+O \textbf{Gradiance} trata--se de um software web pago com o objetivo de oferecer servi\c{c}os de aprendizado
 online focado em alguns temas de computa\c{c}\~{a}o. Os temas abordados s\~{a}o: Sistemas de Banco de Dados,
 Compiladores, Teoria de Aut\^{o}matos e Sistemas Operacionais.
 
@@ -241,14 +243,14 @@ Segue a seguir a an\'{a}lise do projeto perante os concorrentes:
     Listas de exercícios extensa e aplicada por anos com sucesso na disciplina de Banco de Dados \\ \hline
     Exercícios com feedback instantâneo aos alunos                                               \\ \hline
     \textbf{Fraquezas}                                                                           \\ \hline
-    Publico alvo restrito a alunos da PUC-Rio                                                    \\ \hline
+    Publico alvo restrito a alunos da PUC--Rio                                                   \\ \hline
     Novo entrante no mercado                                                                     \\ \hline
     Não possui reconhecimento internacional como cursos do Edx                                   \\ \hline
     \textbf{Oportunidades}                                                                       \\ \hline
     Ferramenta facilmente acessível pelos alunos e professores                                   \\ \hline
     Apenas o Gradiance possui curso específico para aprendizado de Banco de Dados                \\ \hline
     Maior independ\^{e}ncia no aprendizado do aluno (aprender fora da sala de aula)              \\ \hline
-    Gerar maior interesse nos alunos, pois aprende-se fazendo (aprendizado na prática)           \\ \hline
+    Gerar maior interesse nos alunos, pois aprende--se fazendo (aprendizado na prática)          \\ \hline
     Conceito de Flipped Learning ainda pouco desenvolvido no Brasil                              \\ \hline
     \textbf{Ameaças}                                                                             \\ \hline
     Desinteresse dos alunos pelo aprendizado de Banco de Dados                                   \\ \hline
@@ -317,7 +319,7 @@ Aluno e Professor.
 
 [R16] Possibilidade de fazer upload de foto para facilitar a identifica\c{c}\~{a}o do aluno.
 
-[R17] Possibilidade de compartilhar as quest\~{o}es em redes sociais (Facebook, Google+ e Twiter).
+[R17] Possibilidade de compartilhar as quest\~{o}es em redes sociais (Facebook, Google+ e Twitter).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Projeto %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -367,7 +369,7 @@ elaboradas com o uso do diagrama entidade relacionamento.
 A entidade usu\'{a}rio serve como representa\c{c}\~{a}o tanto para aluno, quanto para professor.
 Como n\~{a}o foram encontrados atributos \'{u}nicos que fossem capazes de diferenciar as poss\'{i}veis
 entidades aluno e professor, n\~{a}o houve necessidade da utiliza\c{c}\~{a}o de heran\c{c}a (tamb\'{e}m chamado
-de “IS-A”). No caso, haveria a possibilidade de aluno e professor herdarem caracter\'{i}sticas da
+de “IS--A”). No caso, haveria a possibilidade de aluno e professor herdarem caracter\'{i}sticas da
 entidade usu\'{a}rio. Para a diferencia\c{c}\~{a}o do papel, aluno ou professor, foi utilizado o atributo
 'professor' (depois ser\'{a} poss\'{i}vel perceber que o mesmo deixou de ser utilizado, por n\~{a}o se fazer
 necess\'{a}ria a distin\c{c}\~{a}o de pap\'{e}is nesse n\'{i}vel de abstra\c{c}\~{a}o do modelo).
@@ -380,20 +382,20 @@ Quando um aluno inicia um novo exerc\'{i}cio e caso o mesmo seja vinculado a um 
 para ser respondido, \'{e} criada uma inst\^{a}ncia. A inst\^{a}ncia nada mais \'{e} do que uma c\'{o}pia, em seu
 estado inicial, do esquema associado ao exerc\'{i}cio. Essa escolha foi tomada a fim de dar maior
 liberdade na utiliza\c{c}\~{a}o da base por parte dos alunos. \'{E} comum, em outras plataformas, a
-exist\^{e}ncia de bases compartilhadas para resolu\c{c}\~{a}o dos exerc\'{i}cios em SQL. Por\'{e}m, acredita-se
+exist\^{e}ncia de bases compartilhadas para resolu\c{c}\~{a}o dos exerc\'{i}cios em SQL. Por\'{e}m, acredita--se
 que essa pr\'{a}tica inibe o aluno (como mencionado em se\c{c}\~{a}o anterior), que passa a ter receio de
 errar e prejudicar a turma.
 
-Ainda em rela\c{c}\~{a}o \`{a} inst\^{a}ncia, foi dada a liberdade para que o aluno possa compartilh\'{a}-la
+Ainda em rela\c{c}\~{a}o \`{a} inst\^{a}ncia, foi dada a liberdade para que o aluno possa compartilh\'{a}--la
 com seus colegas de turma. O mesmo fica expl\'{i}cito ao analisarmos a cardinalidade do
 relacionamento “visualiza”, entre as entidades usu\'{a}rio e inst\^{a}ncia. J\'{a} em rela\c{c}\~{a}o \`{a} a\c{c}\~{a}o de
-“modifica\c{c}\~{a}o” da inst\^{a}ncia, apenas o usu\'{a}rio dono da mesma poder\'{a} realiz\'{a}-la.
+“modifica\c{c}\~{a}o” da inst\^{a}ncia, apenas o usu\'{a}rio dono da mesma poder\'{a} realiz\'{a}--la.
 Para haver maior intera\c{c}\~{a}o dos usu\'{a}rios com a plataforma, foi possibilitada a cria\c{c}\~{a}o uma
 \'{a}rea de f\'{o}rum por disciplina. E o usu\'{a}rio com o papel de professor seria o moderador; j\'{a} os alunos
 participariam com d\'{u}vidas e coment\'{a}rios relacionados \`{a} mat\'{e}ria dada.
 
 A caracter\'{i}stica preponderante desta vers\~{a}o era fazer uma plataforma que englobasse
-diversas disciplinas. Por\'{e}m, conforme foi sendo definido o escopo, p\^{o}de-se observar que um fator
+diversas disciplinas. Por\'{e}m, conforme foi sendo definido o escopo, p\^{o}de--se observar que um fator
 de diferencia\c{c}\~{a}o perante os demais sistemas seria o foco no tema banco de dados. Essa escolha
 provocou uma melhor visualiza\c{c}\~{a}o da solu\c{c}\~{a}o, que pode ser percebida nas duas seguintes
 vers\~{o}es.
@@ -446,7 +448,7 @@ que anteriormente n\~{a}o foram contempladas. Em ambas um campo de 'justificativ
 para permitir que o moderador possa explicar os motivos de um poss\'{i}vel cancelamento de d\'{u}vida
 ou coment\'{a}rio.
 
-Al\'{e}m disso, perceba que a entidade d\'{u}vida agora pode, ou n\~{a}o, estar relacionada com a
+Al\'{e}m disso, a entidade d\'{u}vida agora pode, ou n\~{a}o, estar relacionada com a
 entidade quest\~{a}o. Dessa maneira, foi possibilitada a inser\c{c}\~{a}o de d\'{u}vidas n\~{a}o somente aos
 exerc\'{i}cios contidos na plataforma, mas como d\'{u}vidas te\'{o}ricas, que tenham sido abordadas na
 disciplina, ou exerc\'{i}cios de fontes externas, por exemplo de outras faculdades.
@@ -457,11 +459,11 @@ substitui\c{c}\~{a}o da representa\c{c}\~{a}o de heran\c{c}a por uma de relacion
 
 Outro ponto importante \'{e} a persist\^{e}ncia das respostas dos usu\'{a}rios \`{a}s quest\~{o}es. Ser\~{a}o
 armazenadas tanto as respostas corretas como as incorretas. Houve a op\c{c}\~{a}o de representar a
-a\c{c}\~{a}o de “acerto” separado da a\c{c}\~{a}o de “resposta”. Logo, deve-se tomar cuidado para manter a
+a\c{c}\~{a}o de “acerto” separado da a\c{c}\~{a}o de “resposta”. Logo, deve--se tomar cuidado para manter a
 restri\c{c}\~{a}o de integridade sem\^{a}ntica nesse caso, j\'{a} que devemos identificar quais das respostas do
 usu\'{a}rio s\~{a}o corretas.
 
-Perceba que o relacionamento da a\c{c}\~{a}o “v\'{i}nculo” era entre as entidades exerc\'{i}cio e
+O relacionamento da a\c{c}\~{a}o “v\'{i}nculo” era entre as entidades exerc\'{i}cio e
 esquema. Todavia, uma lista de exerc\'{i}cios pode conter quest\~{o}es referentes a diferentes
 esquemas. Assim sendo, a entidade quest\~{a}o passa a estar vinculada a um determinado esquema.
 
@@ -473,7 +475,7 @@ esquemas. Assim sendo, a entidade quest\~{a}o passa a estar vinculada a um deter
 
 Nesta fase, o mapeamento ainda n\~{a}o considera nenhuma caracter\'{i}stica espec\'{i}fica ou
 casos especiais que se aplicam \`{a} implementa\c{c}\~{a}o do modelo de dados do SGBD. Ou seja, tudo
-que explicado pode ser aplicado a qualquer escolha de SGBD na pr\'{o}xima etapa.
+o que for explicado pode ser aplicado a qualquer escolha de SGBD na pr\'{o}xima etapa.
 
 Foram listadas todas as tabelas com suas chaves prim\'{a}rias e estrangeiras
 identificadas, atributos e tipos de dados. Al\'{e}m disso, foram identificados os campos: Entidade,
@@ -969,7 +971,7 @@ As credenciais informadas s\~{a}o verificadas com os dados cadastrais contidos n
 redirecionado para a p\'{a}gina de entrada no sistema.
 
 
-\textbf{Pr\'{e}-condi\c{c}\~{o}es:}
+\textbf{Pr\'{e}--condi\c{c}\~{o}es:}
 
 \begin{enumerate}
   \item O computador deve estar com acesso \`{a} internet.
@@ -1012,7 +1014,7 @@ Este caso de uso demonstra como os alunos postar\~{a}o novas d\'{u}vidas no m\'{
 O usu\'{a}rio dever\'{a} clicar no bot\~{a}o 'Nova D\'{u}vida' e redigir sua d\'{u}vida no campo dispon\'{i}vel.
 Ao fim, basta pressionar o bot\~{a}o 'Salvar'. O sistema emitir\'{a} uma mensagem confirmando a opera\c{c}\~{a}o. 
 
-\textbf{Pr\'{e}-condi\c{c}\~{o}es:}
+\textbf{Pr\'{e}--condi\c{c}\~{o}es:}
 
 \begin{enumerate}
   \item O computador deve estar com acesso \`{a} internet.
@@ -1048,7 +1050,7 @@ Ao fim, basta pressionar o bot\~{a}o 'Salvar'. O sistema emitir\'{a} uma mensage
     \begin{enumerate}
       \item Sistema continua em estado de falha.
       \begin{enumerate}
-	\item Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
+	\item Usu\'{a}rio deve redigir um e--mail informando o erro ao professor da disciplina.
       \end{enumerate}
     \end{enumerate}
 \end{enumerate}
@@ -1071,7 +1073,7 @@ Este caso de uso demonstra como os alunos resolver\~{a}o as listas de exerc\'{i}
 Os alunos dever\~{a}o selecionar uma das op\c{c}\~{o}es de lista para ser feita.
 Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibida.
 
-\textbf{Pré-condições:}
+\textbf{Pré--condições:}
 
 \begin{enumerate}
   \item O computador deve estar com acesso \`{a} internet.
@@ -1104,7 +1106,7 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 \end{enumerate}
 
 \begin{enumerate}[I]
-  \item Usu\'{a}rio repete os passos 7-12 at\'{e} o fim da Lista de Exerc\'{i}cios.
+  \item Usu\'{a}rio repete os passos 7--12 at\'{e} o fim da Lista de Exerc\'{i}cios.
 \end{enumerate}
 
 \textbf{Fluxos Alternativos:}
@@ -1116,7 +1118,7 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
   \begin{enumerate}
     \item Sistema continua em estado de falha.
     \begin{enumerate}
-      \item Usu\'{a}rio deve redigir um e-mail informando o erro ao professor da disciplina.
+      \item Usu\'{a}rio deve redigir um e--mail informando o erro ao professor da disciplina.
     \end{enumerate}
   \end{enumerate}
 \end{enumerate}
@@ -1146,11 +1148,11 @@ Ap\'{o}s, uma p\'{a}gina com as quest\~{o}es da respectiva lista ser\'{a} exibid
 \section{Diagrama de Classes}
 
 Para uma melhor visualiza\c{c}\~{a}o e entendimento do Diagrama de Classes, o mesmo foi
-dividido em tr\^{e}s modelos. Cada um deles refere-se \`{a}s classes contidas nos pacotes do
+dividido em tr\^{e}s modelos. Cada um deles refere--se \`{a}s classes contidas nos pacotes do
 projeto. Os pacotes s\~{a}o: \textbf{Templates}, \textbf{Views} e \textbf{Models}.
 
 No pacote \textbf{Models}, est\~{a}o contidos os arquivos a serem renderizados no browser.
-Perceba que foi realizado um template base para os demais templates. A exce\c{c}\~{a}o se d\'{a}
+Foi realizado um template base para os demais templates. A exce\c{c}\~{a}o se d\'{a}
 na tela de Login.
 
 \begin{figure}[H]
@@ -1263,6 +1265,17 @@ O c\'{o}digo, consequentemente, fica fortemente coeso e fracamente acoplado. Al\
 de uma ferramenta que vem sendo bastante utilizada, o que pode facilitar
 a aceita\c{c}\~{a}o da ferramenta pela comunidade de desenvolvedores.
 
+Outro fator importante \'{e} a utiliza\c{c}\~{a}o de \textbf{Python} como linguagem de programa\c{c}\~{a}o. Quando foi
+criada, em 1991, tinha como objetivos principais: produtividade e legibilidade. Segue a lista de algumas caracter\'{i}sticas
+marcantes da linguagem:
+
+\begin{itemize}
+  \item Baixa utiliza\c{c}\~{a}o de caracteres especiais, o que torna a linguagem muito parecida com pseudo-c\'{o}digo
+  \item Utiliza\c{c}\~{a}o de identa\c{c}\~{a}o para delimitar blocos de opera\c{c}\~{o}es
+  \item Coletor de lixo para gerenciamento autom\'{a}tico da mem\'{o}ria
+  \item Suporte \`{a} m\'{u}ltiplos paradigmas de programa\c{c}\~{a}o
+\end{itemize}
+
 Uma caracter\'{i}stica do framework \'{e} ser baseado na arquitetura Model--View--Template, ao inv\'{e}s
 da tradicional Model--View--Controller. Por\'{e}m, ser\'{a} poss\'{i}vel perceber que trata--se apenas de
 uma escolha no nome, e que, na verdade, ambas as arquiteturas s\~{a}o bastante similares.
@@ -1289,8 +1302,8 @@ Segue abaixo uma figura que demonstra a estrutura do framework e suas devidas ex
     \item \textbf{Model}
     \begin{itemize}
 	\item Respons\'{a}vel pela defini\c{c}\~{a}o dos dados e a intera\c{c}\~{a}o entre os mesmos. Esse m\'{o}dulo
-	      trata--se do mapeamento objeto relacional (da sigla ORM em ingl\^{e}s). Além de mapear objetos provenientes
-	      do banco de dados, ele permite mapeamento em outros mecanismos de armazenamento.
+	      trata do mapeamento objeto relacional (da sigla ORM em ingl\^{e}s). Além de mapear objetos provenientes
+	      do banco de dados, permite mapeamento em outros mecanismos de armazenamento.
     \end{itemize}
     \item \textbf{Template}
     \begin{itemize}
@@ -1351,12 +1364,12 @@ da plataforma, incluindo um estudo de outros softwares similares.
 
 Atrav\'{e}s desse levantamento de dados, p\^{o}de--se perceber que a utiliza\c{c}\~{a}o 
 desse aprendizado \`{a}s avessas \cite{FlippedLearning} nada mais \'{e} que uma tentativa
-de aproximar os estudantes dos temas abordados em sala. Por\^{e}m, fazendo essa tentativa
-de aproxima\c{c}\~{a}o via tecnologia web e mobile.
+de aproximar os estudantes dos temas abordados em sala. Por\'{e}m, fazendo essa tentativa
+de aproxima\c{c}\~{a}o via tecnologia web e m\'{o}vel.
 
 Assim sendo, teremos uma real valida\c{c}\~{a}o do projeto elaborado com a utiliza\c{c}\~{a}o
-do mesmo pelos alunos nos pr\'{o}ximos per\'{i}odos seguintes. Poss\'{i}veis ajustes haver\'{a}
-de serem feitos, assim como a implementa\c{c}\~{a}o de algumas funcionalidades que foram propostas,
+do mesmo pelos alunos nos pr\'{o}ximos per\'{i}odos. Haver\'{a} poss\'{i}veis ajustes
+a serem feitos, assim como a implementa\c{c}\~{a}o de algumas funcionalidades que foram propostas,
 mas n\~{a}o contempladas na presente vers\~{a}o.
 
 Segue a lista dos requisitos que n\~{a}o foram contemplados:
@@ -1372,22 +1385,22 @@ Segue a lista dos requisitos que n\~{a}o foram contemplados:
   \item [R11] Permiss\~{a}o para cancelar uma thread inadequada no f\'{o}rum.
   \begin{itemize}
     \item Essa funcionalidade ser\'{a} importante, pois auxiliar\'{a} a manter o f\'{o}rum
-	  com temas relevantes aos dados na disciplina.
+	  com temas relevantes a disciplina.
   \end{itemize}
   \item [R13] Possibilidade de compartilhar com seus colegas de turma suas inst\^{a}ncias.
   \begin{itemize}
-    \item Nesta vers\~{a}o, cada aluno j\'{a} possui sua inst\^{a}ncia, a cada nova lista
-	  de exerc\'{i}cios. Por\'{e}m, ainda n\~{a}o \'{e} poss\'{i}vel compartilhar suas
-	  inst\^{a}ncias, assim  como n\~{a}o \'{e} poss\'{i}vel tamb\'{e}m voltar em estados
-	  anteriores da mesma. Essa ser\'{a} um funcionalidade diferencial, pois permitir\'{a}
-	  exerc\'{i}cios envolvendo comandos \textbf{DDL}.
+    \item Nesta vers\~{a}o, cada aluno possui sua inst\^{a}ncia, referente a cada lista
+	  de exerc\'{i}cios feita. Por\'{e}m, ainda n\~{a}o \'{e} poss\'{i}vel compartilhar suas
+	  inst\^{a}ncias. Al\'{e}m disso, n\~{a}o \'{e} poss\'{i}vel recuperar estados anteriores 
+	  da base ap\'{o}s execu\c{c}\~{a}o de algum comando \textbf{DDL} incorreto. Essa ser\'{a} 
+	  uma funcionalidade diferencial.
   \end{itemize}
   \item [R16] Possibilidade de fazer upload de foto para facilitar a identifica\c{c}\~{a}o do aluno.
   \begin{itemize}
     \item Essa funcionalidade auxiliar\'{a}, principalmente, no acompanhamento dos relat\'{o}rios
 	  por alunos, assim como no acompanhamento da participa\c{c}\~{a}o dos mesmos no f\'{o}rum.
   \end{itemize}
-  \item [R17] Possibilidade de compartilhar as quest\~{o}es em redes sociais (Facebook, Google+ e Twiter).
+  \item [R17] Possibilidade de compartilhar as quest\~{o}es em redes sociais (Facebook, Google+ e Twitter).
   \begin{itemize}
     \item Apenas ser\'{a} interessante se, algum dia, a plataforma crescer e obtiver um alcance maior
 	  de alunos e interessados.
@@ -1402,5 +1415,13 @@ Segue a lista dos requisitos que n\~{a}o foram contemplados:
 \bibliography{ProjetoFinal2}
 
 \normalfont
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Anexos %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+
+\chapter{Testando Ap\^{e}ndices}
 
 \end{document}
